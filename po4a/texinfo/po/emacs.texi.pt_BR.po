@@ -1,18 +1,17 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Jamenson Ferreira Espindula de Almeida Melo
+# Brazilian Portuguese translations for GNU Emacs 30.2 Info Manual
+# Copyright (C) 2026 Jamenson Ferreira Espindula de Almeida Melo
 # This file is distributed under the same license as the GNU Emacs package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Jamenson Ferreira Espindula de Almeida <jafesp@gmail.com>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU Emacs 30.2\n"
+"Project-Id-Version: GNU Emacs 30.2 Info Manual\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
 "POT-Creation-Date: 2026-03-29 09:07-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-04-01 16:10-0300\n"
+"Last-Translator: Jamenson Ferreira Espindula de Almeida <jafesp@gmail.com>n"
+"Language-Team: none\n"
+"Language: Brazilian Portuguese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -49,12 +48,12 @@ msgstr "Este é o @cite{Manual do GNU Emacs},"
 #. type: copying
 #: texinfo/upstream/emacs.texi:22
 msgid "updated for Emacs version @value{EMACSVER}."
-msgstr "atualizado para a versão Emacs @value{EMACSVER}."
+msgstr "atualizado para a versão @value{EMACSVER} do Emacs."
 
 #. type: copying
 #: texinfo/upstream/emacs.texi:24
 msgid "Copyright @copyright{} 1985--2025 Free Software Foundation, Inc."
-msgstr "Copyright @copyright{} 1985--2025 Free Software Foundation, Inc."
+msgstr "Copyright @copyright{} 1985--2025 Fundação do Software Livre, Inc."
 
 #. type: quotation
 #: texinfo/upstream/emacs.texi:34
@@ -67,14 +66,7 @@ msgid ""
 "with the Back-Cover Texts as in (a) below.  A copy of the license is "
 "included in the section entitled ``GNU Free Documentation License.''"
 msgstr ""
-"É concedida permissão para copiar, distribuir e/ou modificar este "
-"documento sob os termos da GNU Free Documentation License, Versão "
-"1.3 ou qualquer versão posterior publicada pela Free Software "
-"Foundation; com as Seções Invariantes sendo ``O Manifesto GNU'', "
-"``Distribuição'' e ``GNU GENERAL PUBLIC LICENSE'', com os textos da "
-"capa sendo ``Um Manual GNU'', e com os textos da contracapa como em "
-"(a) abaixo.  Uma cópia da licença está incluída na seção intitulada "
-"``GNU Free Documentation License.''"
+"É concedida permissão para copiar, distribuir e(ou) modificar este documento sob os termos da Licença GNU de Documentação Livre, Versão 1.3 ou qualquer versão posterior publicada pela Fundação do Software Livre (FSL); com as Seções Invariantes sendo ``O Manifesto GNU'', ``Distribuição'' e ``LICENÇA GNU GERAL PÚBLICA'', com os Textos da Capa sendo ``Um Manual GNU'', e com os Textos da Contracapa como em (a) abaixo. Uma cópia da licença está incluída na seção intitulada ``Licença GNU de Documentaçao Livre.''"
 
 #. type: quotation
 #: texinfo/upstream/emacs.texi:38
@@ -83,9 +75,7 @@ msgid ""
 "this GNU manual.  Buying copies from the FSF supports it in developing GNU "
 "and promoting software freedom.''"
 msgstr ""
-"(a) O texto da contracapa da FSF é: ``Você tem a liberdade de "
-"copiar e modificar este manual GNU.  Comprar cópias da FSF apoia-a "
-"no desenvolvimento do GNU e na promoção da liberdade de software.''"
+"(a) O Texto da Contracapa da FSL é: ``Você tem a liberdade para copiar e modificar este manual GNU. Comprar cópias da FSL a apoia no desenvolvimento do GNU e na promoção da liberdade de software.''"
 
 #. type: dircategory
 #: texinfo/upstream/emacs.texi:41
@@ -106,40 +96,38 @@ msgstr "O editor de texto extensível e autodocumentado."
 #. type: ifset
 #: texinfo/upstream/emacs.texi:53
 msgid "@smallbook"
-msgstr "@livro pequeno"
+msgstr "@smallbook"
 
 #. type: tex
 #: texinfo/upstream/emacs.texi:63
 #, no-wrap
 msgid "\\global\\hbadness=6666 % don't worry about not-too-underfull boxes\n"
 msgstr ""
-"\\\\global\\\\hbadness=6666 % não se preocupe com caixas não muito "
-"cheias\\n"
+"\\global\\hbadness=6666 % não se preocupe com caixas não muito cheias\n"
 
 #. type: iftex
 #: texinfo/upstream/emacs.texi:70
 msgid "@kbdinputstyle code"
-msgstr "Código @kbdinputstyle"
+msgstr "@kbdinputstyle code"
 
 #. type: center
 #: texinfo/upstream/emacs.texi:79
 #, no-wrap
 msgid "@value{EDITION} Edition, Updated for Emacs Version @value{EMACSVER}."
 msgstr ""
-"Edição @value{EDITION}, atualizada para versão Emacs "
-"@value{EMACSVER}."
+"Edição @value{EDITION}, Atualizada para Emacs Versão @value{EMACSVER}."
 
 #. type: center
 #: texinfo/upstream/emacs.texi:82
 #, no-wrap
 msgid "Updated for Emacs Version @value{EMACSVER}"
-msgstr "Atualizado para versão Emacs @value{EMACSVER}"
+msgstr "Atualizado para Emacs Versão @value{EMACSVER}"
 
 #. type: center
 #: texinfo/upstream/emacs.texi:85
 #, no-wrap
 msgid "Richard Stallman et al."
-msgstr "Richard Stallman et al."
+msgstr "Richard Matthew Stallman et al."
 
 #. type: titlepage
 #: texinfo/upstream/emacs.texi:95
@@ -147,20 +135,19 @@ msgid ""
 "Published by the Free Software Foundation @* 31 Milk Street, # 960789 @* "
 "Boston, MA 02196 @* ISBN 978-0-9831592-8-5"
 msgstr ""
-"Publicado pela Free Software Foundation @* 31 Milk Street, # 960789 "
-"@* Boston, MA 02196 @* ISBN 978-0-9831592-8-5"
+"Publicado pela Fundação do Software Livre @* Rua 31 Milk, nº 960789 @* "
+"Boston, Massachussets 02196 @* Estados Unidos da América do Norte @* ISBN 978-0-9831592-8-5"
 
 #. type: titlepage
 #: texinfo/upstream/emacs.texi:98
 msgid "Cover art by Etienne Suvasa; cover design by FSF staff."
-msgstr ""
-"Arte da capa de Etienne Suvasa; design da capa pela equipe da FSF."
+msgstr "Arte da capa por Etienne Suvasa; projeto da capa pela equipe da FSL."
 
 #. type: node
 #: texinfo/upstream/emacs.texi:108
 #, no-wrap
 msgid "Top"
-msgstr "Principal"
+msgstr "Top"
 
 #. type: top
 #: texinfo/upstream/emacs.texi:109
@@ -175,26 +162,24 @@ msgid ""
 "This manual describes how to edit with Emacs and some of the ways to "
 "customize it; it corresponds to GNU Emacs version @value{EMACSVER}."
 msgstr ""
-"Emacs é o editor avançado, extensível, personalizável e "
-"autodocumentado.  Este manual descreve como editar com o Emacs e "
-"algumas maneiras de personalizá-lo; corresponde à versão GNU Emacs "
-"@value{EMACSVER}."
+"Emacs é o editor avançado, extensível, personalizável e autodocumentado. Este manual descreve como editar com o Emacs e algumas das maneiras de personalizá-lo; ele corresponde à versão @value{EMACSVER} do GNU Emacs."
 
 #. type: ifset
 #: texinfo/upstream/emacs.texi:124
 msgid ""
-"@html The GNU Emacs website is at <a href=\"/software/emacs/\">https://"
-"www.gnu.org/software/emacs/</a>.<br> To view this manual in other formats, "
-"click <a href=\"/software/emacs/manual/emacs.html\">here</a>.<br> You can "
-"also purchase a printed copy from the <a href=\"https://shop.fsf.org/product/"
-"emacs-manual/\">FSF store</a>."
+"@html The GNU Emacs website is at <a "
+"href=\"/software/emacs/\">https://www.gnu.org/software/emacs/</a>.<br> To "
+"view this manual in other formats, click <a "
+"href=\"/software/emacs/manual/emacs.html\">here</a>.<br> You can also "
+"purchase a printed copy from the <a "
+"href=\"https://shop.fsf.org/product/emacs-manual/\">FSF store</a>."
 msgstr ""
-"@html O site do GNU Emacs está em <a "
-"href=\\"/software/emacs/\\">https://www.gnu.org/software/emacs/</a>. "
-"<br> Para visualizar este manual em outros formatos, clique <a "
-"href=\\"/software/emacs/manual/emacs.html\\">aqui</a>.<br> Você "
-"também pode comprar uma cópia impressa no <a "
-"href=\\"https://shop.fsf.org/product/emacs-manual/\\">Loja FSF</a>."
+"@html O sítio web do GNU Emacs está em <a "
+"href=\"/software/emacs/\">https://www.gnu.org/software/emacs/</a>.<br> Para "
+"visualizar este manual em outros formatos, clique <a "
+"href=\"/software/emacs/manual/emacs.html\">aqui</a>.<br> Você também pode "
+"comprar uma cópia impressa a partir da <a "
+"href=\"https://shop.fsf.org/product/emacs-manual/\">Loja FSF</a>."
 
 #. type: ifinfo
 #: texinfo/upstream/emacs.texi:130
@@ -202,8 +187,7 @@ msgid ""
 "If you are reading this in Emacs, type @kbd{h} to read a basic introduction "
 "to the Info documentation system."
 msgstr ""
-"Se você estiver lendo isso no Emacs, digite @kbd{h} para ler uma "
-"introdução básica ao sistema de documentação Info."
+"Se você estiver lendo isso no Emacs, digite @kbd{h} para ler uma introdução básica para o sistema de documentação Info."
 
 #. type: ifnottex
 #: texinfo/upstream/emacs.texi:134
@@ -211,8 +195,7 @@ msgid ""
 "For information on extending Emacs, see @ref{Top, Emacs Lisp,, elisp, The "
 "Emacs Lisp Reference Manual}."
 msgstr ""
-"Para obter informações sobre como estender o Emacs, consulte "
-"@ref{Top, Emacs Lisp,, elisp, The Emacs Lisp Reference Manual}."
+"Para informações acerca de como estender o Emacs, veja-se @ref{Top, Emacs Lisp,, elisp, O Manual de Referência da Emacs Lisp}."
 
 #. type: node
 #: texinfo/upstream/emacs.texi:143 texinfo/upstream/emacs.texi:1386
@@ -254,18 +237,17 @@ msgstr "Como interpretar o que você vê na tela."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:155
 msgid "User Input"
-msgstr "Entrada do usuário"
+msgstr "Entrada de Usuário(a)"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:155
 msgid "Kinds of input events (characters, buttons, function keys)."
-msgstr ""
-"Tipos de eventos de entrada (caracteres, botões, teclas de função)."
+msgstr "Tipos de eventos de entrada (caracteres, botões, teclas de função)."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:155
 msgid "Keys"
-msgstr "Chaves"
+msgstr "Teclas"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:155
@@ -277,12 +259,12 @@ msgstr ""
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:155
 msgid "Mouse Input"
-msgstr "Entrada do mouse"
+msgstr "Entrada de Mouse"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:155
 msgid "Using the mouse and keypads."
-msgstr "Usando o mouse e teclados."
+msgstr "Usando o mouse e teclados numéricos."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:155
@@ -297,12 +279,12 @@ msgstr "Funções nomeadas executadas por sequências de teclas para edição."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:155
 msgid "Other Input"
-msgstr "Outra entrada"
+msgstr "Outra Entrada"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:155
 msgid "Input besides the mouse, keyboard and keypads."
-msgstr "Entrada além do mouse, teclado e teclados."
+msgstr "Entrada além do mouse, teclado e teclados numéricos."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:155
@@ -327,7 +309,7 @@ msgstr "Parando ou matando o Emacs."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:161
 msgid "Fundamental Editing Commands"
-msgstr "Comandos de edição fundamentais"
+msgstr "Comandos Fundamentais de Edição"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:161
@@ -347,7 +329,7 @@ msgstr "Minibuffer"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:161
 msgid "Entering arguments that are prompted for."
-msgstr "Inserindo argumentos solicitados."
+msgstr "Inserindo argumentos que sejam solicitados."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:161
@@ -357,7 +339,7 @@ msgstr "M-x"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:161
 msgid "Invoking commands by their names."
-msgstr "Invocando comandos por seus nomes."
+msgstr "Invocando comandos pelos nomes deles."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:161 texinfo/upstream/emacs.texi:300
@@ -367,12 +349,12 @@ msgstr "Ajuda"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:161
 msgid "Commands for asking Emacs about its commands."
-msgstr "Comandos para perguntar ao Emacs sobre seus comandos."
+msgstr "Comandos para perguntar ao Emacs acerca dos comandos dele."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:170
 msgid "Important Text-Changing Commands"
-msgstr "Comandos importantes para alteração de texto"
+msgstr "Comandos Importantes de Mudança de Texto"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:170
@@ -402,12 +384,12 @@ msgstr "Registros"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:170
 msgid "Saving a text string or a location in the buffer."
-msgstr "Salvando uma sequência de texto ou um local no buffer."
+msgstr "Salvando uma sequência de caracteres de texto ou um local no buffer."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:170
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Exibir"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:170
@@ -422,12 +404,12 @@ msgstr "Procurar"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:170
 msgid "Finding or replacing occurrences of a string."
-msgstr "Encontrar ou substituir ocorrências de uma string."
+msgstr "Encontrar ou substituir ocorrências de uma sequência de caracteres."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:170
 msgid "Fixit"
-msgstr "Ele consertou"
+msgstr "Corrija"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:170
@@ -437,17 +419,17 @@ msgstr "Comandos especialmente úteis para corrigir erros de digitação."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:170 texinfo/upstream/emacs.texi:438
 msgid "Keyboard Macros"
-msgstr "Macros de teclado"
+msgstr "Macros de Teclado"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:170
 msgid "Recording a sequence of keystrokes to be replayed."
-msgstr "Gravar uma sequência de teclas a serem reproduzidas."
+msgstr "Gravar uma sequência de toques de teclas para serem reproduzidas."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:177
 msgid "Major Structures of Emacs"
-msgstr "Principais estruturas do Emacs"
+msgstr "Principais Estruturas do Emacs"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:177
@@ -457,7 +439,7 @@ msgstr "Arquivos"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:177
 msgid "All about handling files."
-msgstr "Tudo sobre como lidar com arquivos."
+msgstr "Tudo acerca de como lidar com arquivos."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:177
@@ -472,7 +454,7 @@ msgstr "Vários buffers; editando vários arquivos de uma vez."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:177
 msgid "Windows"
-msgstr "Windows"
+msgstr "Janelas"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:177
@@ -482,12 +464,12 @@ msgstr "Visualizando vários trechos de texto em um quadro."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:177
 msgid "Frames"
-msgstr "Molduras"
+msgstr "Quadros"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:177
 msgid "Using multiple windows on your display."
-msgstr "Usando várias janelas em seu monitor."
+msgstr "Usando várias janelas em teu monitor."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:177
@@ -502,7 +484,7 @@ msgstr "Usando conjuntos de caracteres não @acronym{ASCII}."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
 msgid "Advanced Features"
-msgstr "Recursos avançados"
+msgstr "Recursos Avançados"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
@@ -547,7 +529,7 @@ msgstr "Comandos e modos para edição de programas."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
 msgid "Building"
-msgstr "Prédio"
+msgstr "Construir"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
@@ -567,8 +549,7 @@ msgstr "Recursos para manutenção de programas grandes."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198 texinfo/upstream/emacs.texi:929
 msgid "Abbrevs"
-msgstr "
-Abbrevs"
+msgstr "Abreviaturas"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
@@ -583,7 +564,7 @@ msgstr "Dirigido"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
 msgid "Directory and file manager."
-msgstr "Gerenciador de diretório e arquivos."
+msgstr "Gerenciador de diretório e de arquivos."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
@@ -593,62 +574,62 @@ msgstr "Calendário/Diário"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
 msgid "Calendar and diary facilities."
-msgstr "Instalações de calendário e diário."
+msgstr "Instalações de calendário e de diário."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198 texinfo/upstream/emacs.texi:1032
 msgid "Sending Mail"
-msgstr "Enviando e-mail"
+msgstr "Enviando Mensagens"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
 msgid "Sending mail in Emacs."
-msgstr "Enviando e-mail no Emacs."
+msgstr "Enviando mensagens no Emacs."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
 msgid "Rmail"
-msgstr "Email"
+msgstr "Rmail"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
 msgid "Reading mail in Emacs."
-msgstr "Lendo e-mails no Emacs."
+msgstr "Lendo mensagens no Emacs."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198 texinfo/upstream/emacs.texi:1078
 msgid "Gnus"
-msgstr "Nojo"
+msgstr "Gnus"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
 msgid "A flexible mail and news reader."
-msgstr "Um leitor flexível de correio e notícias."
+msgstr "Um leitor flexível de mensagens e de notícias."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
 msgid "Host Security"
-msgstr "Segurança do host"
+msgstr "Segurança de Dispositivo"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
 msgid "Security issues on a single computer."
-msgstr "Problemas de segurança em um único computador."
+msgstr "Problemas de segurança em um computador."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
 msgid "Network Security"
-msgstr "Segurança de rede"
+msgstr "Segurança de Rede de Intercomunicação"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
 msgid "Managing the network security."
-msgstr "Gerenciando a segurança da rede."
+msgstr "Gerenciando a segurança da rede de intercomunicação."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
 msgid "Document View"
-msgstr "Visualização do documento"
+msgstr "Visualização de Documento"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
@@ -658,12 +639,12 @@ msgstr "Visualização de arquivos PDF, PS e DVI."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
 msgid "Shell"
-msgstr "Concha"
+msgstr "Shell"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
 msgid "Executing shell commands from Emacs."
-msgstr "Executando comandos shell do Emacs."
+msgstr "Executando comandos de shell a partir do Emacs."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
@@ -673,7 +654,7 @@ msgstr "Servidor Emacs"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
 msgid "Using Emacs as an editing server."
-msgstr "Usando Emacs como servidor de edição."
+msgstr "Usando Emacs como um servidor de edição."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
@@ -688,23 +669,22 @@ msgstr "Impressão de cópias impressas de buffers ou regiões."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
 msgid "Sorting"
-msgstr "Classificando"
+msgstr "Ordenando"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:198
 msgid "Sorting lines, paragraphs or pages within Emacs."
-msgstr "Classificando linhas, parágrafos ou páginas no Emacs."
+msgstr "Ordenando linhas, parágrafos ou páginas dentro do Emacs."
 
 #. type: ifnottex
 #: texinfo/upstream/emacs.texi:200
 msgid "* Picture Mode:: Editing pictures made up of text characters."
-msgstr ""
-"* Modo Imagem:: Edição de imagens compostas por caracteres de texto."
+msgstr "* Modo Imagem:: Edição de imagens compostas por caracteres de texto."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:208
 msgid "Editing Binary Files"
-msgstr "Editando arquivos binários"
+msgstr "Editando Arquivos Binários"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:208
@@ -714,7 +694,7 @@ msgstr "Edição de arquivos binários com modo Hexl."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:208
 msgid "Saving Emacs Sessions"
-msgstr "Salvando sessões do Emacs"
+msgstr "Salvando Sessões do Emacs"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:208
@@ -724,22 +704,22 @@ msgstr "Salvando o estado do Emacs de uma sessão para outra."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:208
 msgid "Recursive Edit"
-msgstr "Edição recursiva"
+msgstr "Edição Recursiva"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:208
 msgid "Performing edits while within another command."
-msgstr "Executando edições dentro de outro comando."
+msgstr "Realizando edições enquanto dentro de outro comando."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:208
 msgid "Hyperlinking"
-msgstr "Hiperlinks"
+msgstr "Hiperlincagem"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:208
 msgid "Following links in buffers."
-msgstr "Seguindo links em buffers."
+msgstr "Seguindo linques em buffers."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:208
@@ -774,7 +754,7 @@ msgstr "Modificando o comportamento do Emacs."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:215
 msgid "Recovery from Problems"
-msgstr "Recuperação de problemas"
+msgstr "Recuperação de Problemas"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:215
@@ -794,17 +774,17 @@ msgstr "Perda"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:215
 msgid "What to do if Emacs is hung or malfunctioning."
-msgstr "O que fazer se o Emacs estiver travado ou com defeito."
+msgstr "O que fazer se o Emacs estiver travado ou desfuncional."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:215
 msgid "Bugs"
-msgstr "Erros"
+msgstr "Defeitos"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:215
 msgid "How and when to report a bug."
-msgstr "Como e quando reportar um bug."
+msgstr "Como e quando informar um defeito."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:215
@@ -824,12 +804,12 @@ msgstr "Serviço"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:215
 msgid "How to get help for your own Emacs needs."
-msgstr "Como obter ajuda para suas próprias necessidades do Emacs."
+msgstr "Como obter ajuda para tuas próprias necessidades do Emacs."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:229
 msgid "Appendices"
-msgstr "Apêndices"
+msgstr "Anexos"
 
 #. type: node
 #: texinfo/upstream/emacs.texi:229 texinfo/upstream/emacs.texi:1647
@@ -843,16 +823,14 @@ msgid ""
 "The GNU General Public License gives you permission to redistribute GNU "
 "Emacs on certain terms; it also explains that there is no warranty."
 msgstr ""
-"A Licença Pública Geral GNU lhe dá permissão para redistribuir o "
-"GNU Emacs sob determinados termos; também explica que não há "
-"garantia."
+"A Licença GNU Geral Pública te dá permissão para redistribuir o GNU Emacs sob determinados termos; ela também explica que não existe garantia."
 
 #. type: appendix
 #: texinfo/upstream/emacs.texi:229 texinfo/upstream/emacs.texi:1651
 #: texinfo/upstream/emacs.texi:1652
 #, no-wrap
 msgid "GNU Free Documentation License"
-msgstr "Licença de documentação gratuita GNU"
+msgstr "Licença GNU de Documentação Livre"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:229
@@ -867,7 +845,7 @@ msgstr "Invocação do Emacs"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:229
 msgid "Hairy startup options."
-msgstr "Opções de inicialização complicadas."
+msgstr "Opções complicadas de iniciação."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:229
@@ -887,7 +865,7 @@ msgstr "Antinotícias"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:229
 msgid "Information about Emacs version 29."
-msgstr "Informações sobre o Emacs versão 29."
+msgstr "Informações acerca do Emacs versão 29."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:229
@@ -952,7 +930,7 @@ msgstr "Termos usados neste manual."
 #. type: ifnottex
 #: texinfo/upstream/emacs.texi:233
 msgid "* Acknowledgments:: Major contributors to GNU Emacs."
-msgstr "* Agradecimentos:: Principais contribuidores do GNU Emacs."
+msgstr "* Agradecimentos:: Principais contribuidores(as) para o GNU Emacs."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:241
@@ -974,7 +952,7 @@ msgstr "Um item para cada sequência de teclas padrão do Emacs."
 #: texinfo/upstream/emacs.texi:241 texinfo/upstream/emacs.texi:1679
 #, no-wrap
 msgid "Option Index"
-msgstr "Índice de opções"
+msgstr "Índice de Opções"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:241
@@ -985,19 +963,19 @@ msgstr "Um item para cada opção de linha de comando."
 #: texinfo/upstream/emacs.texi:241 texinfo/upstream/emacs.texi:1684
 #, no-wrap
 msgid "Command Index"
-msgstr "Índice de comando"
+msgstr "Índice de Comandos"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:241
 msgid "An item for each standard command name."
-msgstr "Um item para cada nome de comando padrão."
+msgstr "Um item para cada nome padrão de comando."
 
 #. type: unnumbered
 #: texinfo/upstream/emacs.texi:241 texinfo/upstream/emacs.texi:1688
 #: texinfo/upstream/emacs.texi:1689
 #, no-wrap
 msgid "Variable Index"
-msgstr "Índice Variável"
+msgstr "Índice de Variáveis"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:241
@@ -1009,7 +987,7 @@ msgstr "Um item para cada variável documentada neste manual."
 #: texinfo/upstream/emacs.texi:1693
 #, no-wrap
 msgid "Concept Index"
-msgstr "Índice de conceito"
+msgstr "Índice de Conceitos"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:241
@@ -1019,8 +997,7 @@ msgstr "Um item para conceitos e outros assuntos gerais."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:250
 msgid "--- The Detailed Node Listing --- ---------------------------------"
-msgstr ""
-"--- A lista detalhada de nós --- ---------------------------------"
+msgstr "--- A Listagem Detalhada de Nós --- ---------------------------------"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:253
@@ -1028,9 +1005,7 @@ msgid ""
 "Here are some other nodes which are really subnodes of the ones already "
 "listed, mentioned here so you can get to them in one step:"
 msgstr ""
-"Aqui estão alguns outros nós que são na verdade subnós dos já "
-"listados, mencionados aqui para que você possa acessá-los em uma "
-"única etapa:"
+"Aqui estão alguns outros nós que são na verdade subnós dos já listados, mencionados aqui para que você consiga acessá-los em uma etapa:"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:255
@@ -1050,7 +1025,7 @@ msgstr "O local no texto onde os comandos de edição operam."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:260
 msgid "Echo Area"
-msgstr "Área de eco"
+msgstr "Área de Eco"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:260
@@ -1060,7 +1035,7 @@ msgstr "Mensagens curtas aparecem na parte inferior da tela."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:260
 msgid "Mode Line"
-msgstr "Linha de modo"
+msgstr "Linha de Modo"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:260
@@ -1070,7 +1045,7 @@ msgstr "Interpretando a linha de modo."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:260
 msgid "Menu Bar"
-msgstr "Barra de menu"
+msgstr "Barra de Menu"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:260
@@ -1080,22 +1055,22 @@ msgstr "Como usar a barra de menu."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:264
 msgid "Touchscreen Input and Virtual Keyboards"
-msgstr "Entrada touchscreen e teclados virtuais"
+msgstr "Entrada de Tela de Toque e Teclados Virtuais"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:264
 msgid "Touchscreens"
-msgstr "Telas sensíveis ao toque"
+msgstr "Telas de Toque"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:264
 msgid "Interacting with Emacs from touchscreens."
-msgstr "Interagindo com o Emacs a partir de telas sensíveis ao toque."
+msgstr "Interagindo com o Emacs a partir de telas de toque."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:264
 msgid "On-Screen Keyboards"
-msgstr "Teclados na tela"
+msgstr "Teclados na Tela"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:264
@@ -1105,7 +1080,7 @@ msgstr "Entrada de texto com teclados virtuais."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:266
 msgid "Basic Editing Commands"
-msgstr "Comandos básicos de edição"
+msgstr "Comandos Básicos de Edição"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:279
@@ -1120,12 +1095,12 @@ msgstr "Inserir texto simplesmente digitando-o."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:279
 msgid "Moving Point"
-msgstr "Ponto Móvel"
+msgstr "Ponto Movente"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:279
 msgid "Moving the cursor to the place where you want to change something."
-msgstr "Movendo o cursor para o local onde deseja alterar alguma coisa."
+msgstr "Movendo o cursor para o local onde você quer mudar alguma coisa."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:279
@@ -1135,7 +1110,7 @@ msgstr "Apagando"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:279
 msgid "Deleting and killing text."
-msgstr "Excluindo e eliminando texto."
+msgstr "Deletando e matando texto."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:279
@@ -1145,7 +1120,7 @@ msgstr "Desfazer Básico"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:279
 msgid "Undoing recent changes in the text."
-msgstr "Desfazendo alterações recentes no texto."
+msgstr "Desfazendo mudanças recentes no texto."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:279
@@ -1165,17 +1140,17 @@ msgstr "Ajuda Básica"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:279
 msgid "Asking what a character does."
-msgstr "Perguntando o que um personagem faz."
+msgstr "Perguntando o que um caractere faz."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:279
 msgid "Blank Lines"
-msgstr "Linhas em branco"
+msgstr "Linhas em Branco"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:279
 msgid "Making and deleting blank lines."
-msgstr "Criando e excluindo linhas em branco."
+msgstr "Criando e deletando linhas em branco."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:279
@@ -1190,7 +1165,7 @@ msgstr "Como o Emacs exibe linhas largas demais para a tela."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:279
 msgid "Position Info"
-msgstr "Informações de posição"
+msgstr "Informações de Posição"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:279
@@ -1220,12 +1195,12 @@ msgstr "Repetindo o comando anterior rapidamente."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:281
 msgid "The Minibuffer"
-msgstr "O minibuffer"
+msgstr "O Minibuffer"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:290
 msgid "Basic Minibuffer"
-msgstr "Minibuffer básico"
+msgstr "Minibuffer Básico"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:290
@@ -1235,7 +1210,7 @@ msgstr "Uso básico do minibuffer."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:290
 msgid "Minibuffer File"
-msgstr "Arquivo de minibuffer"
+msgstr "Arquivo de Minibuffer"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:290
@@ -1245,7 +1220,7 @@ msgstr "Inserindo nomes de arquivos com o minibuffer."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:290
 msgid "Minibuffer Edit"
-msgstr "Edição de minibuffer"
+msgstr "Edição de Minibuffer"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:290
@@ -1255,7 +1230,7 @@ msgstr "Como editar no minibuffer."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:290 texinfo/upstream/emacs.texi:292
 msgid "Completion"
-msgstr "Conclusão"
+msgstr "Completação"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:290
@@ -1265,12 +1240,12 @@ msgstr "Um recurso de abreviação para entrada de minibuffer."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:290
 msgid "Minibuffer History"
-msgstr "Histórico do minibuffer"
+msgstr "Histórico do Minibuffer"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:290
 msgid "Reusing recent minibuffer arguments."
-msgstr "Reutilizando argumentos recentes do minibuffer."
+msgstr "Reusando argumentos recentes do minibuffer."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:290
@@ -1295,7 +1270,7 @@ msgstr "Inserindo senhas na área de eco."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:290
 msgid "Yes or No Prompts"
-msgstr "Sim ou não, solicitações"
+msgstr "Sim ou Não, Solicitações"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:290
@@ -1305,57 +1280,57 @@ msgstr "Respondendo sim ou não na área de eco."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:298
 msgid "Completion Example"
-msgstr "Exemplo de conclusão"
+msgstr "Exemplo de Completação"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:298
 msgid "Examples of using completion."
-msgstr "Exemplos de uso de conclusão."
+msgstr "Exemplos de uso de completação."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:298
 msgid "Completion Commands"
-msgstr "Comandos de conclusão"
+msgstr "Comandos de Completação"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:298
 msgid "A list of completion commands."
-msgstr "Uma lista de comandos de conclusão."
+msgstr "Uma lista de comandos de completação."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:298
 msgid "Completion Exit"
-msgstr "Saída de conclusão"
+msgstr "Saída de Completação"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:298
 msgid "Completion and minibuffer text submission."
-msgstr "Envio de texto de conclusão e minibuffer."
+msgstr "Completação e submissão de texto de minibuffer."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:298
 msgid "Completion Styles"
-msgstr "Estilos de conclusão"
+msgstr "Estilos de Completação"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:298
 msgid "How completion matches are chosen."
-msgstr "Como as correspondências de conclusão são escolhidas."
+msgstr "Como correspondências de completação são escolhidas."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:298
 msgid "Completion Options"
-msgstr "Opções de conclusão"
+msgstr "Opções de Completação"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:298
 msgid "Options for completion."
-msgstr "Opções para conclusão."
+msgstr "Opções para completação."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:311
 msgid "Help Summary"
-msgstr "Resumo da ajuda"
+msgstr "Sumário da Ajuda"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:311
@@ -1365,27 +1340,27 @@ msgstr "Breve lista de todos os comandos da Ajuda."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:311
 msgid "Key Help"
-msgstr "Ajuda principal"
+msgstr "Ajuda de Tecla"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:311
 msgid "Asking what a key does in Emacs."
-msgstr "Perguntando o que uma chave faz no Emacs."
+msgstr "Perguntando o que uma tecla faz no Emacs."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:311
 msgid "Name Help"
-msgstr "Nome Ajuda"
+msgstr "Ajuda de Nome"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:311
 msgid "Asking about a command, variable or function name."
-msgstr "Perguntando sobre um comando, variável ou nome de função."
+msgstr "Perguntando acerca de um comando, variável ou nome de função."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:311
 msgid "Apropos"
-msgstr "A propósito"
+msgstr "Apropos"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:311
@@ -1400,12 +1375,12 @@ msgstr "Modo de Ajuda"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:311
 msgid "Special features of Help mode and Help buffers."
-msgstr "Recursos especiais do modo Ajuda e buffers de ajuda."
+msgstr "Recursos especiais do modo Ajuda e buffers de Ajuda."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:311
 msgid "Package Keywords"
-msgstr "Palavras-chave do pacote"
+msgstr "Palavras-chave do Pacote"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:311
@@ -1415,7 +1390,7 @@ msgstr "Encontrar bibliotecas Lisp por palavras-chave (tópicos)."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:311
 msgid "Language Help"
-msgstr "Ajuda de idioma"
+msgstr "Ajuda de Idioma"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:311
@@ -1425,7 +1400,7 @@ msgstr "Ajuda relacionada ao suporte a idiomas internacionais."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:311
 msgid "Misc Help"
-msgstr "Ajuda diversa"
+msgstr "Ajuda Diversa"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:311
@@ -1435,22 +1410,22 @@ msgstr "Outros comandos de ajuda."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:311
 msgid "Help Files"
-msgstr "Arquivos de ajuda"
+msgstr "Arquivos de Ajuda"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:311
 msgid "Commands to display auxiliary help files."
-msgstr "Comandos para exibir arquivos de ajuda auxiliares."
+msgstr "Comandos para exibir arquivos auxiliares de ajuda."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:311
 msgid "Help Echo"
-msgstr "Ajude o eco"
+msgstr "Eco de Ajuda"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:311
 msgid "Help on active text and tooltips."
-msgstr "Ajuda sobre texto ativo e dicas de ferramentas."
+msgstr "Ajuda acerca de texto ativo e dicas de ferramentas."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:313
@@ -1460,17 +1435,17 @@ msgstr "A Marca e a Região"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:321
 msgid "Setting Mark"
-msgstr "Marca de configuração"
+msgstr "Configurar Marca"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:321
 msgid "Commands to set the mark."
-msgstr "Comandos para definir a marca."
+msgstr "Comandos para configurar a marca."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:321
 msgid "Marking Objects"
-msgstr "Marcando objetos"
+msgstr "Marcando Objetos"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:321
@@ -1480,12 +1455,12 @@ msgstr "Comandos para colocar região em torno de unidades textuais."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:321
 msgid "Using Region"
-msgstr "Usando região"
+msgstr "Usando Região"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:321
 msgid "Summary of ways to operate on contents of the region."
-msgstr "Resumo das formas de atuação nos conteúdos da região."
+msgstr "Sumário das maneiras para se operar sobre os conteúdos da região."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:321
@@ -1496,48 +1471,47 @@ msgstr "Anel de Marca"
 #: texinfo/upstream/emacs.texi:321
 msgid "Previous mark positions saved so you can go back there."
 msgstr ""
-"As posições anteriores das marcas foram salvas para que você possa "
-"voltar lá."
+"Posições anteriores salvas da marca para que você consiga voltar lá."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:321
 msgid "Global Mark Ring"
-msgstr "Anel de Marca Global"
+msgstr "Anel Global de Marca"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:321
 msgid "Previous mark positions in various buffers."
-msgstr "Posições de marcas anteriores em vários buffers."
+msgstr "Posições anteriores da marca em vários buffers."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:321
 msgid "Shift Selection"
-msgstr "Seleção de turno"
+msgstr "Seleção de Deslocamento"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:321
 msgid "Using shifted cursor motion keys."
-msgstr "Usando teclas de movimento do cursor deslocadas."
+msgstr "Usando teclas deslocadas de movimento do cursor."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:321
 msgid "Disabled Transient Mark"
-msgstr "Marca transitória desativada"
+msgstr "Marca Transitória Desabilitada"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:321
 msgid "Leaving regions unhighlighted by default."
-msgstr "Deixando as regiões não destacadas por padrão."
+msgstr "Deixando regiões desrealçadas por padrão."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:323
 msgid "Killing and Moving Text"
-msgstr "Matar e mover texto"
+msgstr "Matar e Mover Texto"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:330 texinfo/upstream/emacs.texi:332
 msgid "Deletion and Killing"
-msgstr "Exclusão e morte"
+msgstr "Deleção e Matação"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:330
@@ -1557,7 +1531,7 @@ msgstr "Comandos que inserem texto."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:330
 msgid "Cut and Paste"
-msgstr "Recortar e colar"
+msgstr "Recortar e Colar"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:330
@@ -1582,7 +1556,7 @@ msgstr "Retângulos"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:330
 msgid "Operating on text in rectangular areas."
-msgstr "Operando em texto em áreas retangulares."
+msgstr "Operando sobre texto em áreas retangulares."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:330
@@ -1597,14 +1571,13 @@ msgstr "Usando @kbd{C-x}/@kbd{C-c}/@kbd{C-v} para matar e arrancar."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:339
 msgid "Deletion"
-msgstr "Eliminação"
+msgstr "Deleção"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:339
 msgid "Commands for deleting small amounts of text and blank areas."
 msgstr ""
-"Comandos para excluir pequenas quantidades de texto e áreas em "
-"branco."
+"Comandos para deletar pequenas quantidades de texto e áreas em branco."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:339
@@ -1614,12 +1587,12 @@ msgstr "Matar por Linhas"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:339
 msgid "How to kill entire lines of text at one time."
-msgstr "Como eliminar linhas inteiras de texto de uma só vez."
+msgstr "Como matar linhas inteiras de texto de uma só vez."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:339
 msgid "Other Kill Commands"
-msgstr "Outros comandos para matar"
+msgstr "Outros Comandos de Matar"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:339
@@ -1627,13 +1600,12 @@ msgid ""
 "Commands to kill large regions of text and syntactic units such as words and "
 "sentences."
 msgstr ""
-"Comandos para eliminar grandes regiões de texto e unidades "
-"sintáticas, como palavras e frases."
+"Comandos para matar grandes regiões de texto e unidades sintáticas, tais como palavras e frases."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:339
 msgid "Kill Options"
-msgstr "Opções de matar"
+msgstr "Opções de Matar"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:339
@@ -1648,12 +1620,12 @@ msgstr "Anel de Matar"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:345
 msgid "Where killed text is stored."
-msgstr "Onde o texto eliminado é armazenado."
+msgstr "Onde o texto morto é armazenado."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:345
 msgid "Earlier Kills"
-msgstr "Mortes anteriores"
+msgstr "Mortes Anteriores"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:345
@@ -1663,17 +1635,17 @@ msgstr "Arrancar algo morto há algum tempo."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:345
 msgid "Appending Kills"
-msgstr "Anexando mortes"
+msgstr "Pospondo Mortes"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:345
 msgid "Several kills in a row all yank together."
-msgstr "Várias mortes seguidas acontecem juntas."
+msgstr "Várias mortes em uma linha todas arrancadas juntas."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:347
 msgid "Cut and Paste Operations on Graphical Displays"
-msgstr "Operações de recortar e colar em exibições gráficas"
+msgstr "Operações de Recortar e Colar em Exibições Gráficas"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:351
@@ -1693,7 +1665,7 @@ msgstr "Seleção Primária"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:351
 msgid "The temporarily selected text selection."
-msgstr "A seleção de texto temporariamente selecionada."
+msgstr "A seleção de texto temporariamente selecionado."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:351
@@ -1708,72 +1680,72 @@ msgstr "Cortar sem alterar ponto e marca."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:362
 msgid "Position Registers"
-msgstr "Registros de posição"
+msgstr "Registradores de Posição"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:362
 msgid "Saving positions in registers."
-msgstr "Salvando posições em registros."
+msgstr "Salvando posições em registradores."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:362
 msgid "Text Registers"
-msgstr "Registros de texto"
+msgstr "Registradores de Texto"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:362
 msgid "Saving text in registers."
-msgstr "Salvando texto em registros."
+msgstr "Salvando texto em registradores."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:362
 msgid "Rectangle Registers"
-msgstr "Registros retangulares"
+msgstr "Registradores Retangulares"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:362
 msgid "Saving rectangles in registers."
-msgstr "Salvando retângulos em registros."
+msgstr "Salvando retângulos em registradores."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:362
 msgid "Configuration Registers"
-msgstr "Registros de configuração"
+msgstr "Registradores de Configuração"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:362
 msgid "Saving window/frame configurations in registers."
-msgstr "Salvando configurações de janela/quadro em registros."
+msgstr "Salvando configurações de janela/quadro em registradores."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:362
 msgid "Number Registers"
-msgstr "Registros numéricos"
+msgstr "Registradores Numéricos"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:362
 msgid "Numbers in registers."
-msgstr "Números em registros."
+msgstr "Números em registradores."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:362
 msgid "File and Buffer Registers"
-msgstr "Registros de arquivo e buffer"
+msgstr "Registadrreos de Arquivo e de Buffer"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:362
 msgid "File and buffer names in registers."
-msgstr "Nomes de arquivos e buffers em registros."
+msgstr "Nomes de arquivos e de buffers em registradores."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:362
 msgid "Keyboard Macro Registers"
-msgstr "Registros de macro de teclado"
+msgstr "Registadrreos de Macro de Teclado"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:362
 msgid "Keyboard macros in registers."
-msgstr "Macros de teclado em registros."
+msgstr "Macros de teclado em registradores."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:362
@@ -2001,8 +1973,8 @@ msgid ""
 "Truncating lines to fit the screen width instead of continuing them to "
 "multiple screen lines."
 msgstr ""
-"Truncar linhas para caber na largura da tela em vez de continuá-las "
-"em várias linhas da tela."
+"Truncar linhas para caber na largura da tela em vez de continuá-las em "
+"várias linhas da tela."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
@@ -2137,11 +2109,11 @@ msgstr "Pesquisa relaxada"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:410
 msgid ""
-"Search ignores some distinctions between similar characters, like letter-"
-"case."
+"Search ignores some distinctions between similar characters, like "
+"letter-case."
 msgstr ""
-"A pesquisa ignora algumas distinções entre caracteres semelhantes, "
-"como letras maiúsculas e minúsculas."
+"A pesquisa ignora algumas distinções entre caracteres semelhantes, como "
+"letras maiúsculas e minúsculas."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:410
@@ -2205,8 +2177,8 @@ msgid ""
 "Commands that grab text into the search string or else edit the search "
 "string."
 msgstr ""
-"Comandos que capturam texto na sequência de pesquisa ou editam a "
-"sequência de pesquisa."
+"Comandos que capturam texto na sequência de pesquisa ou editam a sequência "
+"de pesquisa."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:421
@@ -2337,9 +2309,7 @@ msgstr "Ortografia"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:436
 msgid "Apply spelling checker to a word, or a whole file."
-msgstr ""
-"Aplique o corretor ortográfico a uma palavra ou a um arquivo "
-"inteiro."
+msgstr "Aplique o corretor ortográfico a uma palavra ou a um arquivo inteiro."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:449
@@ -2380,8 +2350,7 @@ msgstr "Consulta de macro de teclado"
 #: texinfo/upstream/emacs.texi:449
 msgid "Making keyboard macros do different things each time."
 msgstr ""
-"Fazer com que as macros do teclado façam coisas diferentes a cada "
-"vez."
+"Fazer com que as macros do teclado façam coisas diferentes a cada vez."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:449
@@ -2476,9 +2445,7 @@ msgstr "Salvamento automático"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "Auto Save periodically protects against loss of data."
-msgstr ""
-"O salvamento automático protege periodicamente contra perda de "
-"dados."
+msgstr "O salvamento automático protege periodicamente contra perda de dados."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
@@ -2665,8 +2632,8 @@ msgstr "Intertravamento"
 msgid ""
 "How Emacs protects against simultaneous editing of one file by two users."
 msgstr ""
-"Como o Emacs protege contra a edição simultânea de um arquivo por "
-"dois usuários."
+"Como o Emacs protege contra a edição simultânea de um arquivo por dois "
+"usuários."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:482
@@ -2746,8 +2713,7 @@ msgstr "Carimbos de data e hora para um arquivo"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:493
 msgid "Ensure automatic time-stamp of a specific file."
-msgstr ""
-"Garanta o carimbo de data/hora automático de um arquivo específico."
+msgstr "Garanta o carimbo de data/hora automático de um arquivo específico."
 
 #. type: ifnottex
 #: texinfo/upstream/emacs.texi:496
@@ -2778,8 +2744,8 @@ msgstr "Salvar arquivos automaticamente"
 msgid ""
 "The file where auto-saved changes are actually made until you save the file."
 msgstr ""
-"O arquivo onde as alterações salvas automaticamente são realmente "
-"feitas até você salvar o arquivo."
+"O arquivo onde as alterações salvas automaticamente são realmente feitas "
+"até você salvar o arquivo."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:507
@@ -2858,8 +2824,8 @@ msgid ""
 "How to go through the list of all buffers and operate variously on several "
 "of them."
 msgstr ""
-"Como percorrer a lista de todos os buffers e operar de forma "
-"variada em vários deles."
+"Como percorrer a lista de todos os buffers e operar de forma variada em "
+"vários deles."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:519
@@ -2881,8 +2847,7 @@ msgstr "Conveniência do buffer"
 #: texinfo/upstream/emacs.texi:519
 msgid "Convenience and customization features for buffer handling."
 msgstr ""
-"Recursos de conveniência e personalização para manipulação de "
-"buffer."
+"Recursos de conveniência e personalização para manipulação de buffer."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:521
@@ -3142,8 +3107,7 @@ msgstr "Vários monitores"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "How one Emacs instance can talk to several displays."
-msgstr ""
-"Como uma instância do Emacs pode se comunicar com vários monitores."
+msgstr "Como uma instância do Emacs pode se comunicar com vários monitores."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
@@ -3319,8 +3283,8 @@ msgstr "Sistemas de Codificação"
 #: texinfo/upstream/emacs.texi:593
 msgid "Character set conversion when you read and write files, and so on."
 msgstr ""
-"Conversão de conjunto de caracteres ao ler e gravar arquivos e "
-"assim por diante."
+"Conversão de conjunto de caracteres ao ler e gravar arquivos e assim por "
+"diante."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
@@ -3340,8 +3304,7 @@ msgstr "Especifique a codificação"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "Specifying a file's coding system explicitly."
-msgstr ""
-"Especificar explicitamente o sistema de codificação de um arquivo."
+msgstr "Especificar explicitamente o sistema de codificação de um arquivo."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
@@ -3392,8 +3355,8 @@ msgstr "Codificação de terminais"
 #: texinfo/upstream/emacs.texi:593
 msgid "Specifying coding systems for converting terminal input and output."
 msgstr ""
-"Especificação de sistemas de codificação para conversão de entrada "
-"e saída de terminal."
+"Especificação de sistemas de codificação para conversão de entrada e "
+"saída de terminal."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
@@ -3406,8 +3369,7 @@ msgid ""
 "Fontsets are collections of fonts that cover the whole spectrum of "
 "characters."
 msgstr ""
-"Fontsets são coleções de fontes que cobrem todo o espectro de "
-"caracteres."
+"Fontsets são coleções de fontes que cobrem todo o espectro de caracteres."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
@@ -3492,8 +3454,8 @@ msgstr "Modos Menores"
 msgid ""
 "Each minor mode is a feature you can turn on independently of any others."
 msgstr ""
-"Cada modo secundário é um recurso que você pode ativar "
-"independentemente de quaisquer outros."
+"Cada modo secundário é um recurso que você pode ativar independentemente "
+"de quaisquer outros."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:600
@@ -3553,8 +3515,7 @@ msgstr "Alinhamento de Código"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:608
 msgid "Making common parts of lines start at the same column."
-msgstr ""
-"Fazer com que as partes comuns das linhas comecem na mesma coluna."
+msgstr "Fazer com que as partes comuns das linhas comecem na mesma coluna."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:610
@@ -3734,9 +3695,7 @@ msgstr "Preenchimento automático"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:635
 msgid "Auto Fill mode breaks long lines automatically."
-msgstr ""
-"O modo Preenchimento automático quebra linhas longas "
-"automaticamente."
+msgstr "O modo Preenchimento automático quebra linhas longas automaticamente."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:635
@@ -3767,8 +3726,7 @@ msgstr "Preenchimento Adaptativo"
 #: texinfo/upstream/emacs.texi:635
 msgid "How Emacs can determine the fill prefix automatically."
 msgstr ""
-"Como o Emacs pode determinar o prefixo de preenchimento "
-"automaticamente."
+"Como o Emacs pode determinar o prefixo de preenchimento automaticamente."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:643
@@ -3944,8 +3902,7 @@ msgstr "Justificativa Enriquecida"
 #: texinfo/upstream/emacs.texi:666
 msgid "Centering, setting text flush with the left or right margin, etc."
 msgstr ""
-"Centralizar, definir o texto alinhado com a margem esquerda ou "
-"direita, etc."
+"Centralizar, definir o texto alinhado com a margem esquerda ou direita, etc."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:666
@@ -4066,8 +4023,7 @@ msgstr "Desfunções"
 #: texinfo/upstream/emacs.texi:700
 msgid "Commands to operate on major top-level parts of a program."
 msgstr ""
-"Comandos para operar nas principais partes de nível superior de um "
-"programa."
+"Comandos para operar nas principais partes de nível superior de um programa."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:700
@@ -4148,8 +4104,7 @@ msgstr "Semântica"
 #: texinfo/upstream/emacs.texi:700
 msgid "Suite of editing tools based on source code parsing."
 msgstr ""
-"Conjunto de ferramentas de edição baseadas na análise de "
-"código-fonte."
+"Conjunto de ferramentas de edição baseadas na análise de código-fonte."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:700
@@ -4170,8 +4125,7 @@ msgstr "Modos C"
 #: texinfo/upstream/emacs.texi:700
 msgid "Special commands of C, C++, Objective-C, Java, IDL, Pike and AWK modes."
 msgstr ""
-"Comandos especiais dos modos C, C++, Objective-C, Java, IDL, Pike e "
-"AWK."
+"Comandos especiais dos modos C, C++, Objective-C, Java, IDL, Pike e AWK."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:700
@@ -4204,8 +4158,8 @@ msgid ""
 "An open-paren or similar opening delimiter starts a defun if it is at the "
 "left margin."
 msgstr ""
-"Um delimitador de abertura semelhante ou de parêntese aberto inicia "
-"um defun se estiver na margem esquerda."
+"Um delimitador de abertura semelhante ou de parêntese aberto inicia um "
+"defun se estiver na margem esquerda."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:711
@@ -4317,8 +4271,8 @@ msgstr "Movendo-se por Parens"
 msgid ""
 "Commands for moving up, down and across in the structure of parentheses."
 msgstr ""
-"Comandos para mover para cima, para baixo e para frente na "
-"estrutura de parênteses."
+"Comandos para mover para cima, para baixo e para frente na estrutura de "
+"parênteses."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:726
@@ -4329,8 +4283,7 @@ msgstr "Correspondência"
 #: texinfo/upstream/emacs.texi:726
 msgid "Insertion of a close-delimiter flashes matching open."
 msgstr ""
-"Inserção de flashes delimitadores próximos correspondentes aos "
-"abertos."
+"Inserção de flashes delimitadores próximos correspondentes aos abertos."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:728
@@ -4372,8 +4325,7 @@ msgstr "Pesquisa de informações"
 #: texinfo/upstream/emacs.texi:738
 msgid "Looking up library functions and commands in Info files."
 msgstr ""
-"Procurando funções e comandos da biblioteca em arquivos de "
-"informações."
+"Procurando funções e comandos da biblioteca em arquivos de informações."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:738
@@ -4457,12 +4409,12 @@ msgid ""
 "* Fortran Columns:: Measuring columns for valid Fortran.  * Fortran Abbrev:: "
 "Built-in abbrevs for Fortran keywords."
 msgstr ""
-"* Fortran Motion:: Ponto móvel por instruções ou subprogramas.  * "
-"Fortran Indent:: Comandos de recuo para Fortran.  * Comentários "
-"Fortran:: Inserindo e alinhando comentários.  * Fortran Autofill:: "
-"Suporte de preenchimento automático para Fortran.  * Colunas "
-"Fortran:: Colunas de medição para Fortran válido.  * Fortran "
-"Abbrev:: Abrevs integrados para palavras-chave Fortran."
+"* Fortran Motion:: Ponto móvel por instruções ou subprogramas.  * Fortran "
+"Indent:: Comandos de recuo para Fortran.  * Comentários Fortran:: Inserindo "
+"e alinhando comentários.  * Fortran Autofill:: Suporte de preenchimento "
+"automático para Fortran.  * Colunas Fortran:: Colunas de medição para "
+"Fortran válido.  * Fortran Abbrev:: Abrevs integrados para palavras-chave "
+"Fortran."
 
 #. type: ifnottex
 #: texinfo/upstream/emacs.texi:758
@@ -4478,11 +4430,10 @@ msgid ""
 "trouble.  * ForIndent Vars:: Variables controlling Fortran indent style."
 msgstr ""
 "* Comandos ForIndent:: Comandos para recuar e preencher Fortran.  * "
-"ForIndent Cont:: Como recuam as linhas de continuação.  * ForIndent "
-"Num:: Como os números das linhas são recuados automaticamente.  * "
-"ForIndent Conv:: Convenções que você deve obedecer para evitar "
-"problemas.  * ForIndent Vars:: Variáveis que controlam o estilo de "
-"indentação Fortran."
+"ForIndent Cont:: Como recuam as linhas de continuação.  * ForIndent Num:: "
+"Como os números das linhas são recuados automaticamente.  * ForIndent "
+"Conv:: Convenções que você deve obedecer para evitar problemas.  * "
+"ForIndent Vars:: Variáveis que controlam o estilo de indentação Fortran."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:767
@@ -4497,9 +4448,7 @@ msgstr "Compilação"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:783
 msgid "Compiling programs in languages other than Lisp (C, Pascal, etc.)."
-msgstr ""
-"Compilar programas em linguagens diferentes de Lisp (C, Pascal, "
-"etc.)."
+msgstr "Compilar programas em linguagens diferentes de Lisp (C, Pascal, etc.)."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:783
@@ -4520,8 +4469,7 @@ msgstr "Shell de compilação"
 #: texinfo/upstream/emacs.texi:783
 msgid "Customizing your shell properly for use in the compilation buffer."
 msgstr ""
-"Personalizando seu shell adequadamente para uso no buffer de "
-"compilação."
+"Personalizando seu shell adequadamente para uso no buffer de compilação."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:783
@@ -4564,8 +4512,8 @@ msgid ""
 "Various modes for editing Lisp programs, with different facilities for "
 "running the Lisp programs."
 msgstr ""
-"Vários modos de edição de programas Lisp, com diferentes "
-"facilidades para execução de programas Lisp."
+"Vários modos de edição de programas Lisp, com diferentes facilidades para "
+"execução de programas Lisp."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:783
@@ -4663,8 +4611,8 @@ msgid ""
 "An enhanced mode that uses GDB features to implement a graphical debugging "
 "environment."
 msgstr ""
-"Um modo aprimorado que usa recursos do GDB para implementar um "
-"ambiente de depuração gráfica."
+"Um modo aprimorado que usa recursos do GDB para implementar um ambiente de "
+"depuração gráfica."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:804
@@ -4809,8 +4757,7 @@ msgstr "Um ambiente de desenvolvimento integrado para Emacs."
 #: texinfo/upstream/emacs.texi:815
 msgid "* Emerge:: A convenient way of merging two versions of a program."
 msgstr ""
-"* Emerge:: Uma maneira conveniente de mesclar duas versões de um "
-"programa."
+"* Emerge:: Uma maneira conveniente de mesclar duas versões de um programa."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:818
@@ -4823,8 +4770,8 @@ msgid ""
 "Highlighting references to bug reports and browsing them in their issue "
 "trackers."
 msgstr ""
-"Destacando referências a relatórios de bugs e navegando por eles em "
-"seus rastreadores de problemas."
+"Destacando referências a relatórios de bugs e navegando por eles em seus "
+"rastreadores de problemas."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:832
@@ -4942,8 +4889,8 @@ msgid ""
 "* Miscellaneous VC:: Various other commands and features of VC.  * "
 "Customizing VC:: Variables that change VC's behavior."
 msgstr ""
-"* Diversos VC:: Vários outros comandos e recursos do VC.  * "
-"Personalizando VC:: Variáveis que alteram o comportamento do VC."
+"* Diversos VC:: Vários outros comandos e recursos do VC.  * Personalizando "
+"VC:: Variáveis que alteram o comportamento do VC."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:838
@@ -5135,13 +5082,12 @@ msgid ""
 "control headers into working files.  * Editing VC Commands:: Editing the VC "
 "shell commands that Emacs will run."
 msgstr ""
-"* Change Logs e VC:: Gerando um arquivo de log de alterações a "
-"partir de entradas de log.  * VC Excluir/Renomear:: Excluir e "
-"renomear arquivos controlados por versão.  * Tags de revisão:: "
-"Nomes simbólicos para revisões.  * Cabeçalhos de versão:: Inserção "
-"de cabeçalhos de controle de versão em arquivos de trabalho.  * "
-"Editando Comandos VC:: Editando os comandos shell VC que o Emacs "
-"irá executar."
+"* Change Logs e VC:: Gerando um arquivo de log de alterações a partir de "
+"entradas de log.  * VC Excluir/Renomear:: Excluir e renomear arquivos "
+"controlados por versão.  * Tags de revisão:: Nomes simbólicos para "
+"revisões.  * Cabeçalhos de versão:: Inserção de cabeçalhos de controle "
+"de versão em arquivos de trabalho.  * Editando Comandos VC:: Editando os "
+"comandos shell VC que o Emacs irá executar."
 
 #. type: ifnottex
 #: texinfo/upstream/emacs.texi:875
@@ -5154,9 +5100,8 @@ msgid ""
 "* General VC Options:: Options that apply to multiple back ends.  * RCS and "
 "SCCS:: Options for RCS and SCCS.  * CVS Options:: Options for CVS."
 msgstr ""
-"* Opções gerais de VC:: Opções que se aplicam a vários back-ends.  "
-"* RCS e SCCS:: Opções para RCS e SCCS.  * Opções CVS:: Opções para "
-"CVS."
+"* Opções gerais de VC:: Opções que se aplicam a vários back-ends.  * "
+"RCS e SCCS:: Opções para RCS e SCCS.  * Opções CVS:: Opções para CVS."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:887
@@ -5234,8 +5179,8 @@ msgid ""
 "Commands to find where an identifier is defined or referenced, to list "
 "identifiers, etc."
 msgstr ""
-"Comandos para descobrir onde um identificador é definido ou "
-"referenciado, para listar identificadores, etc."
+"Comandos para descobrir onde um identificador é definido ou referenciado, "
+"para listar identificadores, etc."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:899 texinfo/upstream/emacs.texi:908
@@ -5344,15 +5289,14 @@ msgid ""
 "alternatives for a difference.  * Fine Points of Emerge:: Miscellaneous "
 "issues."
 msgstr ""
-"* Visão geral do Emerge:: Como iniciar o Emerge.  Conceitos "
-"básicos.  * Submodos de Emerge:: Modo rápido vs.@: Modo de edição.  "
-"Modo Ignorar Preferências e modo Avanço Automático.  * Estado da "
-"diferença:: Você faz a mesclagem especificando o estado A ou B para "
-"cada diferença.  * Comandos de mesclagem:: Comandos para selecionar "
-"uma diferença, alterar estados de diferenças, etc. * Sair do "
-"Emerge:: O que fazer quando terminar a mesclagem.  * Combinando em "
-"Emerge:: Como manter as duas alternativas para fazer a diferença.  "
-"* Pontos delicados de emergência:: Questões diversas."
+"* Visão geral do Emerge:: Como iniciar o Emerge.  Conceitos básicos.  * "
+"Submodos de Emerge:: Modo rápido vs.@: Modo de edição.  Modo Ignorar "
+"Preferências e modo Avanço Automático.  * Estado da diferença:: Você "
+"faz a mesclagem especificando o estado A ou B para cada diferença.  * "
+"Comandos de mesclagem:: Comandos para selecionar uma diferença, alterar "
+"estados de diferenças, etc. * Sair do Emerge:: O que fazer quando terminar "
+"a mesclagem.  * Combinando em Emerge:: Como manter as duas alternativas para "
+"fazer a diferença.  * Pontos delicados de emergência:: Questões diversas."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:938
@@ -5434,8 +5378,7 @@ msgstr "Personalização Dabbrev"
 #: texinfo/upstream/emacs.texi:938
 msgid "What is a word, for dynamic abbrevs.  Case handling."
 msgstr ""
-"O que é uma palavra para abreviações dinâmicas.  Tratamento de "
-"casos."
+"O que é uma palavra para abreviações dinâmicas.  Tratamento de casos."
 
 #. type: ifnottex
 #: texinfo/upstream/emacs.texi:941
@@ -5446,16 +5389,16 @@ msgstr "Editando fotos"
 #: texinfo/upstream/emacs.texi:947
 msgid ""
 "* Basic Picture:: Basic concepts and simple commands of Picture Mode.  * "
-"Insert in Picture:: Controlling direction of cursor motion after self-"
-"inserting characters.  * Tabs in Picture:: Various features for tab stops "
-"and indentation.  * Rectangles in Picture:: Clearing and superimposing "
+"Insert in Picture:: Controlling direction of cursor motion after "
+"self-inserting characters.  * Tabs in Picture:: Various features for tab "
+"stops and indentation.  * Rectangles in Picture:: Clearing and superimposing "
 "rectangles."
 msgstr ""
-"* Imagem Básica:: Conceitos básicos e comandos simples do Modo "
-"Imagem.  * Inserir na imagem:: Controlar a direção do movimento do "
-"cursor após a inserção automática de caracteres.  * Guias na "
-"imagem:: Vários recursos para tabulações e recuo.  * Retângulos na "
-"imagem:: Limpar e sobrepor retângulos."
+"* Imagem Básica:: Conceitos básicos e comandos simples do Modo Imagem.  * "
+"Inserir na imagem:: Controlar a direção do movimento do cursor após a "
+"inserção automática de caracteres.  * Guias na imagem:: Vários recursos "
+"para tabulações e recuo.  * Retângulos na imagem:: Limpar e sobrepor "
+"retângulos."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:950
@@ -5532,8 +5475,8 @@ msgstr "Operando em arquivos"
 msgid ""
 "How to copy, rename, print, compress, etc.  either one file or several files."
 msgstr ""
-"Como copiar, renomear, imprimir, compactar, etc. um arquivo ou "
-"vários arquivos."
+"Como copiar, renomear, imprimir, compactar, etc. um arquivo ou vários "
+"arquivos."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:963
@@ -5947,15 +5890,15 @@ msgid ""
 msgstr ""
 "* Personalização de calendário:: Layout de calendário e ganchos.  * "
 "Personalização de feriados:: Definir seus próprios feriados.  * "
-"Calendário Maia:: Movendo para uma data especificada em um "
-"calendário Maia.  * Formato de exibição de data:: Alterando o "
-"formato.  * Formato de exibição de hora:: Alterando o formato.  * "
-"Personalização do diário:: Padrões que você pode definir.  * Diário "
-"Não Gregoriano:: Entradas no diário baseadas em outros calendários. "
-" * Exibição do diário:: Uma variedade de maneiras de exibir o "
-"diário.  * Exibição de diário sofisticado:: Classificando entradas "
-"do diário, usando arquivos de diário incluídos.  * Entradas no "
-"diário Sexp:: Entradas no diário mais flexíveis."
+"Calendário Maia:: Movendo para uma data especificada em um calendário "
+"Maia.  * Formato de exibição de data:: Alterando o formato.  * Formato de "
+"exibição de hora:: Alterando o formato.  * Personalização do diário:: "
+"Padrões que você pode definir.  * Diário Não Gregoriano:: Entradas no "
+"diário baseadas em outros calendários.  * Exibição do diário:: Uma "
+"variedade de maneiras de exibir o diário.  * Exibição de diário "
+"sofisticado:: Classificando entradas do diário, usando arquivos de diário "
+"incluídos.  * Entradas no diário Sexp:: Entradas no diário mais "
+"flexíveis."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:1040
@@ -6271,8 +6214,7 @@ msgstr "Outros formatos de caixa de correio"
 #: texinfo/upstream/emacs.texi:1071
 msgid "Retrieving mail from local mailboxes in various formats."
 msgstr ""
-"Recuperação de correio de caixas de correio locais em vários "
-"formatos."
+"Recuperação de correio de caixas de correio locais em vários formatos."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:1073
@@ -6518,8 +6460,7 @@ msgstr "Buscando comandos da lista de histórico."
 #: texinfo/upstream/emacs.texi:1110
 msgid "Shell History Copying::Moving to a command and then copying it."
 msgstr ""
-"Cópia do histórico do Shell::Movendo para um comando e depois "
-"copiando-o."
+"Cópia do histórico do Shell::Movendo para um comando e depois copiando-o."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:1110
@@ -6722,9 +6663,8 @@ msgid ""
 "Many Emacs commands examine Emacs variables to decide what to do; by setting "
 "variables, you can control their functioning."
 msgstr ""
-"Muitos comandos do Emacs examinam variáveis do Emacs para decidir o "
-"que fazer; ao definir variáveis, você pode controlar seu "
-"funcionamento."
+"Muitos comandos do Emacs examinam variáveis do Emacs para decidir o que "
+"fazer; ao definir variáveis, você pode controlar seu funcionamento."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:1149
@@ -6737,8 +6677,8 @@ msgid ""
 "The keymaps say what command each key runs.  By changing them, you can "
 "redefine keys."
 msgstr ""
-"Os mapas de teclado dizem qual comando cada tecla executa.  Ao "
-"alterá-los, você pode redefinir as chaves."
+"Os mapas de teclado dizem qual comando cada tecla executa.  Ao alterá-los, "
+"você pode redefinir as chaves."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:1149
@@ -6866,8 +6806,8 @@ msgid ""
 "Hook variables let you specify programs for parts of Emacs to run on "
 "particular occasions."
 msgstr ""
-"Variáveis de gancho permitem especificar programas para partes do "
-"Emacs serem executadas em ocasiões específicas."
+"Variáveis de gancho permitem especificar programas para partes do Emacs "
+"serem executadas em ocasiões específicas."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:1171
@@ -6897,8 +6837,7 @@ msgstr "Variáveis de diretório"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:1171
 msgid "How variable values can be specified by directory."
-msgstr ""
-"Como os valores das variáveis podem ser especificados por diretório."
+msgstr "Como os valores das variáveis podem ser especificados por diretório."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:1171
@@ -6909,8 +6848,7 @@ msgstr "Variáveis de conexão"
 #: texinfo/upstream/emacs.texi:1171
 msgid "Variables which are valid for buffers with a remote default directory."
 msgstr ""
-"Variáveis que são válidas para buffers com um diretório padrão "
-"remoto."
+"Variáveis que são válidas para buffers com um diretório padrão remoto."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:1173
@@ -6935,8 +6873,7 @@ msgstr "Variáveis de arquivo seguras"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:1176
 msgid "Making sure file local variables are safe."
-msgstr ""
-"Certificando-se de que as variáveis locais do arquivo sejam seguras."
+msgstr "Certificando-se de que as variáveis locais do arquivo sejam seguras."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:1178
@@ -6987,8 +6924,7 @@ msgstr "Mapas de teclado locais"
 #: texinfo/upstream/emacs.texi:1196
 msgid "Major and minor modes have their own keymaps."
 msgstr ""
-"Os modos principais e secundários têm seus próprios mapas de "
-"teclado."
+"Os modos principais e secundários têm seus próprios mapas de teclado."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:1196
@@ -7072,9 +7008,9 @@ msgid ""
 "Disabling a command means confirmation is required before it can be "
 "executed.  This is done to protect beginners from surprises."
 msgstr ""
-"Desabilitar um comando significa que é necessária confirmação antes "
-"que ele possa ser executado.  Isso é feito para proteger os "
-"iniciantes de surpresas."
+"Desabilitar um comando significa que é necessária confirmação antes que "
+"ele possa ser executado.  Isso é feito para proteger os iniciantes de "
+"surpresas."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:1198
@@ -7320,8 +7256,7 @@ msgstr "Argumentos de ação"
 #: texinfo/upstream/emacs.texi:1245
 msgid "Arguments to visit files, load libraries, and call functions."
 msgstr ""
-"Argumentos para visitar arquivos, carregar bibliotecas e chamar "
-"funções."
+"Argumentos para visitar arquivos, carregar bibliotecas e chamar funções."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:1245
@@ -7864,13 +7799,13 @@ msgid ""
 "internationalization on MS-DOS.  * MS-DOS Processes:: Running subprocesses "
 "on MS-DOS."
 msgstr ""
-"* Teclado MS-DOS:: Convenções de teclado no MS-DOS.  * Mouse "
-"MS-DOS:: Convenções de mouse no MS-DOS.  * Display MS-DOS:: Fontes, "
-"molduras e tamanho de exibição no MS-DOS.  * Nomes de arquivos do "
-"MS-DOS:: Convenções de nomes de arquivos no MS-DOS.  * Impressão "
-"MS-DOS:: Especificações de impressão em MS-DOS.  * MS-DOS e MULE:: "
-"Suporte para internacionalização em MS-DOS.  * Processos MS-DOS:: "
-"Executando subprocessos no MS-DOS."
+"* Teclado MS-DOS:: Convenções de teclado no MS-DOS.  * Mouse MS-DOS:: "
+"Convenções de mouse no MS-DOS.  * Display MS-DOS:: Fontes, molduras e "
+"tamanho de exibição no MS-DOS.  * Nomes de arquivos do MS-DOS:: "
+"Convenções de nomes de arquivos no MS-DOS.  * Impressão MS-DOS:: "
+"Especificações de impressão em MS-DOS.  * MS-DOS e MULE:: Suporte para "
+"internacionalização em MS-DOS.  * Processos MS-DOS:: Executando "
+"subprocessos no MS-DOS."
 
 #. type: unnumbered
 #: texinfo/upstream/emacs.texi:1323
@@ -7886,28 +7821,27 @@ msgid ""
 "you are not interested in customizing, you can ignore the customization "
 "hints."
 msgstr ""
-"Este manual documenta o uso e a personalização simples do editor "
-"Emacs.  As personalizações simples do Emacs não exigem que você "
-"seja um programador, mas se não estiver interessado em "
-"personalizar, você pode ignorar as dicas de personalização."
+"Este manual documenta o uso e a personalização simples do editor Emacs.  "
+"As personalizações simples do Emacs não exigem que você seja um "
+"programador, mas se não estiver interessado em personalizar, você pode "
+"ignorar as dicas de personalização."
 
 #. type: iftex
 #: texinfo/upstream/emacs.texi:1337
 msgid ""
 "This is primarily a reference manual, but can also be used as a primer.  If "
-"you are new to Emacs, we recommend you start with the integrated, learn-by-"
-"doing tutorial, before reading the manual.  To run the tutorial, start Emacs "
-"and type @kbd{C-h t} (which is ``control h and then t'').  The tutorial "
-"describes commands, tells you when to try them, and explains the results.  "
-"The tutorial is available in several languages."
+"you are new to Emacs, we recommend you start with the integrated, "
+"learn-by-doing tutorial, before reading the manual.  To run the tutorial, "
+"start Emacs and type @kbd{C-h t} (which is ``control h and then t'').  The "
+"tutorial describes commands, tells you when to try them, and explains the "
+"results.  The tutorial is available in several languages."
 msgstr ""
-"Este é principalmente um manual de referência, mas também pode ser "
-"usado como uma cartilha.  Se você é novo no Emacs, recomendamos que "
-"comece com o tutorial integrado, aprenda fazendo, antes de ler o "
-"manual.  Para executar o tutorial, inicie o Emacs e digite @kbd{C-h "
-"t} (que é ``control he then t'').  O tutorial descreve comandos, "
-"informa quando experimentá-los e explica os resultados.  O tutorial "
-"está disponível em vários idiomas."
+"Este é principalmente um manual de referência, mas também pode ser usado "
+"como uma cartilha.  Se você é novo no Emacs, recomendamos que comece com o "
+"tutorial integrado, aprenda fazendo, antes de ler o manual.  Para executar o "
+"tutorial, inicie o Emacs e digite @kbd{C-h t} (que é ``control he then "
+"t'').  O tutorial descreve comandos, informa quando experimentá-los e "
+"explica os resultados.  O tutorial está disponível em vários idiomas."
 
 #. type: iftex
 #: texinfo/upstream/emacs.texi:1346
@@ -7922,12 +7856,12 @@ msgid ""
 msgstr ""
 "Na primeira leitura, basta dar uma olhada nos capítulos 1 e 2, que "
 "descrevem as convenções de notação do manual e a aparência geral da "
-"tela do Emacs.  Observe quais perguntas são respondidas nesses "
-"capítulos, para que você possa consultá-las mais tarde.  Depois de "
-"ler o capítulo 4, você deverá praticar os comandos ali mostrados.  "
-"Os próximos capítulos descrevem técnicas e conceitos fundamentais "
-"que são usados constantemente.  Você precisa entendê-los "
-"completamente, então experimente-os até ficar fluente."
+"tela do Emacs.  Observe quais perguntas são respondidas nesses capítulos, "
+"para que você possa consultá-las mais tarde.  Depois de ler o capítulo 4, "
+"você deverá praticar os comandos ali mostrados.  Os próximos capítulos "
+"descrevem técnicas e conceitos fundamentais que são usados "
+"constantemente.  Você precisa entendê-los completamente, então "
+"experimente-os até ficar fluente."
 
 #. type: iftex
 #: texinfo/upstream/emacs.texi:1351
@@ -7936,10 +7870,10 @@ msgid ""
 "for many kinds of editing.  Chapter 20 and following chapters describe "
 "optional but useful features; read those chapters when you need them."
 msgstr ""
-"Os capítulos 14 a 19 descrevem recursos de nível intermediário que "
-"são úteis para muitos tipos de edição.  O Capítulo 20 e os "
-"capítulos seguintes descrevem recursos opcionais, mas úteis; leia "
-"esses capítulos quando precisar deles."
+"Os capítulos 14 a 19 descrevem recursos de nível intermediário que são "
+"úteis para muitos tipos de edição.  O Capítulo 20 e os capítulos "
+"seguintes descrevem recursos opcionais, mas úteis; leia esses capítulos "
+"quando precisar deles."
 
 #. type: iftex
 #: texinfo/upstream/emacs.texi:1356
@@ -7949,10 +7883,10 @@ msgid ""
 "(@pxref{Lossage,, Dealing with Emacs Trouble}), as well as when and how to "
 "report Emacs bugs (@pxref{Bugs})."
 msgstr ""
-"Leia o capítulo Problemas Comuns se o Emacs não parecer estar "
-"funcionando corretamente.  Ele explica como lidar com vários "
-"problemas comuns (@pxref{Lossage,, Dealing with Emacs Trouble}), "
-"bem como quando e como relatar bugs do Emacs (@pxref{Bugs})."
+"Leia o capítulo Problemas Comuns se o Emacs não parecer estar funcionando "
+"corretamente.  Ele explica como lidar com vários problemas comuns "
+"(@pxref{Lossage,, Dealing with Emacs Trouble}), bem como quando e como "
+"relatar bugs do Emacs (@pxref{Bugs})."
 
 #. type: iftex
 #: texinfo/upstream/emacs.texi:1360
@@ -7962,9 +7896,9 @@ msgid ""
 "a glossary, with a cross-reference for each term."
 msgstr ""
 "Para encontrar a documentação de um comando específico, procure no "
-"índice.  Chaves (comandos de caracteres) e nomes de comandos "
-"possuem índices separados.  Há também um glossário, com referência "
-"cruzada para cada termo."
+"índice.  Chaves (comandos de caracteres) e nomes de comandos possuem "
+"índices separados.  Há também um glossário, com referência cruzada para "
+"cada termo."
 
 #. type: iftex
 #: texinfo/upstream/emacs.texi:1367
@@ -7975,12 +7909,12 @@ msgid ""
 "and the printed book contain substantially the same text and are generated "
 "from the same source files, which are also distributed with GNU Emacs."
 msgstr ""
-"Este manual está disponível como livro impresso e também como "
-"arquivo informativo.  O arquivo Info é para leitura no próprio "
-"Emacs ou com o programa Info.  Info é o principal formato de "
-"documentação no sistema GNU.  O arquivo Info e o livro impresso "
-"contêm substancialmente o mesmo texto e são gerados a partir dos "
-"mesmos arquivos fonte, que também são distribuídos com o GNU Emacs."
+"Este manual está disponível como livro impresso e também como arquivo "
+"informativo.  O arquivo Info é para leitura no próprio Emacs ou com o "
+"programa Info.  Info é o principal formato de documentação no sistema "
+"GNU.  O arquivo Info e o livro impresso contêm substancialmente o mesmo "
+"texto e são gerados a partir dos mesmos arquivos fonte, que também são "
+"distribuídos com o GNU Emacs."
 
 #. type: iftex
 #: texinfo/upstream/emacs.texi:1374
@@ -7989,15 +7923,14 @@ msgid ""
 "editors, all sharing common principles of organization.  For information on "
 "the underlying philosophy of Emacs and the lessons learned from its "
 "development, see @cite{Emacs, the Extensible, Customizable Self-Documenting "
-"Display Editor}, available from @url{https://dspace.mit.edu/handle/"
-"1721.1/5736}."
+"Display Editor}, available from "
+"@url{https://dspace.mit.edu/handle/1721.1/5736}."
 msgstr ""
-"GNU Emacs é membro da família de editores Emacs.  Existem muitos "
-"editores do Emacs, todos compartilhando princípios comuns de "
-"organização.  Para obter informações sobre a filosofia subjacente "
-"do Emacs e as lições aprendidas com seu desenvolvimento, consulte "
-"@cite{Emacs, the Extensible, Customizable Self-Documenting Display "
-"Editor}, disponível em "
+"GNU Emacs é membro da família de editores Emacs.  Existem muitos editores "
+"do Emacs, todos compartilhando princípios comuns de organização.  Para "
+"obter informações sobre a filosofia subjacente do Emacs e as lições "
+"aprendidas com seu desenvolvimento, consulte @cite{Emacs, the Extensible, "
+"Customizable Self-Documenting Display Editor}, disponível em "
 "@url{https://dspace.mit.edu/handle/1721.1/5736}."
 
 #. type: iftex
@@ -8012,16 +7945,15 @@ msgid ""
 "about using Emacs on Windows.  @xref{Mac OS / GNUstep}, for information "
 "about using Emacs on Macintosh (and GNUstep)."
 msgstr ""
-"Esta versão do manual destina-se principalmente ao uso com GNU "
-"Emacs instalado em sistemas GNU e Unix.  GNU Emacs também pode ser "
-"usado em sistemas MS-DOS, Microsoft Windows e Macintosh.  A versão "
-"do arquivo Info deste manual contém mais algumas informações sobre "
-"o uso do Emacs nesses sistemas.  Esses sistemas usam sintaxe de "
-"nome de arquivo diferente; além disso, o MS-DOS não suporta todos "
-"os recursos do GNU Emacs.  @xref{Microsoft Windows}, para obter "
-"informações sobre como usar o Emacs no Windows.  @xref{Mac OS / "
-"GNUstep}, para informações sobre como usar o Emacs no Macintosh (e "
-"GNUstep)."
+"Esta versão do manual destina-se principalmente ao uso com GNU Emacs "
+"instalado em sistemas GNU e Unix.  GNU Emacs também pode ser usado em "
+"sistemas MS-DOS, Microsoft Windows e Macintosh.  A versão do arquivo Info "
+"deste manual contém mais algumas informações sobre o uso do Emacs nesses "
+"sistemas.  Esses sistemas usam sintaxe de nome de arquivo diferente; além "
+"disso, o MS-DOS não suporta todos os recursos do GNU Emacs.  "
+"@xref{Microsoft Windows}, para obter informações sobre como usar o Emacs "
+"no Windows.  @xref{Mac OS / GNUstep}, para informações sobre como usar o "
+"Emacs no Macintosh (e GNUstep)."
 
 #. type: unnumbered
 #: texinfo/upstream/emacs.texi:1387
@@ -8045,19 +7977,18 @@ msgid ""
 "but is more suitable for documentation.  @xref{GNU Free Documentation "
 "License}.}.  @xref{Copying}."
 msgstr ""
-"GNU Emacs é @dfn{software livre}; isso significa que todos são "
-"livres para usá-lo e redistribuí-lo sob certas condições.  GNU "
-"Emacs não é de domínio público; está protegido por direitos de "
-"autor e existem restrições à sua distribuição, mas essas restrições "
-"destinam-se a permitir tudo o que um bom cidadão cooperante "
-"gostaria de fazer.  O que não é permitido é tentar impedir que "
-"outros compartilhem qualquer versão do GNU Emacs que possam obter "
-"de você.  As condições precisas são encontradas na Licença Pública "
-"Geral GNU que vem com o Emacs e também aparece neste "
-"manual@footnote{Este manual é coberto pela Licença de Documentação "
-"Livre GNU.  Esta licença é semelhante em espírito à Licença Pública "
-"Geral, mas é mais adequada para documentação.  @xref{Licença de "
-"documentação gratuita GNU}.}.  @xref{Copiando}."
+"GNU Emacs é @dfn{software livre}; isso significa que todos são livres para "
+"usá-lo e redistribuí-lo sob certas condições.  GNU Emacs não é de "
+"domínio público; está protegido por direitos de autor e existem "
+"restrições à sua distribuição, mas essas restrições destinam-se a "
+"permitir tudo o que um bom cidadão cooperante gostaria de fazer.  O que "
+"não é permitido é tentar impedir que outros compartilhem qualquer versão "
+"do GNU Emacs que possam obter de você.  As condições precisas são "
+"encontradas na Licença Pública Geral GNU que vem com o Emacs e também "
+"aparece neste manual@footnote{Este manual é coberto pela Licença de "
+"Documentação Livre GNU.  Esta licença é semelhante em espírito à "
+"Licença Pública Geral, mas é mais adequada para documentação.  "
+"@xref{Licença de documentação gratuita GNU}.}.  @xref{Copiando}."
 
 #. type: Plain text
 #: texinfo/upstream/emacs.texi:1409
@@ -8065,15 +7996,15 @@ msgid ""
 "One way to get a copy of GNU Emacs is from someone else who has it.  You "
 "need not ask for our permission to do so, or tell anyone else; just copy "
 "it.  If you have access to the Internet, you can get the latest distribution "
-"version of GNU Emacs by anonymous FTP; see @url{https://www.gnu.org/software/"
-"emacs} on our website for more information."
+"version of GNU Emacs by anonymous FTP; see "
+"@url{https://www.gnu.org/software/emacs} on our website for more information."
 msgstr ""
-"Uma maneira de obter uma cópia do GNU Emacs é de alguém que o "
-"possua.  Você não precisa pedir nossa permissão para fazê-lo, nem "
-"contar a ninguém; apenas copie.  Se você tiver acesso à Internet, "
-"poderá obter a versão de distribuição mais recente do GNU Emacs por "
-"FTP anônimo; consulte @url{https://www.gnu.org/software/emacs} em "
-"nosso site para obter mais informações."
+"Uma maneira de obter uma cópia do GNU Emacs é de alguém que o possua.  "
+"Você não precisa pedir nossa permissão para fazê-lo, nem contar a "
+"ninguém; apenas copie.  Se você tiver acesso à Internet, poderá obter a "
+"versão de distribuição mais recente do GNU Emacs por FTP anônimo; "
+"consulte @url{https://www.gnu.org/software/emacs} em nosso site para obter "
+"mais informações."
 
 #. type: Plain text
 #: texinfo/upstream/emacs.texi:1417
@@ -8087,14 +8018,13 @@ msgid ""
 "when you get it, not just free for the manufacturer."
 msgstr ""
 "Você também pode receber GNU Emacs ao comprar um computador.  Os "
-"fabricantes de computadores são livres para distribuir cópias nos "
-"mesmos termos que se aplicam a todos os demais.  Estes termos "
-"exigem que eles forneçam a você as fontes completas, incluindo "
-"quaisquer alterações que possam ter feito, e permitam que você "
-"redistribua os GNU Emacs recebidos deles sob os termos usuais da "
-"Licença Pública Geral.  Em outras palavras, o programa deve ser "
-"gratuito para você quando você o adquirir, e não apenas gratuito "
-"para o fabricante."
+"fabricantes de computadores são livres para distribuir cópias nos mesmos "
+"termos que se aplicam a todos os demais.  Estes termos exigem que eles "
+"forneçam a você as fontes completas, incluindo quaisquer alterações que "
+"possam ter feito, e permitam que você redistribua os GNU Emacs recebidos "
+"deles sob os termos usuais da Licença Pública Geral.  Em outras palavras, "
+"o programa deve ser gratuito para você quando você o adquirir, e não "
+"apenas gratuito para o fabricante."
 
 #. type: Plain text
 #: texinfo/upstream/emacs.texi:1425
@@ -8106,13 +8036,12 @@ msgid ""
 "@url{https://my.fsf.org/donate/}.  For other ways in which you can help, see "
 "@url{https://www.gnu.org/help/help.html}."
 msgstr ""
-"Se você achar o GNU Emacs útil, por favor @strong{envie uma doação} "
-"para a Free Software Foundation para apoiar nosso trabalho.  As "
-"doações para a Free Software Foundation são dedutíveis de impostos "
-"nos EUA@.  Se você usa GNU Emacs em seu local de trabalho, sugira "
-"que a empresa faça uma doação.  Para doar, consulte "
-"@url{https://my.fsf.org/donate/}.  Para outras formas de ajudar, "
-"consulte @url{https://www.gnu.org/help/help.html}."
+"Se você achar o GNU Emacs útil, por favor @strong{envie uma doação} para "
+"a Free Software Foundation para apoiar nosso trabalho.  As doações para a "
+"Free Software Foundation são dedutíveis de impostos nos EUA@.  Se você "
+"usa GNU Emacs em seu local de trabalho, sugira que a empresa faça uma "
+"doação.  Para doar, consulte @url{https://my.fsf.org/donate/}.  Para "
+"outras formas de ajudar, consulte @url{https://www.gnu.org/help/help.html}."
 
 #. type: anchor{#1}
 #: texinfo/upstream/emacs.texi:1434
@@ -8128,21 +8057,20 @@ msgid ""
 "the foundation's purpose: the development of new free software, and "
 "improvements to our existing programs including GNU Emacs."
 msgstr ""
-"Também vendemos versões impressas deste manual e @cite{An "
-"Introduction to Programming in Emacs Lisp}, de Robert J. Chassell.  "
-"Você pode visitar nossa loja online em @url{https://shop.fsf.org/}. "
-" A receita das vendas vai para apoiar o propósito da fundação: o "
-"desenvolvimento de novo software livre e melhorias em nossos "
-"programas existentes, incluindo o GNU Emacs."
+"Também vendemos versões impressas deste manual e @cite{An Introduction to "
+"Programming in Emacs Lisp}, de Robert J. Chassell.  Você pode visitar nossa "
+"loja online em @url{https://shop.fsf.org/}.  A receita das vendas vai para "
+"apoiar o propósito da fundação: o desenvolvimento de novo software livre "
+"e melhorias em nossos programas existentes, incluindo o GNU Emacs."
 
 #. type: Plain text
 #: texinfo/upstream/emacs.texi:1437
 msgid ""
-"If you need to contact the Free Software Foundation, see @url{https://"
-"www.fsf.org/about/contact/}, or write to"
+"If you need to contact the Free Software Foundation, see "
+"@url{https://www.fsf.org/about/contact/}, or write to"
 msgstr ""
-"Se você precisar entrar em contato com a Free Software Foundation, "
-"consulte @url{https://www.fsf.org/about/contact/} ou escreva para"
+"Se você precisar entrar em contato com a Free Software Foundation, consulte "
+"@url{https://www.fsf.org/about/contact/} ou escreva para"
 
 #. type: display
 #: texinfo/upstream/emacs.texi:1443
@@ -8153,8 +8081,10 @@ msgid ""
 "Boston, MA 02196\n"
 "USA\n"
 msgstr ""
-"Fundação de Software Livre\\n31 Milk Street, # 960789\\nBoston, MA "
-"02196\\nEUA\\n"
+"Fundação de Software Livre\\n"
+"31 Milk Street, # 960789\\n"
+"Boston, MA 02196\\n"
+"EUA\\n"
 
 #. type: unnumberedsec
 #: texinfo/upstream/emacs.texi:1446 texinfo/upstream/emacs.texi:1447
@@ -8192,11 +8122,11 @@ msgid ""
 "Steve Fisk, Thomas Fitzsimmons, Karl Fogel, Gary Foster, Eric S. Fraga, "
 "Romain Francoise, Noah Friedman, Andreas Fuchs, Shigeru Fukaya, Xue Fuqiao, "
 "Hallvard Furuseth, Keith Gabryelski, Peter S.  Galbraith, Kevin Gallagher, "
-"Fabián E. Gallina, Kevin Gallo, Juan León Lahoz García, Howard Gayle, Daniel "
-"German, Stephen Gildea, Julien Gilles, David Gillespie, Bob Glickstein, "
-"Nicolas Goaziou, Deepak Goel, David De La Harpe Golden, Boris Goldowsky, "
-"David Goodger, Chris Gray, Kevin Greiner, Michelangelo Grigni, Odd "
-"Gripenstam, Kai Großjohann, Michael Gschwind, Bastien Guerry, Henry "
+"Fabián E. Gallina, Kevin Gallo, Juan León Lahoz García, Howard Gayle, "
+"Daniel German, Stephen Gildea, Julien Gilles, David Gillespie, Bob "
+"Glickstein, Nicolas Goaziou, Deepak Goel, David De La Harpe Golden, Boris "
+"Goldowsky, David Goodger, Chris Gray, Kevin Greiner, Michelangelo Grigni, "
+"Odd Gripenstam, Kai Großjohann, Michael Gschwind, Bastien Guerry, Henry "
 "Guillaume, Dmitry Gutov, Doug Gwyn, Bruno Haible, Ken'ichi Handa, Lars "
 "Hansen, Chris Hanson, Jesper Harder, Alexandru Harsanyi, K. Shane Hartman, "
 "John Heidemann, Jon K. Hellan, Magnus Henoch, Markus Heritsch, Dirk "
@@ -8227,8 +8157,8 @@ msgid ""
 "Keith Moore, Jan Moringen, Morioka Tomohiko, Glenn Morris, Don Morrison, "
 "John Muhl, Diane Murray, Riccardo Murri, Sen Nagata, Erik Naggum, Gergely "
 "Nagy, Nobuyoshi Nakada, Thomas Neumann, Mike Newton, Thien-Thi Nguyen, "
-"Jurgen Nickelsen, Dan Nicolaescu, Hrvoje Nikšić, Jeff Norden, Andrew Norman, "
-"Theresa O'Connor, Kentaro Ohkouchi, Christian Ohler, Kenichi Okada, "
+"Jurgen Nickelsen, Dan Nicolaescu, Hrvoje Nikšić, Jeff Norden, Andrew "
+"Norman, Theresa O'Connor, Kentaro Ohkouchi, Christian Ohler, Kenichi Okada, "
 "Alexandre Oliva, Bob Olson, Michael Olson, Takaaki Ota, Mark Oteiza, Pieter "
 "E. J. Pareit, Ross Patterson, David Pearson, Juan Pechiar, Jeff Peck, Damon "
 "Anton Permezel, Tom Perrine, William M. Perry, Per Persson, Jens Petersen, "
@@ -8265,10 +8195,113 @@ msgid ""
 "Steven A. Wood, Dale R. Worley, Francis J. Wright, Felix S. T. Wu, Tom "
 "Wurgler, Yamamoto Mitsuharu, Po Lu, Katsumi Yamaoka, Masatake Yamato, "
 "Jonathan Yavner, Ryan Yeske, Ilya Zakharevich, Milan Zamazal, Victor Zandy, "
-"Eli Zaretskii, Jamie Zawinski, Andrew Zhilin, Shenghuo Zhu, Piotr Zieliński, "
-"Ian T. Zimmermann, Reto Zimmermann, Neal Ziring, Teodor Zlatanov, and Detlev "
-"Zundel."
+"Eli Zaretskii, Jamie Zawinski, Andrew Zhilin, Shenghuo Zhu, Piotr "
+"Zieliński, Ian T. Zimmermann, Reto Zimmermann, Neal Ziring, Teodor "
+"Zlatanov, and Detlev Zundel."
 msgstr ""
+"Contribuidores(as) para o GNU Emacs incluem Jari Aalto, Eric Abrahamsen, Per "
+"Abrahamsen, Tomas Abrahamsson, Jay K. Adams, Alon Albert, Michael Albinus, "
+"Nagy Andras, Benjamin Andresen, Ralf Angeli, Dmitry Antipov, Joe Arceneaux, "
+"Emil Åström, Miles Bader, David Bakhash, Juanma Barranquero, Eli Barzilay, "
+"Thomas Baumann, Steven L. Baur, Jay Belanger, Alexander L. Belikoff, Thomas "
+"Bellman, Scott Bender, Boaz Ben-Zvi, Sergey Berezin, Stephen Berman, Jonas "
+"Bernoulli, Karl Berry, Anna M. Bigatti, Ray Blaak, Martin Blais, Jim Blandy, "
+"Johan Bockgård, Jan Böcker, Joel Boehland, Lennart Borgman, Per Bothner, "
+"Terrence Brannon, Frank Bresz, Peter Breton, Emmanuel Briot, Kevin Broadey, "
+"Vincent Broman, Michael Brouwer, David M. Brown, Ken Brown, Stefan Bruda, "
+"Damien Cassou, Daniel Colascione, Georges Brun-Cottan, Joe Buehler, Scott "
+"Byer, Włodek Bzyl, Tino Calancha, Bill Carpenter, Per Cederqvist, Hans "
+"Chalupsky, Chris Chase, Bob Chassell, Andrew Choi, Chong Yidong, Sacha Chua, "
+"Stewart Clamen, James Clark, Mike Clarkson, Glynn Clements, Andrea Corallo, "
+"Andrew Cohen, Daniel Colascione, Christoph Conrad, Ludovic Courtès, Andrew "
+"Csillag, Toby Cubitt, Baoqiu Cui, Doug Cutting, Mathias Dahl, Yue Daian, "
+"Julien Danjou, Satyaki Das, Vivek Dasmohapatra, Dan Davison, Michael "
+"DeCorte, Gary Delp, Nachum Dershowitz, Dave Detlefs, Matthieu Devin, "
+"Christophe de Dinechin, Eri Ding, Jan Djärv, Lawrence R. Dodd, Carsten "
+"Dominik, Scott Draves, Benjamin Drieu, Viktor Dukhovni, Jacques Duthen, "
+"Dmitry Dzhus, John Eaton, Rolf Ebert, Carl Edman, David Edmondson, Paul "
+"Eggert, Stephen Eglen, Christian Egli, Torbjörn Einarsson, Helmut Eller, "
+"Tsugutomo Enami, David Engster, Hans Henrik Eriksen, Michael Ernst, Ata "
+"Etemadi, Frederick Farnbach, Oscar Figueiredo, Jared Finder, Fred Fish, "
+"Steve Fisk, Thomas Fitzsimmons, Karl Fogel, Gary Foster, Eric S. Fraga, "
+"Romain Francoise, Noah Friedman, Andreas Fuchs, Shigeru Fukaya, Xue Fuqiao, "
+"Hallvard Furuseth, Keith Gabryelski, Peter S.  Galbraith, Kevin Gallagher, "
+"Fabián E. Gallina, Kevin Gallo, Juan León Lahoz García, Howard Gayle, "
+"Daniel German, Stephen Gildea, Julien Gilles, David Gillespie, Bob "
+"Glickstein, Nicolas Goaziou, Deepak Goel, David De La Harpe Golden, Boris "
+"Goldowsky, David Goodger, Chris Gray, Kevin Greiner, Michelangelo Grigni, "
+"Odd Gripenstam, Kai Großjohann, Michael Gschwind, Bastien Guerry, Henry "
+"Guillaume, Dmitry Gutov, Doug Gwyn, Bruno Haible, Ken'ichi Handa, Lars "
+"Hansen, Chris Hanson, Jesper Harder, Alexandru Harsanyi, K. Shane Hartman, "
+"John Heidemann, Jon K. Hellan, Magnus Henoch, Markus Heritsch, Dirk "
+"Herrmann, Karl Heuer, Manabu Higashida, Konrad Hinsen, Torsten Hilbrich, "
+"Anders Holst, Jeffrey C. Honig, Jürgen Hötzel, Tassilo Horn, Kurt Hornik, "
+"Khaled Hosny, Tom Houlder, Joakim Hove, Denis Howe, Lars Ingebrigtsen, "
+"Andrew Innes, Seiichiro Inoue, Philip Jackson, Martyn Jago, Pavel Janik, "
+"Paul Jarc, Ulf Jasper, Thorsten Jolitz, Michael K. Johnson, Kyle Jones, "
+"Terry Jones, Simon Josefsson, Alexandre Julliard, Arne Jørgensen, Tomoji "
+"Kagatani, Brewster Kahle, Tokuya Kameshima, Lute Kamstra, Stefan Kangas, "
+"Ivan Kanis, David Kastrup, David Kaufman, Henry Kautz, Taichi Kawabata, Taro "
+"Kawagishi, Howard Kaye, Michael Kifer, Richard King, Wilhelm Kirschbaum, "
+"Peter Kleiweg, Karel Klíč, Shuhei Kobayashi, Pavel Kobyakov, Larry K. "
+"Kolodney, David M. Koppelman, Koseki Yoshinori, Robert Krawitz, Sebastian "
+"Kremer, Ryszard Kubiak, Tak Kunihiro, Igor Kuzmin, David Kågedal, Daniel "
+"LaLiberte, Karl Landstrom, Mario Lang, Aaron Larson, James R. Larus, Gemini "
+"Lasswell, Vinicius Jose Latorre, Werner Lemberg, Frederic Lepied, Peter "
+"Liljenberg, Christian Limpach, Lars Lindberg, Chris Lindblad, Anders "
+"Lindgren, Thomas Link, Juri Linkov, Francis Litterio, Sergey Litvinov, Leo "
+"Liu, Emilio C. Lopes, Martin Lorentzson, Dave Love, Eric Ludlam, Károly "
+"Lőrentey, Sascha Lüdecke, Greg McGary, Roland McGrath, Michael McNamara, "
+"Alan Mackenzie, Christopher J. Madsen, Neil M. Mager, Arni Magnusson, Artur "
+"Malabarba, Ken Manheimer, Bill Mann, Brian Marick, Simon Marshall, Bengt "
+"Martensson, Charlie Martin, Yukihiro Matsumoto, Tomohiro Matsuyama, David "
+"Maus, Thomas May, Will Mengarini, David Megginson, Jimmy Aguilar Mena, "
+"Stefan Merten, Ben A. Mesander, Wayne Mesard, Brad Miller, Lawrence "
+"Mitchell, Richard Mlynarik, Gerd Möllmann, Dani Moncayo, Stefan Monnier, "
+"Keith Moore, Jan Moringen, Morioka Tomohiko, Glenn Morris, Don Morrison, "
+"John Muhl, Diane Murray, Riccardo Murri, Sen Nagata, Erik Naggum, Gergely "
+"Nagy, Nobuyoshi Nakada, Thomas Neumann, Mike Newton, Thien-Thi Nguyen, "
+"Jurgen Nickelsen, Dan Nicolaescu, Hrvoje Nikšić, Jeff Norden, Andrew "
+"Norman, Theresa O'Connor, Kentaro Ohkouchi, Christian Ohler, Kenichi Okada, "
+"Alexandre Oliva, Bob Olson, Michael Olson, Takaaki Ota, Mark Oteiza, Pieter "
+"E. J. Pareit, Ross Patterson, David Pearson, Juan Pechiar, Jeff Peck, Damon "
+"Anton Permezel, Tom Perrine, William M. Perry, Per Persson, Jens Petersen, "
+"Nicolas Petton, Daniel Pfeiffer, Justus Piater, Richard L.  Pieri, Fred "
+"Pierresteguy, François Pinard, Daniel Pittman, Christian Plaunt, Alexander "
+"Pohoyda, David Ponce, Noam Postavsky, Francesco A. Potortì, Michael D. "
+"Prange, Mukesh Prasad, Steve Purcell, Vincenzo Pupillo, Ken Raeburn, Marko "
+"Rahamaa, Ashwin Ram, Eric S. Raymond, Paul Reilly, Edward M. Reingold, David "
+"Reitter, Alex Rezinsky, Rob Riepel, Lara Rios, Adrian Robert, Nick Roberts, "
+"Roland B. Roberts, John Robinson, Denis B. Roegel, Danny Roozendaal, "
+"Sebastian Rose, William Rosenblatt, Markus Rost, Guillermo J. Rozas, Martin "
+"Rudalics, Ivar Rummelhoff, Jason Rumney, Wolfgang Rupprecht, Benjamin Rutt, "
+"Kevin Ryde, Phil Sainty, James B. Salem, Masahiko Sato, Timo Savola, Jorgen "
+"Schäfer, Holger Schauer, William Schelter, Ralph Schleicher, Gregor Schmid, "
+"Michael Schmidt, Ronald S. Schnell, Philippe Schnoebelen, Jan Schormann, "
+"Alex Schroeder, Stefan Schoef, Rainer Schöpf, Raymond Scholz, Eric Schulte, "
+"Andreas Schwab, Randal Schwartz, Oliver Seidel, Daniel Semyonov, Manuel "
+"Serrano, Paul Sexton, Hovav Shacham, Stanislav Shalunov, Marc Shapiro, "
+"Richard Sharman, Olin Shivers, Tibor Šimko, Espen Skoglund, Rick Sladkey, "
+"Lynn Slater, Chris Smith, David Smith, JD Smith, Paul D. Smith, Wilson "
+"Snyder, William Sommerfeld, Simon South, Andre Spiegel, Michael Staats, "
+"Thomas Steffen, Ulf Stegemann, Reiner Steib, Sam Steingold, Ake Stenhoff, "
+"Philipp Stephani, Peter Stephenson, Ken Stevens, Andy Stewart, Jonathan "
+"Stigelman, Martin Stjernholm, Kim F.  Storm, Steve Strassmann, Christopher "
+"Suckling, Olaf Sylvester, Naoto Takahashi, Steven Tamm, Jan Tatarik, João "
+"Távora, Luc Teirlinck, Jean-Philippe Theberge, Jens T.@: Berger Thielemann, "
+"Spencer Thomas, Jim Thompson, Theodor Thornhill, Toru Tomabechi, David "
+"O'Toole, Markus Triska, Tom Tromey, Eli Tziperman, Daiki Ueno, Masanobu "
+"Umeda, Rajesh Vaidheeswarran, Neil W. Van Dyke, Didier Verna, Joakim Verona, "
+"Ulrik Vieth, Geoffrey Voelker, Johan Vromans, Inge Wallin, John Paul "
+"Wallington, Colin Walters, Barry Warsaw, Christoph Wedler, Ilja Weis, Zhang "
+"Weize, Morten Welinder, Joseph Brian Wells, Rodney Whitby, John Wiegley, "
+"Sascha Wilde, Ed Wilkinson, Mike Williams, Roland Winkler, Bill Wohler, "
+"Steven A. Wood, Dale R. Worley, Francis J. Wright, Felix S. T. Wu, Tom "
+"Wurgler, Yamamoto Mitsuharu, Po Lu, Katsumi Yamaoka, Masatake Yamato, "
+"Jonathan Yavner, Ryan Yeske, Ilya Zakharevich, Milan Zamazal, Victor Zandy, "
+"Eli Zaretskii, Jamie Zawinski, Andrew Zhilin, Shenghuo Zhu, Piotr "
+"Zieliński, Ian T. Zimmermann, Reto Zimmermann, Neal Ziring, Teodor Zlatanov "
+"e Detlev Zundel."
 
 #. type: unnumbered
 #: texinfo/upstream/emacs.texi:1557
@@ -8279,12 +8312,11 @@ msgstr "Introdução"
 #. type: Plain text
 #: texinfo/upstream/emacs.texi:1564
 msgid ""
-"You are reading about GNU Emacs, the GNU incarnation of the advanced, self-"
-"documenting, customizable, extensible editor Emacs.  (The @samp{G} in"
+"You are reading about GNU Emacs, the GNU incarnation of the advanced, "
+"self-documenting, customizable, extensible editor Emacs.  (The @samp{G} in"
 msgstr ""
 "Você está lendo sobre o GNU Emacs, a encarnação GNU do editor Emacs "
-"avançado, autodocumentado, personalizável e extensível.  (O "
-"@samp{G} em"
+"avançado, autodocumentado, personalizável e extensível.  (O @samp{G} em"
 
 #. type: acronym{#1}
 #: texinfo/upstream/emacs.texi:1566
@@ -8311,14 +8343,13 @@ msgid ""
 "characters, words, lines, sentences, paragraphs, and pages, as well as "
 "expressions and comments in various programming languages."
 msgstr ""
-"Chamamos o Emacs de @dfn{advanced} porque ele pode fazer muito mais "
-"do que simplesmente inserir e excluir texto.  Ele pode controlar "
-"subprocessos, recuar programas automaticamente, mostrar vários "
-"arquivos de uma vez, editar arquivos remotos como se fossem "
-"arquivos locais e muito mais.  Os comandos de edição do Emacs "
-"operam em termos de caracteres, palavras, linhas, sentenças, "
-"parágrafos e páginas, bem como expressões e comentários em várias "
-"linguagens de programação."
+"Chamamos o Emacs de @dfn{advanced} porque ele pode fazer muito mais do que "
+"simplesmente inserir e excluir texto.  Ele pode controlar subprocessos, "
+"recuar programas automaticamente, mostrar vários arquivos de uma vez, "
+"editar arquivos remotos como se fossem arquivos locais e muito mais.  Os "
+"comandos de edição do Emacs operam em termos de caracteres, palavras, "
+"linhas, sentenças, parágrafos e páginas, bem como expressões e "
+"comentários em várias linguagens de programação."
 
 #. type: Plain text
 #: texinfo/upstream/emacs.texi:1584
@@ -8328,11 +8359,11 @@ msgid ""
 "out what any command does, or to find all the commands that pertain to a "
 "given topic.  @xref{Help}."
 msgstr ""
-"@dfn{Autodocumentação} significa que a qualquer momento você pode "
-"usar comandos especiais, conhecidos como @dfn{comandos de ajuda}, "
-"para descobrir quais são suas opções, ou para descobrir o que "
-"qualquer comando faz, ou para encontrar todos os comandos que "
-"pertencem a um determinado tópico.  @xref{Ajuda}."
+"@dfn{Autodocumentação} significa que a qualquer momento você pode usar "
+"comandos especiais, conhecidos como @dfn{comandos de ajuda}, para descobrir "
+"quais são suas opções, ou para descobrir o que qualquer comando faz, ou "
+"para encontrar todos os comandos que pertencem a um determinado tópico.  "
+"@xref{Ajuda}."
 
 #. type: Plain text
 #: texinfo/upstream/emacs.texi:1593
@@ -8346,14 +8377,14 @@ msgid ""
 "keyboard that you find comfortable.  @xref{Customization}."
 msgstr ""
 "@dfn{Customizable} significa que você pode alterar facilmente o "
-"comportamento dos comandos do Emacs de maneiras simples.  Por "
-"exemplo, se você usar uma linguagem de programação na qual os "
-"comentários começam com @samp{<**} e terminam com @samp{**>}, você "
-"pode dizer aos comandos de manipulação de comentários do Emacs para "
-"usar essas strings (@pxref{Comments}).  Para dar outro exemplo, "
-"você pode religar os comandos básicos de movimento do cursor (para "
-"cima, para baixo, para a esquerda e para a direita) a qualquer "
-"tecla do teclado que achar confortável.  @xref{Personalização}."
+"comportamento dos comandos do Emacs de maneiras simples.  Por exemplo, se "
+"você usar uma linguagem de programação na qual os comentários começam "
+"com @samp{<**} e terminam com @samp{**>}, você pode dizer aos comandos de "
+"manipulação de comentários do Emacs para usar essas strings "
+"(@pxref{Comments}).  Para dar outro exemplo, você pode religar os comandos "
+"básicos de movimento do cursor (para cima, para baixo, para a esquerda e "
+"para a direita) a qualquer tecla do teclado que achar confortável.  "
+"@xref{Personalização}."
 
 #. type: Plain text
 #: texinfo/upstream/emacs.texi:1605
@@ -8364,23 +8395,22 @@ msgid ""
 "commands can even be redefined in the middle of an editing session, without "
 "having to restart Emacs.  Most of the editing commands in Emacs are written "
 "in Lisp; the few exceptions could have been written in Lisp but use C "
-"instead for efficiency.  Writing an extension is programming, but non-"
-"programmers can use it afterwards.  @xref{Top, Emacs Lisp Intro, Preface, "
-"eintr, An Introduction to Programming in Emacs Lisp}, if you want to learn "
-"Emacs Lisp programming."
+"instead for efficiency.  Writing an extension is programming, but "
+"non-programmers can use it afterwards.  @xref{Top, Emacs Lisp Intro, "
+"Preface, eintr, An Introduction to Programming in Emacs Lisp}, if you want "
+"to learn Emacs Lisp programming."
 msgstr ""
 "@dfn{Extensible} significa que você pode ir além da simples "
-"personalização e criar comandos totalmente novos.  Novos comandos "
-"são simplesmente programas escritos na linguagem Lisp, executados "
-"pelo próprio interpretador Lisp do Emacs.  Os comandos existentes "
-"podem até ser redefinidos no meio de uma sessão de edição, sem a "
-"necessidade de reiniciar o Emacs.  A maioria dos comandos de edição "
-"no Emacs são escritos em Lisp; as poucas exceções poderiam ter sido "
-"escritas em Lisp, mas usar C para maior eficiência.  Escrever uma "
-"extensão é programar, mas não-programadores podem usá-la "
-"posteriormente.  @xref{Top, Emacs Lisp Intro, Preface, eintr, An "
-"Introduction to Programming in Emacs Lisp}, se você quiser aprender "
-"programação Emacs Lisp."
+"personalização e criar comandos totalmente novos.  Novos comandos são "
+"simplesmente programas escritos na linguagem Lisp, executados pelo próprio "
+"interpretador Lisp do Emacs.  Os comandos existentes podem até ser "
+"redefinidos no meio de uma sessão de edição, sem a necessidade de "
+"reiniciar o Emacs.  A maioria dos comandos de edição no Emacs são "
+"escritos em Lisp; as poucas exceções poderiam ter sido escritas em Lisp, "
+"mas usar C para maior eficiência.  Escrever uma extensão é programar, mas "
+"não-programadores podem usá-la posteriormente.  @xref{Top, Emacs Lisp "
+"Intro, Preface, eintr, An Introduction to Programming in Emacs Lisp}, se "
+"você quiser aprender programação Emacs Lisp."
 
 #. type: include
 #: texinfo/upstream/emacs.texi:1606
