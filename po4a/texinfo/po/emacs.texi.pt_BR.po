@@ -1755,12 +1755,12 @@ msgstr "Favoritos"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:362
 msgid "Bookmarks are like registers, but persistent."
-msgstr "Os marcadores são como registros, mas persistentes."
+msgstr "Favoritos são como registradores, porém persistentes."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:364
 msgid "Controlling the Display"
-msgstr "Controlando a exibição"
+msgstr "Controlando a Exibição"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
@@ -1770,7 +1770,7 @@ msgstr "Rolagem"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
 msgid "Commands to move text up and down in a window."
-msgstr "Comandos para mover o texto para cima e para baixo em uma janela."
+msgstr "Comandos para mover texto para cima e para baixo em uma janela."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
@@ -1785,22 +1785,22 @@ msgstr "Um comando de rolagem que centraliza a linha atual."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
 msgid "Auto Scrolling"
-msgstr "Rolagem automática"
+msgstr "Rolagem Automática"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
 msgid "Redisplay scrolls text automatically when needed."
-msgstr "A reexibição rola o texto automaticamente quando necessário."
+msgstr "Reexibição rola o texto automaticamente quando necessário."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
 msgid "Horizontal Scrolling"
-msgstr "Rolagem horizontal"
+msgstr "Rolagem Horizontal"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
 msgid "Moving text left and right in a window."
-msgstr "Mover o texto para a esquerda e para a direita em uma janela."
+msgstr "Mover exto para a esquerda e para a direita em uma janela."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
@@ -1815,7 +1815,7 @@ msgstr "Restringir a exibição e edição a uma parte do buffer."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
 msgid "View Mode"
-msgstr "Modo de visualização"
+msgstr "Modo de Visualização"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
@@ -1840,7 +1840,7 @@ msgstr "Rostos"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
 msgid "How to change the display style using faces."
-msgstr "Como alterar o estilo de exibição usando faces."
+msgstr "Como mudar o estilo de exibição usando faces."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
@@ -1855,7 +1855,7 @@ msgstr "Especificando cores para faces."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
 msgid "Standard Faces"
-msgstr "Faces padrão"
+msgstr "Faces Padrão"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
@@ -1865,17 +1865,17 @@ msgstr "As principais faces predefinidas."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
 msgid "Text Scale"
-msgstr "Escala de texto"
+msgstr "Escala de Texto"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
 msgid "Increasing or decreasing text size in a buffer."
-msgstr "Aumentar ou diminuir o tamanho do texto em um buffer."
+msgstr "Aumentar ou diminuir tamanho de texto em um buffer."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390 texinfo/upstream/emacs.texi:394
 msgid "Font Lock"
-msgstr "Bloqueio de fonte"
+msgstr "Trava de Fonte"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
@@ -1885,12 +1885,12 @@ msgstr "Modo secundário para realce sintático usando faces."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
 msgid "Highlight Interactively"
-msgstr "Destacar interativamente"
+msgstr "Realçar Interativamente"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
 msgid "Tell Emacs what text to highlight."
-msgstr "Diga ao Emacs qual texto destacar."
+msgstr "Diga ao Emacs qual texto realçar."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
@@ -1900,12 +1900,12 @@ msgstr "Franjas"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
 msgid "Enabling or disabling window fringes."
-msgstr "Ativando ou desativando bordas de janela."
+msgstr "Habilitando ou deshabilitando franjas de janela."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
 msgid "Displaying Boundaries"
-msgstr "Exibindo limites"
+msgstr "Exibindo Limites"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
@@ -1915,7 +1915,7 @@ msgstr "Exibindo a parte superior e inferior do buffer."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
 msgid "Useless Whitespace"
-msgstr "Espaço em branco inútil"
+msgstr "Espaço em Branco Inútil"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
@@ -1930,12 +1930,12 @@ msgstr "Exibição Seletiva"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
 msgid "Hiding lines with lots of indentation."
-msgstr "Escondendo linhas com muitos recuos."
+msgstr "Ocultando linhas com muitos recuos."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
 msgid "Optional Mode Line"
-msgstr "Linha de modo opcional"
+msgstr "Linha de Modo Opcional"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
@@ -1945,17 +1945,17 @@ msgstr "Recursos opcionais de exibição de linha de modo."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
 msgid "Text Display"
-msgstr "Exibição de texto"
+msgstr "Exibição de Texto"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
 msgid "How text characters are normally displayed."
-msgstr "Como os caracteres de texto são normalmente exibidos."
+msgstr "Como caracteres de texto normalmente são exibidos."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
 msgid "Cursor Display"
-msgstr "Exibição do cursor"
+msgstr "Exibição de Cursor"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
@@ -1979,7 +1979,7 @@ msgstr ""
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
 msgid "Visual Line Mode"
-msgstr "Modo de linha visual"
+msgstr "Modo de Linha Visual"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
@@ -1989,92 +1989,92 @@ msgstr "Quebra de linha e edição baseada em linhas de tela."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
 msgid "Display Custom"
-msgstr "Exibir personalizado"
+msgstr "Exibir Personalizado"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:390
 msgid "Information on variables for customizing display."
-msgstr "Informações sobre variáveis para personalização da exibição."
+msgstr "Informações acerca de variáveis para personalização da exibição."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:394
 msgid "Traditional Font Lock"
-msgstr "Bloqueio de fonte tradicional"
+msgstr "Trava de Fonte Tradicional"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:394
 msgid "Font Lock based on regexps and syntax tables."
-msgstr "Font Lock baseado em regexps e tabelas de sintaxe."
+msgstr "Trava de Fonte baseada em expressões regulares e tabelas de sintaxe."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:394
 msgid "Parser-based Font Lock"
-msgstr "Bloqueio de fonte baseado em analisador"
+msgstr "Trava de Fonte Baseada em Analisador"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:394
 msgid "Font Lock based on external parser."
-msgstr "Bloqueio de fonte baseado em analisador externo."
+msgstr "Trava de Fonte baseada em analisador externo."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:396
 msgid "Searching and Replacement"
-msgstr "Pesquisa e substituição"
+msgstr "Pesquisa e Substituição"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:410 texinfo/upstream/emacs.texi:412
 msgid "Incremental Search"
-msgstr "Pesquisa incremental"
+msgstr "Pesquisa Incremental"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:410
 msgid "Search happens as you type the string."
-msgstr "A pesquisa acontece conforme você digita a string."
+msgstr "Pesquisa acontece conforme você digita a sequência de caracteres."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:410
 msgid "Nonincremental Search"
-msgstr "Pesquisa não incremental"
+msgstr "Pesquisa não Incremental"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:410
 msgid "Specify entire string and then search."
-msgstr "Especifique a string inteira e pesquise."
+msgstr "Especifique a sequência inteira de caracteres e então pesquise."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:410
 msgid "Word Search"
-msgstr "Pesquisa de palavras"
+msgstr "Pesquisa de Palavras"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:410
 msgid "Search for sequence of words."
-msgstr "Procure por sequência de palavras."
+msgstr "Procura por sequência de palavras."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:410
 msgid "Symbol Search"
-msgstr "Pesquisa de símbolos"
+msgstr "Pesquisa de Símbolos"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:410
 msgid "Search for a source code symbol."
-msgstr "Procure um símbolo de código-fonte."
+msgstr "Procura por um símbolo de código-fonte."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:410
 msgid "Regexp Search"
-msgstr "Pesquisa de expressões regulares"
+msgstr "Pesquisa de Expressões Regulares"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:410
 msgid "Search for match for a regexp."
-msgstr "Procure uma correspondência para um regexp."
+msgstr "Procura por correspondência para uma expressão regular."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:410
 msgid "Regexps"
-msgstr "Expressões regulares"
+msgstr "Expressões Regulares"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:410
@@ -2084,17 +2084,17 @@ msgstr "Sintaxe de expressões regulares."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:410
 msgid "Regexp Backslash"
-msgstr "Barra invertida Regexp"
+msgstr "Barra Invertida de Expressão Regular"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:410
 msgid "Regular expression constructs starting with `\\'."
-msgstr "Construções de expressões regulares começando com `\\\\'."
+msgstr "Constructos de expressões regulares começando com `\\'."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:410
 msgid "Regexp Example"
-msgstr "Exemplo de expressão regular"
+msgstr "Exemplo de Expressão Regular"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:410
@@ -2104,7 +2104,7 @@ msgstr "Uma expressão regular complexa explicada."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:410
 msgid "Lax Search"
-msgstr "Pesquisa relaxada"
+msgstr "Pesquisa Relaxada"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:410
@@ -2112,7 +2112,7 @@ msgid ""
 "Search ignores some distinctions between similar characters, like "
 "letter-case."
 msgstr ""
-"A pesquisa ignora algumas distinções entre caracteres semelhantes, como "
+"Pesquisa ignora algumas distinções entre caracteres semelhantes, como "
 "letras maiúsculas e minúsculas."
 
 #. type: menuentry
@@ -2128,27 +2128,27 @@ msgstr "Pesquise e substitua algumas ou todas as correspondências."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:410
 msgid "Other Repeating Search"
-msgstr "Outra pesquisa repetida"
+msgstr "Outra Pesquisa Repetida"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:410
 msgid "Operating on all matches for some regexp."
-msgstr "Operando em todas as partidas para algum regexp."
+msgstr "Operando sobre todas as correspondências para alguma expressão regular."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:410
 msgid "Search Customizations"
-msgstr "Personalizações de pesquisa"
+msgstr "Personalizações de Pesquisa"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:410
 msgid "Various search customizations."
-msgstr "Várias personalizações de pesquisa."
+msgstr "Várias Personalizações de Pesquisa."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:421
 msgid "Basic Isearch"
-msgstr "Pesquisa básica"
+msgstr "Pesquisa Incremental Básica"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:421
@@ -2158,18 +2158,17 @@ msgstr "Comandos básicos de pesquisa incremental."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:421
 msgid "Repeat Isearch"
-msgstr "
-Repeat Isearch"
+msgstr "Pesquisa Incremental Repetida"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:421
 msgid "Searching for the same string again."
-msgstr "Procurando pela mesma string novamente."
+msgstr "Procurando pela mesma sequência de caracteres novamente."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:421
 msgid "Isearch Yank"
-msgstr "Isearch Yank"
+msgstr "Yank de Pesquisa Incremental"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:421
@@ -2177,24 +2176,22 @@ msgid ""
 "Commands that grab text into the search string or else edit the search "
 "string."
 msgstr ""
-"Comandos que capturam texto na sequência de pesquisa ou editam a sequência "
-"de pesquisa."
+"Comandos que capturam texto na sequência de caracteres de pesquisa ou, do contrário, editam a sequência de caracteres de pesquisa."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:421
 msgid "Error in Isearch"
-msgstr "Erro no Isearch"
+msgstr "Erro na Pesquisa Incremental"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:421
 msgid "When your string is not found."
-msgstr "Quando sua string não for encontrada."
+msgstr "Quando tua sequência de caracteres não for encontrada."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:421
 msgid "Special Isearch"
-msgstr "
-Special Isearch"
+msgstr "Pesquisa Incremental Especial"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:421
@@ -2204,7 +2201,7 @@ msgstr "Entrada especial em pesquisa incremental."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:421
 msgid "Not Exiting Isearch"
-msgstr "Não sai do Isearch"
+msgstr "Pesquisa Incremental Não Sainte"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:421
@@ -2214,7 +2211,7 @@ msgstr "Argumento de prefixo e comandos de rolagem."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:421
 msgid "Isearch Minibuffer"
-msgstr "Minibuffer Isearch"
+msgstr "Minibuffer de Pesquisa Incremental"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:421
@@ -2234,27 +2231,27 @@ msgstr "Substituição Incondicional"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:429
 msgid "Replacing all matches for a string."
-msgstr "Substituindo todas as correspondências por uma string."
+msgstr "Substituindo todas as correspondências por uma sequência de caracteres."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:429
 msgid "Regexp Replace"
-msgstr "Substituição de expressão regular"
+msgstr "Substituição de Expressão Regular"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:429
 msgid "Replacing all matches for a regexp."
-msgstr "Substituindo todas as correspondências por um regexp."
+msgstr "Substituindo todas as correspondências por uma expressão regular."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:429
 msgid "Replacement and Lax Matches"
-msgstr "Substituição e correspondências frouxas"
+msgstr "Substituição e Correspondências Relaxadas"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:429
 msgid "Lax searching for text to replace."
-msgstr "Lax procurando texto para substituir."
+msgstr "Pesquisa relaxada por texto para substituir."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:429
@@ -2269,7 +2266,7 @@ msgstr "Como usar a consulta."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:431
 msgid "Commands for Fixing Typos"
-msgstr "Comandos para corrigir erros de digitação"
+msgstr "Comandos para Corrigir Erros de Digitação"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:436
@@ -2279,7 +2276,7 @@ msgstr "Desfazer"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:436
 msgid "The Undo commands."
-msgstr "Os comandos Desfazer."
+msgstr "Os comandos de Desfazer."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:436
@@ -2294,12 +2291,12 @@ msgstr "Trocando dois caracteres, palavras, linhas, listas..."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:436
 msgid "Fixing Case"
-msgstr "Caso de fixação"
+msgstr "Corrigindo Maiúsculização"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:436
 msgid "Correcting case of last word entered."
-msgstr "Corrigindo maiúsculas e minúsculas da última palavra inserida."
+msgstr "Corrigindo maiúsculização da última palavra inserida."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:436
@@ -2309,12 +2306,12 @@ msgstr "Ortografia"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:436
 msgid "Apply spelling checker to a word, or a whole file."
-msgstr "Aplique o corretor ortográfico a uma palavra ou a um arquivo inteiro."
+msgstr "Aplicar corretor ortográfico a uma palavra ou a um arquivo inteiro."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:449
 msgid "Basic Keyboard Macro"
-msgstr "Macro Básico do Teclado"
+msgstr "Macro Básico de Teclado"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:449
@@ -2324,17 +2321,17 @@ msgstr "Definir e executar macros de teclado."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:449
 msgid "Keyboard Macro Ring"
-msgstr "Anel Macro do Teclado"
+msgstr "Anel de Macro de Teclado"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:449
 msgid "Where previous keyboard macros are saved."
-msgstr "Onde as macros de teclado anteriores são salvas."
+msgstr "Onde macros de teclado anteriores são salvas."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:449
 msgid "Keyboard Macro Counter"
-msgstr "Contador de macros do teclado"
+msgstr "Contador de Macros de Teclado"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:449
@@ -2344,28 +2341,27 @@ msgstr "Inserindo números incrementais em macros."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:449
 msgid "Keyboard Macro Query"
-msgstr "Consulta de macro de teclado"
+msgstr "Consulta de Macro de Teclado"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:449
 msgid "Making keyboard macros do different things each time."
-msgstr ""
-"Fazer com que as macros do teclado façam coisas diferentes a cada vez."
+msgstr "Induzindo macros de teclado a fazerem coisas diferentes a cada vez."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:449
 msgid "Save Keyboard Macro"
-msgstr "Salvar macro do teclado"
+msgstr "Salvar Macro de Teclado"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:449
 msgid "Giving keyboard macros names; saving them in files."
-msgstr "Dar nomes às macros do teclado; salvando-os em arquivos."
+msgstr "Dando nomes às macros de teclado; salvando-as em arquivos."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:449
 msgid "Edit Keyboard Macro"
-msgstr "Editar macro do teclado"
+msgstr "Editar Macro de Teclado"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:449
@@ -2375,7 +2371,7 @@ msgstr "Editando macros de teclado."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:449
 msgid "Keyboard Macro Step-Edit"
-msgstr "Etapa de edição da macro do teclado"
+msgstr "Etapa de Edição de Macro de Teclado"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:449
@@ -2385,12 +2381,12 @@ msgstr "Executar e editar interativamente uma macro de teclado."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:451
 msgid "File Handling"
-msgstr "Tratamento de arquivos"
+msgstr "Manuseio de Arquivos"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "File Names"
-msgstr "Nomes de arquivos"
+msgstr "Nomes de Arquivos"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
@@ -2415,7 +2411,7 @@ msgstr "Salvando"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "Saving makes your changes permanent."
-msgstr "Salvar torna suas alterações permanentes."
+msgstr "Salvar torna permanentes tuas mudanças."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
@@ -2425,37 +2421,37 @@ msgstr "Revertendo"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "Reverting cancels all the changes not saved."
-msgstr "A reversão cancela todas as alterações não salvas."
+msgstr "Reversão cancela todas as mudanças não salvas."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "Auto Revert"
-msgstr "Reverter automaticamente"
+msgstr "Reversão Automática"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "Keeping buffers automatically up-to-date."
-msgstr "Manter os buffers automaticamente atualizados."
+msgstr "Mantendo buffers automaticamente atualizados."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "Auto Save"
-msgstr "Salvamento automático"
+msgstr "Salvamento Automático"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "Auto Save periodically protects against loss of data."
-msgstr "O salvamento automático protege periodicamente contra perda de dados."
+msgstr "Salvamento Automático protege periodicamente contra perda de dados."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "File Aliases"
-msgstr "Aliases de arquivo"
+msgstr "Apelidos de Arquivo"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "Handling multiple names for one file."
-msgstr "Manipulando vários nomes para um arquivo."
+msgstr "Manuseando vários nomes para um arquivo."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
@@ -2465,17 +2461,17 @@ msgstr "Diretórios"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "Creating, deleting, and listing file directories."
-msgstr "Criando, excluindo e listando diretórios de arquivos."
+msgstr "Criando, deletando e listando diretórios de arquivos."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "Comparing Files"
-msgstr "Comparando arquivos"
+msgstr "Comparando Arquivos"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "Finding where two files differ."
-msgstr "Descobrir onde dois arquivos diferem."
+msgstr "Achando onde dois arquivos diferem."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
@@ -2495,42 +2491,42 @@ msgstr "Copiando e Nomeando"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "Copying, naming and renaming files."
-msgstr "Copiar, nomear e renomear arquivos."
+msgstr "Copiando, nomeando e renomeando arquivos."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "Misc File Ops"
-msgstr "Operações de arquivos diversos"
+msgstr "Operações Diversas de Arquivos"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "Other things you can do on files."
-msgstr "Outras coisas que você pode fazer nos arquivos."
+msgstr "Outras coisas que você consegue fazer sobre arquivos."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "Compressed Files"
-msgstr "Arquivos compactados"
+msgstr "Arquivos Comprimidos"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "Accessing compressed files."
-msgstr "Acessando arquivos compactados."
+msgstr "Acessando arquivos comprimidos."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "File Archives"
-msgstr "Arquivos de arquivos"
+msgstr "Arquivamentos de Arquivos"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "Operating on tar, zip, jar etc.@: archive files."
-msgstr "Operando em tar, zip, jar etc.@: arquivos compactados."
+msgstr "Operando sobre tar, zip, jar entre outros: arquivos de arquivamento."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "Remote Files"
-msgstr "Arquivos remotos"
+msgstr "Arquivos Remotos"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
@@ -2540,37 +2536,37 @@ msgstr "Acessando arquivos em outras máquinas."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "Quoted File Names"
-msgstr "Nomes de arquivos citados"
+msgstr "Nomes Aspeados de Arquivos"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "Quoting special characters in file names."
-msgstr "Citando caracteres especiais em nomes de arquivos."
+msgstr "Aspeando caracteres especiais em nomes de arquivos."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "File Name Cache"
-msgstr "Cache de nome de arquivo"
+msgstr "Cache de Nome de Arquivo"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "Completion against a list of files you often use."
-msgstr "Conclusão em uma lista de arquivos que você usa com frequência."
+msgstr "Completação contra uma lista de arquivos que você usa frequentemente."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "File Conveniences"
-msgstr "Conveniências de arquivo"
+msgstr "Conveniências de Arquivo"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "Convenience features for finding files."
-msgstr "Recursos de conveniência para localizar arquivos."
+msgstr "Recursos de conveniência para achar arquivos."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "Image Mode"
-msgstr "Modo de imagem"
+msgstr "Modo de Imagem"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
@@ -2585,17 +2581,17 @@ msgstr "Conjuntos de arquivos"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:472
 msgid "Handling sets of files."
-msgstr "Manipulação de conjuntos de arquivos."
+msgstr "Manuseando conjuntos de arquivos."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:474
 msgid "Saving Files"
-msgstr "Salvando arquivos"
+msgstr "Salvando Arquivos"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:482
 msgid "Save Commands"
-msgstr "Salvar comandos"
+msgstr "Comandos de Salvar"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:482
@@ -2605,12 +2601,12 @@ msgstr "Comandos para salvar arquivos."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:482
 msgid "Backup"
-msgstr "Backup"
+msgstr "Cópia de Segurança"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:482
 msgid "How Emacs saves the old version of your file."
-msgstr "Como o Emacs salva a versão antiga do seu arquivo."
+msgstr "Como o Emacs salva a versão antiga do teu arquivo."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:482
@@ -2632,13 +2628,12 @@ msgstr "Intertravamento"
 msgid ""
 "How Emacs protects against simultaneous editing of one file by two users."
 msgstr ""
-"Como o Emacs protege contra a edição simultânea de um arquivo por dois "
-"usuários."
+"Como o Emacs protege contra edição simultânea de um arquivo por dois(uas) usuários(as)."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:482
 msgid "File Shadowing"
-msgstr "Sombreamento de arquivo"
+msgstr "Sombreamento de Arquivo"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:482
@@ -2648,77 +2643,77 @@ msgstr "Copiando arquivos para sombras automaticamente."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:482
 msgid "Time Stamps"
-msgstr "Carimbos de data e hora"
+msgstr "Carimbos de Tempo"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:482
 msgid "Emacs can update time stamps on saved files."
-msgstr "O Emacs pode atualizar carimbos de data/hora em arquivos salvos."
+msgstr "O Emacs consegue atualizar carimbos de tempo sobre arquivos salvos."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:484
 msgid "Backup Files"
-msgstr "Arquivos de backup"
+msgstr "Arquivos de Cópia de Segurança"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:488
 msgid "Backup Names"
-msgstr "Nomes de backup"
+msgstr "Nomes de Cópia de Segurança"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:488
 msgid "How backup files are named."
-msgstr "Como os arquivos de backup são nomeados."
+msgstr "Como arquivos de cópia de segurança são nominados."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:488
 msgid "Backup Deletion"
-msgstr "Exclusão de backup"
+msgstr "Deleção de Cópia de Segurança"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:488
 msgid "Emacs deletes excess numbered backups."
-msgstr "O Emacs exclui backups numerados em excesso."
+msgstr "O Emacs deleta cópias de segurança excessivamente numeradas."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:488
 msgid "Backup Copying"
-msgstr "Cópia de segurança"
+msgstr "Cópia da Cópia de Segurança"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:488
 msgid "Backups can be made by copying or renaming."
-msgstr "Os backups podem ser feitos copiando ou renomeando."
+msgstr "Cópias de segurança podem ser feitas copiando-se ou renomeando-se."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:490
 msgid "Updating Time Stamps Automatically"
-msgstr "Atualizando carimbos de data/hora automaticamente"
+msgstr "Atualizando Carimbos de Tempo Automaticamente"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:493
 msgid "Time Stamp Customization"
-msgstr "Personalização do carimbo de data/hora"
+msgstr "Personalização de Carimbo de Tempo"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:493
 msgid "How to customize with time-stamp-pattern."
-msgstr "Como personalizar com padrão de carimbo de data/hora."
+msgstr "Como personalizar com molde de carimbo de tempo."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:493
 msgid "Time Stamps for One File"
-msgstr "Carimbos de data e hora para um arquivo"
+msgstr "Carimbos de Tempo para Um Arquivo"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:493
 msgid "Ensure automatic time-stamp of a specific file."
-msgstr "Garanta o carimbo de data/hora automático de um arquivo específico."
+msgstr "Garantir carimbo automático de tempo de um arquivo específico."
 
 #. type: ifnottex
 #: texinfo/upstream/emacs.texi:496
 msgid "Auto Reverting Non-File Buffers"
-msgstr "Reversão automática de buffers que não são de arquivo"
+msgstr "Reversão Automática de Buffers de Não-Arquivo"
 
 #. type: ifnottex
 #: texinfo/upstream/emacs.texi:499
@@ -2726,37 +2721,34 @@ msgid ""
 "* Auto Reverting the Buffer Menu:: Auto Revert of the Buffer Menu.  * Auto "
 "Reverting Dired:: Auto Revert of Dired buffers."
 msgstr ""
-"* Reversão automática do menu Buffer:: Reversão automática do menu "
-"Buffer.  * Auto Reverting Dired:: Auto reversão de buffers Dired."
+"* Reversão Automática do Menu Buffer:: Reversão Automática do Menu Buffer.  * Reversão Automática Dirigida:: Reversão Automática de buffers Dirigidos."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:502
 msgid "Auto-Saving: Protection Against Disasters"
-msgstr "Salvamento automático: proteção contra desastres"
+msgstr "Salvamento Automático: Proteção Contra Desastres"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:507
 msgid "Auto Save Files"
-msgstr "Salvar arquivos automaticamente"
+msgstr "Salvar Automaticamente Arquivos"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:507
 msgid ""
 "The file where auto-saved changes are actually made until you save the file."
 msgstr ""
-"O arquivo onde as alterações salvas automaticamente são realmente feitas "
-"até você salvar o arquivo."
+"O arquivo onde mudanças salvas automaticamente são realmente feitas até você salvar o arquivo."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:507
 msgid "Auto Save Control"
-msgstr "Controle de salvamento automático"
+msgstr "Controle de Salvamento Automático"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:507
 msgid "Controlling when and how often to auto-save."
-msgstr "
-Controlling when and how often to auto-save."
+msgstr "Controlando quando e quão frequentemente auto salvar."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:507
@@ -2771,7 +2763,7 @@ msgstr "Recuperando texto de arquivos salvos automaticamente."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:509
 msgid "Using Multiple Buffers"
-msgstr "Usando vários buffers"
+msgstr "Usando Vários Buffers"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:519
@@ -2781,42 +2773,42 @@ msgstr "Selecione Buffer"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:519
 msgid "Creating a new buffer or reselecting an old one."
-msgstr "Criando um novo buffer ou selecionando novamente um antigo."
+msgstr "Criando um novo buffer ou reselecionando um antigo."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:519
 msgid "List Buffers"
-msgstr "Listar buffers"
+msgstr "Listar Buffers"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:519
 msgid "Getting a list of buffers that exist."
-msgstr "Obtendo uma lista de buffers existentes."
+msgstr "Obtendo uma lista de buffers que existem."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:519
 msgid "Misc Buffer"
-msgstr "Buffer diverso"
+msgstr "Buffer Diverso"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:519
 msgid "Renaming; changing read-only status; copying text."
-msgstr "Renomeando; alteração do status somente leitura; copiando texto."
+msgstr "Renomeando; mudando situação somente leitura; copiando texto."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:519
 msgid "Kill Buffer"
-msgstr "Matar buffer"
+msgstr "Matar Buffer"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:519
 msgid "Killing buffers you no longer need."
-msgstr "Matando buffers que você não precisa mais."
+msgstr "Matando buffers que você não mais precisa."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:519
 msgid "Several Buffers"
-msgstr "Vários buffers"
+msgstr "Vários Buffers"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:519
@@ -2824,14 +2816,12 @@ msgid ""
 "How to go through the list of all buffers and operate variously on several "
 "of them."
 msgstr ""
-"Como percorrer a lista de todos os buffers e operar de forma variada em "
-"vários deles."
+"Como percorrer a lista de todos os buffers e operar variadamente sobre vários deles."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:519
 msgid "Indirect Buffers"
-msgstr "
-Indirect Buffers"
+msgstr "Buffers Indiretos"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:519
@@ -2841,18 +2831,17 @@ msgstr "Um buffer indireto compartilha o texto de outro buffer."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:519
 msgid "Buffer Convenience"
-msgstr "Conveniência do buffer"
+msgstr "Conveniência de Buffer"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:519
 msgid "Convenience and customization features for buffer handling."
-msgstr ""
-"Recursos de conveniência e personalização para manipulação de buffer."
+msgstr "Recursos de conveniência e de personalização para manuseio de buffer."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:521
 msgid "Convenience Features and Customization of Buffer Handling"
-msgstr "Recursos de conveniência e personalização de manuseio de buffer"
+msgstr "Recursos de Conveniência e Personalização de Manuseio de Buffer"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:525
@@ -2862,12 +2851,12 @@ msgstr "Uniquificar"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:525
 msgid "Making buffer names unique with directory parts."
-msgstr "Tornando os nomes dos buffers exclusivos com partes do diretório."
+msgstr "Tornando nomes de buffers exclusivos com partes de diretório."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:525
 msgid "Icomplete"
-msgstr "Eu completei"
+msgstr "Complete Incremental"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:525
@@ -2877,17 +2866,17 @@ msgstr "Seleção rápida de minibuffer."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:525
 msgid "Buffer Menus"
-msgstr "Menus de buffer"
+msgstr "Menus de Buffer"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:525
 msgid "Configurable buffer menu."
-msgstr "Menu de buffer configurável."
+msgstr "Menu configurável de buffer."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:527
 msgid "Multiple Windows"
-msgstr "Várias janelas"
+msgstr "Várias Janelas"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:538
@@ -2902,47 +2891,47 @@ msgstr "Introdução às janelas do Emacs."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:538
 msgid "Split Window"
-msgstr "Janela dividida"
+msgstr "Janela Dividida"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:538
 msgid "New windows are made by splitting existing windows."
-msgstr "Novas janelas são feitas dividindo as janelas existentes."
+msgstr "Novas janelas são feitas dividindo-se janelas existentes."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:538
 msgid "Other Window"
-msgstr "Outra janela"
+msgstr "Outra Janela"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:538
 msgid "Moving to another window or doing something to it."
-msgstr "Mover para outra janela ou fazer algo nela."
+msgstr "Movendo para outra janela ou fazendo algo nela."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:538
 msgid "Pop Up Window"
-msgstr "Janela pop-up"
+msgstr "Janela Surginte"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:538
 msgid "Finding a file or buffer in another window."
-msgstr "Encontrar um arquivo ou buffer em outra janela."
+msgstr "Encontrando um arquivo ou buffer em outra janela."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:538
 msgid "Change Window"
-msgstr "Alterar janela"
+msgstr "Mudar Janela"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:538
 msgid "Deleting windows and changing their sizes."
-msgstr "Excluindo janelas e alterando seus tamanhos."
+msgstr "Deletando janelas e mudando os tamanhos delas."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:538
 msgid "Displaying Buffers"
-msgstr "Exibindo buffers"
+msgstr "Exibindo Buffers"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:538
@@ -2952,7 +2941,7 @@ msgstr "Como o Emacs escolhe uma janela para exibir um buffer."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:538
 msgid "Temporary Displays"
-msgstr "Exibições temporárias"
+msgstr "Exibições Temporárias"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:538
@@ -2962,7 +2951,7 @@ msgstr "Exibindo buffers não editáveis."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:538
 msgid "Window Convenience"
-msgstr "Conveniência da janela"
+msgstr "Conveniência de Janela"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:538
@@ -2972,67 +2961,67 @@ msgstr "Funções de conveniência para manuseio de janelas."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:538
 msgid "Tab Line"
-msgstr "Linha de guia"
+msgstr "Linha de Guia"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:538
 msgid "Window tab line."
-msgstr "Linha de guia da janela."
+msgstr "Linha de guia de janela."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:538
 msgid "Window Tool Bar"
-msgstr "Barra de ferramentas da janela"
+msgstr "Barra de Ferramentas de Janela"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:538
 msgid "A tool bar that is attached to windows."
-msgstr "Uma barra de ferramentas anexada às janelas."
+msgstr "Uma barra de ferramentas que esteja anexada às janelas."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:540
 msgid "Displaying a Buffer in a Window"
-msgstr "Exibindo um buffer em uma janela"
+msgstr "Exibindo um Buffer em uma Janela"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:542
 msgid "Window Choice"
-msgstr "Escolha da janela"
+msgstr "Escolha de Janela"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:542
 msgid "How @code{display-buffer} works."
-msgstr "Como funciona o @code{display-buffer}."
+msgstr "Como funciona @code{display-buffer}."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:544
 msgid "Frames and Graphical Displays"
-msgstr "Quadros e exibições gráficas"
+msgstr "Quadros e Exibições Gráficas"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Mouse Commands"
-msgstr "Comandos do mouse"
+msgstr "Comandos de Mouse"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Moving, cutting, and pasting, with the mouse."
-msgstr "Mover, recortar e colar com o mouse."
+msgstr "Movendo, recortando e colando com o mouse."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Word and Line Mouse"
-msgstr "Mouse de palavras e linhas"
+msgstr "Mouse de Palavras e de Linhas"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Mouse commands for selecting whole words or lines."
-msgstr "Comandos do mouse para selecionar palavras ou linhas inteiras."
+msgstr "Comandos de mouse para selecionar palavras ou linhas inteiras."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Mouse References"
-msgstr "Referências de mouse"
+msgstr "Referências de Mouse"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
@@ -3042,42 +3031,42 @@ msgstr "Usando o mouse para selecionar um item de uma lista."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Menu Mouse Clicks"
-msgstr "Cliques do mouse no menu"
+msgstr "Cliques de Mouse de Menu"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Mouse clicks that bring up menus."
-msgstr "Cliques do mouse que abrem menus."
+msgstr "Cliques de mouse que abrem menus."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Mode Line Mouse"
-msgstr "Rato de linha de modo"
+msgstr "Mouse de Linha de Modo"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Mouse clicks on the mode line."
-msgstr "O mouse clica na linha de modo."
+msgstr "Cliques de mouse sobre a linha de modo."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Creating Frames"
-msgstr "Criando Molduras"
+msgstr "Criando Quadros"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Creating additional Emacs frames with various contents."
-msgstr "Criação de frames Emacs adicionais com vários conteúdos."
+msgstr "Criando quadros adicionais do Emacs com vários conteúdos."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Frame Commands"
-msgstr "Comandos de quadro"
+msgstr "Comandos de Quadro"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Iconifying, deleting, and switching frames."
-msgstr "Iconificar, excluir e alternar quadros."
+msgstr "Iconificando, deletando e comutando quadros."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
@@ -3087,7 +3076,7 @@ msgstr "Fontes"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Changing the frame font."
-msgstr "Alterando a fonte do quadro."
+msgstr "Mudando a fonte do quadro."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
@@ -3102,37 +3091,37 @@ msgstr "Como fazer e usar um quadro de barra de velocidade."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Multiple Displays"
-msgstr "Vários monitores"
+msgstr "Várias Exibições"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "How one Emacs instance can talk to several displays."
-msgstr "Como uma instância do Emacs pode se comunicar com vários monitores."
+msgstr "Como uma instância do Emacs consegue falar com várias exibições."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Frame Parameters"
-msgstr "Parâmetros de quadro"
+msgstr "Parâmetros de Quadro"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Changing the colors and other modes of frames."
-msgstr "Alterando as cores e outros modos de molduras."
+msgstr "Mudando as cores e outros modos de quadros."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Scroll Bars"
-msgstr "Barras de rolagem"
+msgstr "Barras de Rolagem"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "How to enable and disable scroll bars; how to use them."
-msgstr "Como ativar e desativar barras de rolagem; como usá-los."
+msgstr "Como habilitar e desabilitar barras de rolagem; como usá-las."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Window Dividers"
-msgstr "Divisórias de janela"
+msgstr "Divisórias de Janela"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
@@ -3142,47 +3131,47 @@ msgstr "Separadores de janelas que podem ser arrastados com o mouse."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Drag and Drop"
-msgstr "Arrastar e soltar"
+msgstr "Arrastar e Soltar"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Using drag and drop to open files and insert text."
-msgstr "Usando arrastar e soltar para abrir arquivos e inserir texto."
+msgstr "Usando arrastar e soltar para abrir arquivos e para inserir texto."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Menu Bars"
-msgstr "Barras de menu"
+msgstr "Barras de Menu"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Enabling and disabling the menu bar."
-msgstr "Ativando e desativando a barra de menu."
+msgstr "Habilitando e desabilitando a barra de menu."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Tool Bars"
-msgstr "Barras de ferramentas"
+msgstr "Barras de Ferramentas"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Enabling and disabling the tool bar."
-msgstr "Ativando e desativando a barra de ferramentas."
+msgstr "Habilitando e desabilitando a barra de ferramentas."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Tab Bars"
-msgstr "Barras de guias"
+msgstr "Barras de Guias"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Enabling and disabling the tab bar."
-msgstr "Ativando e desativando a barra de guias."
+msgstr "Habilitando e desabilitando a barra de guias."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Dialog Boxes"
-msgstr "Caixas de diálogo"
+msgstr "Caixas de Diálogo"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
@@ -3202,17 +3191,17 @@ msgstr "Exibindo informações na posição atual do mouse."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Mouse Avoidance"
-msgstr "Evitar o mouse"
+msgstr "Evitamento de Mouse"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Preventing the mouse pointer from obscuring text."
-msgstr "Evitando que o ponteiro do mouse obscureça o texto."
+msgstr "Impedindo o ponteiro do mouse de obscurescer texto."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Text Terminals"
-msgstr "Terminais de texto"
+msgstr "Terminais de Texto"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
@@ -3222,7 +3211,7 @@ msgstr "Vários quadros em terminais que mostram apenas um."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
 msgid "Text-Only Mouse"
-msgstr "Mouse somente texto"
+msgstr "Mouse Somente Texto"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:567
@@ -3232,7 +3221,7 @@ msgstr "Usando o mouse em terminais de texto."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:569
 msgid "International Character Set Support"
-msgstr "Suporte para conjunto de caracteres internacionais"
+msgstr "Suporte para Conjunto de Caracteres Internacionais"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
@@ -3242,12 +3231,12 @@ msgstr "Caracteres Internacionais"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "Basic concepts of multibyte characters."
-msgstr "Conceitos básicos de caracteres multibyte."
+msgstr "Conceitos básicos de caracteres multibaite."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "Language Environments"
-msgstr "Ambientes de linguagem"
+msgstr "Ambientes de Idioma"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
@@ -3257,22 +3246,22 @@ msgstr "Configurando as coisas para o idioma que você usa."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "Input Methods"
-msgstr "Métodos de entrada"
+msgstr "Métodos de Entrada"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "Entering text characters not on your keyboard."
-msgstr "Inserindo caracteres de texto que não estão no teclado."
+msgstr "Inserindo caracteres de texto não no teu teclado."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "Select Input Method"
-msgstr "Selecione o método de entrada"
+msgstr "Selecionar Método de Entrada"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "Specifying your choice of input methods."
-msgstr "Especificando sua escolha de métodos de entrada."
+msgstr "Especificando tua escolha de métodos de entrada."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
@@ -3283,13 +3272,12 @@ msgstr "Sistemas de Codificação"
 #: texinfo/upstream/emacs.texi:593
 msgid "Character set conversion when you read and write files, and so on."
 msgstr ""
-"Conversão de conjunto de caracteres ao ler e gravar arquivos e assim por "
-"diante."
+"Conversão de conjunto de caracteres quando você ler e escrever arquivos e assim por diante."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "Recognize Coding"
-msgstr "Reconhecer codificação"
+msgstr "Reconhecer Codificação"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
@@ -3299,32 +3287,32 @@ msgstr "Como o Emacs descobre qual conversão usar."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "Specify Coding"
-msgstr "Especifique a codificação"
+msgstr "Especificar Codificação"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "Specifying a file's coding system explicitly."
-msgstr "Especificar explicitamente o sistema de codificação de um arquivo."
+msgstr "Especificando explicitamente o sistema de codificação de um arquivo."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "Output Coding"
-msgstr "Codificação de saída"
+msgstr "Codificação de Saída"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "Choosing coding systems for output."
-msgstr "Escolhendo sistemas de codificação para saída."
+msgstr "Escolhendo sistemas de codificação para saída gerada."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "Text Coding"
-msgstr "Codificação de texto"
+msgstr "Codificação de Texto"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "Choosing conversion to use for file text."
-msgstr "Escolhendo a conversão a ser usada para arquivo de texto."
+msgstr "Escolhendo a conversão a usar para arquivo de texto."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
@@ -3339,29 +3327,27 @@ msgstr "Sistemas de codificação para comunicação entre processos."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "File Name Coding"
-msgstr "Codificação de nome de arquivo"
+msgstr "Codificação de Nome de Arquivo"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "Coding systems for file @emph{names}."
-msgstr "Sistemas de codificação para arquivo @emph{nomes}."
+msgstr "Sistemas de codificação para @emph{nomes} de arquivo."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "Terminal Coding"
-msgstr "Codificação de terminais"
+msgstr "Codificação de Terminais"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "Specifying coding systems for converting terminal input and output."
-msgstr ""
-"Especificação de sistemas de codificação para conversão de entrada e "
-"saída de terminal."
+msgstr "Especificando sistemas de codificação para conversão de entrada e saída de terminal."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "Fontsets"
-msgstr "Conjuntos de fontes"
+msgstr "Conjuntos de Fontes"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
@@ -3369,12 +3355,12 @@ msgid ""
 "Fontsets are collections of fonts that cover the whole spectrum of "
 "characters."
 msgstr ""
-"Fontsets são coleções de fontes que cobrem todo o espectro de caracteres."
+"Conjuntos de fontes são coleções de fontes que cobrem o espectro inteiro de caracteres."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "Defining Fontsets"
-msgstr "Definindo conjuntos de fontes"
+msgstr "Definindo Conjuntos de Fontes"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
@@ -3394,30 +3380,29 @@ msgstr "Modificando um conjunto de fontes existente."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "Undisplayable Characters::When characters don't display."
-msgstr "Caracteres não exibíveis::Quando os caracteres não são exibidos."
+msgstr "Caracteres inexibíveis::Quando caracteres não exibir."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "Unibyte Mode"
-msgstr "Modo Unibyte"
+msgstr "Modo Unibaite"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid ""
 "You can pick one European character set to use without multibyte characters."
 msgstr ""
-"Você pode escolher um conjunto de caracteres europeus para usar sem "
-"caracteres multibyte."
+"Você consegue escolher um conjunto de caracteres europeus para usar sem caracteres multibaite."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "Charsets"
-msgstr "Conjuntos de caracteres"
+msgstr "Conjuntos de Caracteres"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "How Emacs groups its internal character codes."
-msgstr "Como o Emacs agrupa seus códigos de caracteres internos."
+msgstr "Como o Emacs agrupa os códigos internos de caracteres dele."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
@@ -3427,7 +3412,7 @@ msgstr "Edição Bidirecional"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:593
 msgid "Support for right-to-left scripts."
-msgstr "Suporte para scripts da direita para a esquerda."
+msgstr "Suporte para conjuntos de comandos sequenciados da direita para a esquerda."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:595
@@ -3437,12 +3422,12 @@ msgstr "Modos Maiores e Menores"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:600
 msgid "Major Modes"
-msgstr "Modos principais"
+msgstr "Modos Maiores"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:600
 msgid "Text mode vs.@: Lisp mode vs.@: C mode..."
-msgstr "Modo texto vs.@: modo Lisp vs.@: modo C..."
+msgstr "Modo texto versus modo Lisp versus modo C..."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:600
@@ -3454,8 +3439,7 @@ msgstr "Modos Menores"
 msgid ""
 "Each minor mode is a feature you can turn on independently of any others."
 msgstr ""
-"Cada modo secundário é um recurso que você pode ativar independentemente "
-"de quaisquer outros."
+"Cada modo menor é um recurso que você pode ativar independentemente de quaisquer outros."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:600
@@ -3465,47 +3449,47 @@ msgstr "Escolhendo Modos"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:600
 msgid "How modes are chosen when visiting files."
-msgstr "Como os modos são escolhidos ao visitar arquivos."
+msgstr "Como modos são escolhidos ao visitar arquivos."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:608
 msgid "Indentation Commands"
-msgstr "Comandos de recuo"
+msgstr "Comandos de Recuo"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:608
 msgid "More commands for performing indentation."
-msgstr "Mais comandos para realizar indentação."
+msgstr "Mais comandos para realizar recuo."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:608
 msgid "Tab Stops"
-msgstr "Paradas de tabulação"
+msgstr "Paradas de Tabulação"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:608
 msgid "Stop points for indentation in Text modes."
-msgstr "Pontos de parada para recuo nos modos Texto."
+msgstr "Pontos de parada para recuo nos modos de Texto."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:608
 msgid "Just Spaces"
-msgstr "Apenas espaços"
+msgstr "Apenas Espaços"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:608
 msgid "Using only space characters for indentation."
-msgstr "Usando apenas caracteres de espaço para recuo."
+msgstr "Usando somente caracteres de espaço para recuo."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:608
 msgid "Indent Convenience"
-msgstr "Conveniência de recuo"
+msgstr "Conveniência de Recuo"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:608
 msgid "Optional indentation features."
-msgstr "Recursos de recuo opcionais."
+msgstr "Recursos opcionais de recuo."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:608
@@ -3515,12 +3499,12 @@ msgstr "Alinhamento de Código"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:608
 msgid "Making common parts of lines start at the same column."
-msgstr "Fazer com que as partes comuns das linhas comecem na mesma coluna."
+msgstr "Induzindo partes comuns das linhas a começarem na mesma coluna."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:610
 msgid "Commands for Human Languages"
-msgstr "Comandos para linguagens humanas"
+msgstr "Comandos para Linguagens Humanas"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
@@ -3530,7 +3514,7 @@ msgstr "Palavras"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
 msgid "Moving over and killing words."
-msgstr "Movendo-se e matando palavras."
+msgstr "Movendo sobre e matando palavras."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
@@ -3540,7 +3524,7 @@ msgstr "Frases"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
 msgid "Moving over and killing sentences."
-msgstr "Movendo-se e matando sentenças."
+msgstr "Movendo sobre e matando frases."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
@@ -3550,7 +3534,7 @@ msgstr "Parágrafos"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
 msgid "Moving over paragraphs."
-msgstr "Passando pelos parágrafos."
+msgstr "Movendo sobre parágrafos."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
@@ -3560,7 +3544,7 @@ msgstr "Páginas"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
 msgid "Moving over pages."
-msgstr "Movendo-se pelas páginas."
+msgstr "Movendo sobre páginas."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
@@ -3585,12 +3569,12 @@ msgstr "Preenchendo ou justificando texto."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
 msgid "Case"
-msgstr "Caso"
+msgstr "Maiusculização"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
 msgid "Changing the case of text."
-msgstr "Alterando o caso do texto."
+msgstr "Mudando a maiusculização do texto."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
@@ -3600,12 +3584,12 @@ msgstr "Modo Texto"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
 msgid "The major modes for editing text files."
-msgstr "Os principais modos de edição de arquivos de texto."
+msgstr "Os modos maiores para edição de arquivos de texto."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627 texinfo/upstream/emacs.texi:637
 msgid "Outline Mode"
-msgstr "Modo de contorno"
+msgstr "Modo de Contorno"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
@@ -3615,7 +3599,7 @@ msgstr "Editando contornos."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627 texinfo/upstream/emacs.texi:645
 msgid "Org Mode"
-msgstr "Modo organizacional"
+msgstr "Modo Organizacional"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
@@ -3630,7 +3614,7 @@ msgstr "Modo TeX"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
 msgid "Editing TeX and LaTeX files."
-msgstr "Edição de arquivos TeX e LaTeX."
+msgstr "Editando arquivos TeX e LaTeX."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
@@ -3640,7 +3624,7 @@ msgstr "Modo HTML"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
 msgid "Editing HTML and SGML files."
-msgstr "Edição de arquivos HTML e SGML."
+msgstr "Editando arquivos HTML e SGML."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
@@ -3650,22 +3634,22 @@ msgstr "Modo Nroff"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
 msgid "Editing input to the nroff formatter."
-msgstr "Editando a entrada para o formatador nroff."
+msgstr "Editando entrada para o formatador nroff."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627 texinfo/upstream/emacs.texi:657
 msgid "Enriched Text"
-msgstr "Texto enriquecido"
+msgstr "Texto Enriquecido"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
 msgid "Editing text enriched with fonts, colors, etc."
-msgstr "Edição de texto enriquecido com fontes, cores, etc."
+msgstr "Editando texto enriquecido com fontes, cores, entre outros."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
 msgid "Text Based Tables"
-msgstr "Tabelas baseadas em texto"
+msgstr "Tabelas Baseadas em Texto"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
@@ -3675,12 +3659,12 @@ msgstr "Comandos para edição de tabelas baseadas em texto."
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
 msgid "Two-Column"
-msgstr "Duas colunas"
+msgstr "Duas Colunas"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:627
 msgid "Splitting text columns into separate windows."
-msgstr "Dividir colunas de texto em janelas separadas."
+msgstr "Dividindo colunas de texto em janelas separadas."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:629
@@ -3690,12 +3674,12 @@ msgstr "Preenchendo Texto"
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:635
 msgid "Auto Fill"
-msgstr "Preenchimento automático"
+msgstr "Preenchimento Automático"
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:635
 msgid "Auto Fill mode breaks long lines automatically."
-msgstr "O modo Preenchimento automático quebra linhas longas automaticamente."
+msgstr "O modo de Preenchimento Automático quebra automaticamente linhas longas."
 
 #. type: menuentry
 #: texinfo/upstream/emacs.texi:635
