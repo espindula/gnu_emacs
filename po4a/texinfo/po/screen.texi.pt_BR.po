@@ -23,25 +23,25 @@ msgstr ""
 #: texinfo/upstream/screen.texi:5
 #, no-wrap
 msgid "Screen"
-msgstr ""
+msgstr "Tela"
 
 #. type: chapter
 #: texinfo/upstream/screen.texi:6
 #, no-wrap
 msgid "The Organization of the Screen"
-msgstr ""
+msgstr "A Organização da Tela"
 
 #. type: cindex
 #: texinfo/upstream/screen.texi:7
 #, no-wrap
 msgid "screen"
-msgstr ""
+msgstr "screen"
 
 #. type: cindex
 #: texinfo/upstream/screen.texi:8
 #, no-wrap
 msgid "frame"
-msgstr ""
+msgstr "frame"
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:17
@@ -53,6 +53,13 @@ msgid ""
 "similarly on both kinds of frames.  It normally starts out with just one "
 "frame, but you can create additional frames if you wish (@pxref{Frames})."
 msgstr ""
+"Em uma exibição gráfica, como no GNU/Linux usando o Sistema X de Janelas, "
+"o Emacs ocupa uma janela gráfica. Em um terminal de texto, o Emacs ocupa "
+"toda a tela do terminal. Nós usaremos o termo @dfn{quadro} para significar "
+"uma janela gráfica ou tela de terminal ocupada pelo Emacs. O Emacs se "
+"comporta muito similarmente em ambos os tipos de quadros. Ele normalmente "
+"começa com apenas um quadro, mas você pode criar quadros adicionais se "
+"desejar (@pxref{Quadros})."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:25
@@ -65,6 +72,13 @@ msgid ""
 "messages are displayed and where you enter information when Emacs asks for "
 "it."
 msgstr ""
+"Cada quadro consiste de várias regiões. No topo do quadro está uma "
+"@dfn{barra de menu}, que permite que você acesse comandos por intermédio "
+"de uma série de menus. Em uma exibição gráfica, diretamente abaixo da "
+"barra de menu está uma @dfn{barra de ferramentas}, uma linha de ícones que "
+"realizam comandos de edição quando você clica neles. Na parte inferior do "
+"quadro está uma @dfn{área de eco}, onde mensagens informativas são "
+"exibidas e onde você insere informações quando o Emacs as solicita."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:32
@@ -75,6 +89,12 @@ msgid ""
 "use the word ``window'' with a different meaning; but, as stated above, we "
 "refer to those graphical windows as ``frames''."
 msgstr ""
+"A área principal do quadro, abaixo da barra de ferramentas (se existir uma) "
+"e acima da área de eco, é chamada @dfn{a janela}. Doravante neste manual, "
+"nós usaremos a palavra ``janela'' nesse sentido. Sistemas de exibição "
+"gráfica geralmente usam a palavra ``janela'' com um significado diferente; "
+"mas, como dito acima, nós nos referimos a essas janelas gráficas como "
+"``quadros''."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:40
@@ -87,6 +107,13 @@ msgid ""
 "whether there are unsaved changes, the editing modes that are in use, the "
 "current line number, and so forth."
 msgstr ""
+"Uma janela do Emacs é onde o @dfn{buffer}---o texto ou outros gráficos que "
+"você estiver editando ou visualizando---é exibido. Em uma exibição "
+"gráfica, a janela possui uma @dfn{barra de rolagem} em um lado, que pode "
+"ser usada para rolar pelo buffer. A última linha da janela é uma "
+"@dfn{linha de modo}. Isso exibe diversas informações acerca do que está "
+"acontecendo no buffer, tais como se existem mudanças não salvas, os modos "
+"de edição que estejam em uso, o número da linha atual e assim por diante."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:45
@@ -96,6 +123,10 @@ msgid ""
 "multiple windows, each of which can independently display a buffer "
 "(@pxref{Windows})."
 msgstr ""
+"Quando você inicia o Emacs, normalmente existe somente uma janela no "
+"quadro. No entanto, você consegue subdividir essa janela horizontalmente ou "
+"verticalmente para criar múltiplas janelas, cada uma das quais podendo "
+"exibir independentemente um buffer (@pxref{Janelas})."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:56
@@ -111,63 +142,73 @@ msgid ""
 "graphical display, selecting a particular frame selects a window in that "
 "frame."
 msgstr ""
+"A qualquer momento, uma janela é a @dfn{janela selecionada}. Em uma "
+"exibição gráfica, a janela selecionada mostra um cursor mais proeminente "
+"(geralmente sólido e piscando); outras janelas mostram um cursor menos "
+"proeminente (geralmente uma caixa vazia). Em um terminal de texto, existe "
+"somente um cursor, que é mostrado na janela selecionada. O buffer exibido "
+"na janela selecionada é chamado o @dfn{buffer atual} e é onde a edição "
+"acontece. A maioria dos comandos do Emacs se aplica implicitamente ao buffer "
+"atual; o texto exibido em janelas não selecionadas fica mais visível para "
+"referência. Se você usar múltiplos quadros em uma exibição gráfica, "
+"selecionar um quadro específico selecionará uma janela nesse quadro."
 
 #. type: section
 #: texinfo/upstream/screen.texi:62 texinfo/upstream/screen.texi:64
 #: texinfo/upstream/screen.texi:65
 #, no-wrap
 msgid "Point"
-msgstr ""
+msgstr "Ponto"
 
 #. type: menuentry
 #: texinfo/upstream/screen.texi:62
 msgid "The place in the text where editing commands operate."
-msgstr ""
+msgstr "O lugar no texto onde comandos de edição operam."
 
 #. type: node
 #: texinfo/upstream/screen.texi:62 texinfo/upstream/screen.texi:97
 #, no-wrap
 msgid "Echo Area"
-msgstr ""
+msgstr "Área de Eco"
 
 #. type: menuentry
 #: texinfo/upstream/screen.texi:62
 msgid "Short messages appear at the bottom of the screen."
-msgstr ""
+msgstr "Mensagens curtas aparecem na parte de baixo da tela."
 
 #. type: node
 #: texinfo/upstream/screen.texi:62 texinfo/upstream/screen.texi:160
 #, no-wrap
 msgid "Mode Line"
-msgstr ""
+msgstr "Linha de Modo"
 
 #. type: menuentry
 #: texinfo/upstream/screen.texi:62
 msgid "Interpreting the mode line."
-msgstr ""
+msgstr "Interpretando a linha de modo."
 
 #. type: node
 #: texinfo/upstream/screen.texi:62 texinfo/upstream/screen.texi:293
 #, no-wrap
 msgid "Menu Bar"
-msgstr ""
+msgstr "Barra de Menu"
 
 #. type: menuentry
 #: texinfo/upstream/screen.texi:62
 msgid "How to use the menu bar."
-msgstr ""
+msgstr "Como usar a barra de menu."
 
 #. type: cindex
 #: texinfo/upstream/screen.texi:66
 #, no-wrap
 msgid "point"
-msgstr ""
+msgstr "point"
 
 #. type: cindex
 #: texinfo/upstream/screen.texi:67
 #, no-wrap
 msgid "cursor"
-msgstr ""
+msgstr "cursor"
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:77
@@ -180,6 +221,13 @@ msgid ""
 "the buffer; for example, you can place point by clicking mouse button 1 "
 "(normally the left button) at the desired location."
 msgstr ""
+"O cursor na janela selecionada mostra o local onde a maioria dos comandos de "
+"edição têm efeito, que é chamado @dfn{ponto}@footnote{O termo ``ponto'' "
+"vem do caractere @samp{.}, que era o comando na TECO (a linguagem na qual o "
+"Emacs original foi escrito) para acessar a posição de edição.}. Muitos "
+"comandos do Emacs movem ponto para locais diferentes no buffer; por exemplo, "
+"você pode posicionar ponto clicando no botão 1 do mouse (normalmente o "
+"botão esquerdo) no local desejado."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:87
@@ -193,6 +241,14 @@ msgid ""
 "is @samp{fro!b}, with point between the @samp{!} and the @samp{b}.  Thus, "
 "the cursor remains over the @samp{b}, as before."
 msgstr ""
+"Por padrão, o cursor na janela selecionada é desenhado como um bloco "
+"sólido e aparenta estar @emph{sobre} um caractere, mas você deveria pensar "
+"no ponto como @emph{entre} dois caracteres; ele está situado @emph{antes} "
+"do caractere sob o cursor. Por exemplo, se o teu texto se parecer com "
+"@samp{frob} com o cursor sobre @samp{b}, então o ponto estará entre "
+"@samp{o} e o @samp{b}. Se você inserir o caractere @samp{!} nessa "
+"posição, o resultado será @samp{fro!b}, com o ponto entre o @samp{!} e o "
+"@samp{b}. Assim, o cursor permanece sobre o @samp{b}, como antes."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:93
@@ -203,6 +259,12 @@ msgid ""
 "a buffer is displayed in multiple windows, each of those windows has its own "
 "value of point."
 msgstr ""
+"Se você estiver editando vários arquivos no Emacs, cada um no próprio "
+"buffer dele, cada buffer terá o próprio valor dele do ponto. Um buffer que "
+"não esteja exibido atualmente lembra o valor dele do ponto se você "
+"exibi-lo novamente posteriormente. Além disso, se um buffer for exibido em "
+"múltiplas janelas, cada uma dessas janelas terá o próprio valor dela do "
+"ponto."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:96
@@ -210,6 +272,8 @@ msgid ""
 "@xref{Cursor Display}, for options that control how Emacs displays the "
 "cursor."
 msgstr ""
+"@xref{Exibição de Cursor}, para opções que controlam como o Emacs exibe "
+"o cursor."
 
 #. type: section
 #: texinfo/upstream/screen.texi:98
