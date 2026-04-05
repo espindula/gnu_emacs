@@ -1,0 +1,27 @@
+# Portuguese translations for GNU Emacs package
+# Traduções em português brasileiro para o pacote GNU Emacs
+# Copyright (C) 2026 Jamenson Ferreira Espindula de Almeida Melo
+# This file is distributed under the same license as the GNU Emacs package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNU Emacs 30.2\n"
+"Report-Msgid-Bugs-To: jafesp@gmail.com\n"
+"POT-Creation-Date: 2026-04-05 09:05-0300\n"
+"PO-Revision-Date: 2026-04-05 09:05-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: iftex
+#: texinfo/upstream/docstyle.texi:19
+msgid ""
+"@hyphenation{au-to-mat-i-cal-ly} @hyphenation{spec-i-fied} @hyphenation{work-"
+"a-round} @hyphenation{work-a-rounds} @hyphenation{un-marked} "
+"@hyphenation{dic-tion-ary}"
+msgstr ""
