@@ -279,7 +279,7 @@ msgstr ""
 #: texinfo/upstream/screen.texi:98
 #, no-wrap
 msgid "The Echo Area"
-msgstr ""
+msgstr "A Área de Eco"
 
 #. type: cindex
 #: texinfo/upstream/screen.texi:99
@@ -293,6 +293,8 @@ msgid ""
 "The line at the very bottom of the frame is the @dfn{echo area}.  It is used "
 "to display small amounts of text for various purposes."
 msgstr ""
+"A linha logo abaixo do quadro é a @dfn{área de eco}. Ela é usada para "
+"exibir pequenas quantidades de texto para vários propósitos."
 
 #. type: cindex
 #: texinfo/upstream/screen.texi:104
@@ -313,6 +315,16 @@ msgid ""
 "This behavior is designed to give confident users fast response, while "
 "giving hesitant users maximum feedback."
 msgstr ""
+"A área de eco é assim nominada porque uma das coisas para a qual é usada "
+"é @dfn{ecoagem}, o que significa exibir os caracteres de um comando multi "
+"caracteres conforme você digita. Comandos de caractere único não são "
+"ecoados. Comandos multi caracteres (@pxref{Teclas}) serão ecoados se você "
+"pausar por mais que um segundo no meio de um comando. O Emacs então ecoa "
+"todos os caracteres do comando até agora, para solicitar a você o resto. "
+"Depois que a ecoagem for iniciada, o restante do comando ecoará "
+"imediatamente conforme você o digita. Esse comportamento foi projetado para "
+"fornecer para usuários(as) confiantes resposta rápida, enquanto fornece a "
+"máxima retroalimentação para usuários(as) hesitantes."
 
 #. type: cindex
 #: texinfo/upstream/screen.texi:116
@@ -333,6 +345,9 @@ msgid ""
 "cannot do its job.  Error messages may be accompanied by beeping or by "
 "flashing the screen."
 msgstr ""
+"A área de eco também é usada para exibir uma @dfn{mensagem de erro} "
+"quando um comando não conseguir fazer o trabalho dele. Mensagens de erro "
+"possivelmente sejam acompanhadas de bipes ou de tela piscando."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:133
@@ -348,6 +363,16 @@ msgid ""
 "indicating how much progress has been made, as a percentage), and add "
 "@samp{done} when they are finished."
 msgstr ""
+"Alguns comandos exibem mensagens informativas na área de eco para informar "
+"a você o que o comando fez ou para fornecer algumas informações "
+"específicas. Essas mensagens @dfn{informativas}, diferentemente das "
+"mensagens de erro, não são acompanhadas de bipe ou flash. Por exemplo, "
+"@kbd{C-x =} (mantenha pressionada @key{Ctrl} e digite @kbd{x}, depois solte "
+"@key{Ctrl} e digite @kbd{=}) exibe uma mensagem descrevendo o caractere no "
+"ponto, a posição dele no buffer e a coluna atual dele na janela. Comandos "
+"que demoram muito frequentemente exibem mensagens que terminam em @samp{...} "
+"enquanto estão funcionando (às vezes também indicando quanto progresso "
+"foi feito, como uma porcentagem) e adicionam @samp{done} quando terminam."
 
 #. type: cindex
 #: texinfo/upstream/screen.texi:134
