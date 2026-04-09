@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: GNU Emacs 30.2\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
 "POT-Creation-Date: 2026-04-05 09:33-0300\n"
-"PO-Revision-Date: 2026-04-05 09:33-0300\n"
+"PO-Revision-Date: 2026-04-08 23:56-0300\n"
 "Last-Translator: Jamenson Ferreira Espindula de Almeida Melo "
 "<jafesp@gmail.com>\n"
 "Language-Team: none\n"
@@ -285,7 +285,7 @@ msgstr "A Área de Eco"
 #: texinfo/upstream/screen.texi:99
 #, no-wrap
 msgid "echo area"
-msgstr ""
+msgstr "área de echo"
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:103
@@ -300,7 +300,7 @@ msgstr ""
 #: texinfo/upstream/screen.texi:104
 #, no-wrap
 msgid "echoing"
-msgstr ""
+msgstr "ecoagem"
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:115
@@ -330,13 +330,13 @@ msgstr ""
 #: texinfo/upstream/screen.texi:116
 #, no-wrap
 msgid "error message"
-msgstr ""
+msgstr "mensagem de erro"
 
 #. type: cindex
 #: texinfo/upstream/screen.texi:117
 #, no-wrap
 msgid "echo area message"
-msgstr ""
+msgstr "mensagem da área de eco"
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:121
@@ -378,25 +378,25 @@ msgstr ""
 #: texinfo/upstream/screen.texi:134
 #, no-wrap
 msgid "@file{*Messages*} buffer"
-msgstr ""
+msgstr "buffer @file{*Messages*}"
 
 #. type: cindex
 #: texinfo/upstream/screen.texi:135
 #, no-wrap
 msgid "saved echo area messages"
-msgstr ""
+msgstr "mensagens salvas da área de eco"
 
 #. type: cindex
 #: texinfo/upstream/screen.texi:136
 #, no-wrap
 msgid "messages saved from echo area"
-msgstr ""
+msgstr "mensagens salvas a partir da área de eco"
 
 #. type: vindex
 #: texinfo/upstream/screen.texi:137
 #, no-wrap
 msgid "message-log-max"
-msgstr ""
+msgstr "message-log-max"
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:148
@@ -411,12 +411,24 @@ msgid ""
 "them.)  Beyond this limit, one line is deleted from the beginning whenever a "
 "new message line is added at the end."
 msgstr ""
+"Mensagens informativas da área de eco são salvas em um buffer especial "
+"nominado de @file{*Messages*}. (Nós ainda não explicamos os buffers; "
+"veja-se @ref{Buffers}, para mais informações acerca deles). Se perder uma "
+"mensagem que apareceu brevemente na tela, você consegue alternar para o "
+"buffer @file{*Messages*} para vê-la novamente. O buffer @file{*Messages*} "
+"é limitado a um certo número de linhas, especificado pela variável "
+"@code{message-log-max}. (Nós também ainda não explicamos as variáveis; "
+"veja-se @ref{Variáveis}, para mais informações acerca delas). Além desse "
+"limite, uma linha será deletada do início sempre que uma nova linha de "
+"mensagem for adicionada no final."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:151
 msgid ""
 "@xref{Display Custom}, for options that control how Emacs uses the echo area."
 msgstr ""
+"@xref{Personalizar Exibição}, para opções que controlam como o Emacs usa "
+"a área de eco."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:159
@@ -428,24 +440,31 @@ msgid ""
 "minibuffer, which is temporarily considered the selected window.  You can "
 "always get out of the minibuffer by typing @kbd{C-g}.  @xref{Minibuffer}."
 msgstr ""
+"A área de eco também é usada para exibir o @dfn{minibuffer}, uma janela "
+"especial onde você consegue inserir argumentos para comandos, como o nome "
+"de um arquivo para ser editado. Quando o minibuffer estiver em uso, o texto "
+"exibido na área de eco começará com uma @dfn{sequência de caracteres do "
+"prompt}, e o cursor ativo aparecerá dentro do minibuffer, que será "
+"temporariamente considerado a janela selecionada. Você sempre pode sair do "
+"minibuffer digitando @kbd{C-g}. @xref{Minibuffer}."
 
 #. type: section
 #: texinfo/upstream/screen.texi:161
 #, no-wrap
 msgid "The Mode Line"
-msgstr ""
+msgstr "A Linha de Modo"
 
 #. type: cindex
 #: texinfo/upstream/screen.texi:162
 #, no-wrap
 msgid "mode line"
-msgstr ""
+msgstr "linha de modo"
 
 #. type: cindex
 #: texinfo/upstream/screen.texi:163
 #, no-wrap
 msgid "top level"
-msgstr ""
+msgstr "nível superior"
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:172
@@ -458,11 +477,18 @@ msgid ""
 "with a different color from that of unselected windows, in order to make it "
 "stand out."
 msgstr ""
+"Na parte inferior de cada janela está uma @dfn{linha de modo}, que descreve "
+"o que está acontecendo no buffer atual. Quando existir somente uma janela, "
+"a linha de modo aparecerá logo acima da área de eco; ela será a "
+"penúltima linha no quadro. Em uma exibição gráfica, a linha de modo é "
+"desenhada com uma aparência de caixa 3D. O Emacs também costuma desenhar a "
+"linha de modo da janela selecionada com uma cor diferente daquela das "
+"janelas não selecionadas, para a finalidade de destacá-la."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:174
 msgid "The text displayed in the mode line has the following format:"
-msgstr ""
+msgstr "O texto exibido na linha de modo tem o seguinte formato:"
 
 #. type: example
 #: texinfo/upstream/screen.texi:177
@@ -471,6 +497,8 @@ msgid ""
 " @var{cs}:@var{ch}-@var{d}@var{fr}  @var{buf}      @var{pos} @var{line}   "
 "(@var{major} @var{minor})\n"
 msgstr ""
+" @var{cs}:@var{ch}-@var{d}@var{fr}  @var{buf}      @var{pos} @var{linha}   "
+"(@var{maior} @var{menor})\\n"
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:183
@@ -479,6 +507,9 @@ msgid ""
 "the right edge of the window.  These dashes are omitted on a graphical "
 "display."
 msgstr ""
+"Em um terminal de texto, esse texto é seguido por uma série de traços que "
+"se estendem até a borda direita da janela. Esses traços são omitidos em "
+"uma exibição gráfica."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:188
@@ -488,6 +519,10 @@ msgid ""
 "automatically handles these settings for you, but it is sometimes useful to "
 "have this information."
 msgstr ""
+"A sequência de caracteres @var{cs} e o caractere de dois pontos depois dela "
+"descrevem o conjunto de caracteres e a convenção de nova linha usada para "
+"o buffer atual. Normalmente, o Emacs trata automaticamente dessas "
+"configurações para você, mas às vezes é útil ter essas informações."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:196
@@ -500,6 +535,14 @@ msgid ""
 "Other characters represent various @dfn{coding systems}---for example, "
 "@samp{1} represents ISO Latin-1."
 msgstr ""
+"@var{cs} descreve o conjunto de caracteres do texto no buffer "
+"(@pxref{Sistemas de Codificação}). Se for um traço (@samp{-}), isso "
+"indica nenhum manuseio especial de conjunto de caracteres (com a possível "
+"exceção das convenções de fim de linha, descritas no próximo "
+"parágrafo). @samp{=} significa nenhuma conversão e geralmente é usado "
+"para arquivos contendo dados não textuais. Outros caracteres representam "
+"vários @dfn{sistemas de codificação}---por exemplo, @samp{1} representa "
+"ISO Latin-1."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:202
@@ -509,6 +552,12 @@ msgid ""
 "Furthermore, if you are using an input method, @var{cs} is preceded by a "
 "string that identifies the input method (@pxref{Input Methods})."
 msgstr ""
+"Em um terminal de texto, @var{cs} é precedido por dois caracteres "
+"adicionais que descrevem os sistemas de codificação para entrada de "
+"teclado e saída de terminal. Além disso, se você estiver usando um "
+"método de entrada, @var{cs} será precedido por uma sequência de "
+"caracteres que identificará o método de entrada (@pxref{Métodos de "
+"Entrada})."
 
 #. type: cindex
 #: texinfo/upstream/screen.texi:203
