@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: GNU Emacs 30.2\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
 "POT-Creation-Date: 2026-04-05 09:33-0300\n"
-"PO-Revision-Date: 2026-04-08 23:56-0300\n"
+"PO-Revision-Date: 2026-04-09 13:23-0300\n"
 "Last-Translator: Jamenson Ferreira Espindula de Almeida Melo "
 "<jafesp@gmail.com>\n"
 "Language-Team: none\n"
@@ -563,7 +563,7 @@ msgstr ""
 #: texinfo/upstream/screen.texi:203
 #, no-wrap
 msgid "end-of-line convention, mode-line indication"
-msgstr ""
+msgstr "convenção de fim-de-linha, indicação de linha-de-modo"
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:217
@@ -581,6 +581,19 @@ msgid ""
 "@samp{(Unix)} instead of the colon for files that use newline as the line "
 "separator."
 msgstr ""
+"O caractere depois de @var{cs} geralmente é dois pontos. Se uma sequência "
+"diferente de caracteres for exibida, isso indica uma convenção de fim de "
+"linha não trivial para codificar um arquivo. Normalmente, as linhas de "
+"texto são separadas por @dfn{caracteres de nova linha} em um arquivo, mas "
+"duas outras convenções são usadas às vezes. A convenção do MS-DOS usa "
+"um caractere de retorno de carro seguido por um caractere de avanço de "
+"linha; ao editar esses arquivos, os dois pontos mudam para ou uma barra "
+"invertida (@samp{\\}) ou @samp{(DOS)}, dependendo do sistema operacional. "
+"Outra convenção, empregada por sistemas Macintosh mais antigos, usa um "
+"caractere de retorno de carro em vez de uma nova linha; ao editar esses "
+"arquivos, os dois pontos mudam para ou uma barra (@samp{/}) ou @samp{(Mac)}. "
+"Em alguns sistemas, o Emacs exibe @samp{(Unix)} em vez de dois pontos para "
+"arquivos que usam nova linha como o separador de linha."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:222
@@ -589,6 +602,10 @@ msgid ""
 "the next character is @samp{@@}.  This indication is typical for frames of "
 "an Emacs process running as a daemon (@pxref{Emacs Server})."
 msgstr ""
+"Em quadros criados para @command{emacsclient} (@pxref{Invocando "
+"emacsclient}), o próximo caractere é @samp{@@}. Essa indicação é "
+"típica para quadros de um processo do Emacs executado como um processo de "
+"segundo plano (@pxref{Servidor Emacs})."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:229
@@ -600,6 +617,12 @@ msgid ""
 "a read-only buffer, it shows @samp{%*} if the buffer is modified, and "
 "@samp{%%} otherwise."
 msgstr ""
+"O próximo elemento na linha de modo é a sequência de caracteres indicada "
+"por @var{ch}. Isso mostra dois traços (@samp{--}) se o buffer exibido na "
+"janela tiver o mesmo conteúdo do arquivo correspondente no disco; ou seja, "
+"se o buffer estiver imodificado. Se o buffer for modificado, ele mostrará "
+"duas estrelas (@samp{**}). Para um buffer somente leitura, mostra @samp{%*} "
+"se o buffer for modificado e @samp{%%} caso contrário."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:233
@@ -608,6 +631,9 @@ msgid ""
 "@code{default-directory} (@pxref{File Names}) for the current buffer is on a "
 "remote machine, @samp{@@} is displayed instead."
 msgstr ""
+"O caractere depois de @var{ch} normalmente é um travessão (@samp{-}). No "
+"entanto, se @code{default-directory} (@pxref{Nomes de Arquivo}) para o "
+"buffer atual estiver em uma máquina remota, @samp{@@} será exibido."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:239
@@ -617,6 +643,10 @@ msgid ""
 "dedication.  If the window is not dedicated, @var{d} does not appear.  "
 "@xref{Dedicated Windows,, elisp, The Emacs Lisp Reference Manual}."
 msgstr ""
+"@var{d} aparece se a janela for dedicada ao buffer atual dele. Aparece como "
+"@samp{D} para dedicação forte e @samp{d} para outras formas de "
+"dedicação. Se a janela não for dedicada, @var{d} não aparece. "
+"@xref{Janelas Dedicadas,, elisp, O Manual de Referência da Emacs Lisp}."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:242
@@ -624,6 +654,8 @@ msgid ""
 "@var{fr} gives the selected frame name (@pxref{Frames}).  It appears only on "
 "text terminals.  The initial frame's name is @samp{F1}."
 msgstr ""
+"@var{fr} fornece o nome do quadro selecionado (@pxref{Quadros}). Ela aparece "
+"somente em terminais de texto. O nome do quadro inicial é @samp{F1}."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:246
@@ -631,6 +663,8 @@ msgid ""
 "@var{buf} is the name of the buffer displayed in the window.  Usually, this "
 "is the same as the name of a file you are editing.  @xref{Buffers}."
 msgstr ""
+"@var{buf} é o nome do buffer exibido na janela. Normalmente, esse é o "
+"mesmo que o nome de um arquivo que você estiver editando. @xref{Buffers}."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:255
@@ -644,6 +678,14 @@ msgid ""
 "mode, you can display the size of the buffer as well.  @xref{Optional Mode "
 "Line}."
 msgstr ""
+"@var{pos} informa se existe texto adicional acima da parte superior da "
+"janela ou abaixo da parte inferior. Se o teu buffer for pequeno e tudo "
+"estiver visível na janela, @var{pos} será @samp{All}. Caso contrário, "
+"será @samp{Top} se você estiver olhando para o início do buffer, "
+"@samp{Bot} se estiver olhando para o final do buffer, ou @samp{@var{nn}%}, "
+"onde @var{nn} é a porcentagem do buffer acima do topo da janela. Com o modo "
+"de Indicação de Tamanho, você também pode exibir o tamanho do buffer. "
+"@xref{Linha Opcional de Modo}."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:259
@@ -652,6 +694,9 @@ msgid ""
 "(You can display the current column number too, by turning on Column Number "
 "mode.  @xref{Optional Mode Line}.)"
 msgstr ""
+"@var{linha} é o caractere @samp{L} seguido pelo número da linha no ponto. "
+"(Você também pode exibir o número da coluna atual ativando o modo Número "
+"de Coluna. @xref{Linha Opcional de Modo})."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:266
@@ -662,6 +707,11 @@ msgid ""
 "additional information after the major mode name.  For example, Compilation "
 "buffers and Shell buffers display the status of the subprocess."
 msgstr ""
+"@var{maior} é o nome do @dfn{modo maior} usado no buffer. Um modo maior é "
+"um modo de edição principal para o buffer, como modo Texto, modo Lisp, "
+"modo C e assim por diante. @xref{Modos Maiores}. Alguns modos maiores exibem "
+"informações adicionais depois do nome do modo maior. Por exemplo, buffers "
+"de Compilação e buffers de Shell exibem a situação do subprocesso."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:270
@@ -670,6 +720,9 @@ msgid ""
 "optional editing modes that provide additional features on top of the major "
 "mode.  @xref{Minor Modes}."
 msgstr ""
+"@var{menor} é uma lista de alguns dos @dfn{modos menores} habilitados, os "
+"quais são modos opcionais de edição que fornecem recursos adicionais no "
+"topo do modo maior. @xref{Modos Menores}."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:277
@@ -680,6 +733,12 @@ msgid ""
 "its text (@pxref{Narrowing}).  @samp{Def} means that a keyboard macro is "
 "currently being defined (@pxref{Keyboard Macros})."
 msgstr ""
+"Alguns recursos são listados junto com os modos menores sempre que eles "
+"estiverem ativados, mesmo que não sejam realmente modos menores. "
+"@samp{Narrow} significa que o buffer sendo exibido tem edição restrita a "
+"somente uma parte do texto dele (@pxref{Estreitamento}). @samp{Def} "
+"significa que uma macro de teclado está sendo definida atualmente "
+"(@pxref{Macros de Teclado})."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:284
@@ -691,6 +750,12 @@ msgid ""
 "globally, such square brackets appear in the mode line of every window.  "
 "@xref{Recursive Edit}."
 msgstr ""
+"Além disso, se o Emacs estiver dentro de um nível de edição recursiva, "
+"colchetes (@samp{[@dots{}]}) aparecerão entre os parênteses que circundam "
+"os modos. Se o Emacs estiver em um nível de edição recursiva dentro de "
+"outro, colchetes duplos aparecerão e assim por diante. Como os níveis de "
+"edição recursiva afetam o Emacs globalmente, esses colchetes aparecem na "
+"linha de modo de cada janela. @xref{Edição Recursiva}."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:292
@@ -703,18 +768,25 @@ msgid ""
 "(@pxref{Tooltips}) with information about commands you can invoke by "
 "clicking on the mode line."
 msgstr ""
+"Você pode mudar a aparência da linha de modo, bem como o formato do "
+"conteúdo dela. @xref{Linha Opcional de Modo}. Além disso, a linha de modo "
+"é sensível ao mouse; clicar em diferentes partes da linha de modo executa "
+"vários comandos. @xref{Mouse de Linha de Modo}. Também, passar o ponteiro "
+"do mouse acima das partes sensíveis ao mouse da linha de modo mostra dicas "
+"de ferramentas (@pxref{Dicas de Ferramentas}) com informações acerca de "
+"comandos que você pode invocar clicando sobre a linha de modo."
 
 #. type: section
 #: texinfo/upstream/screen.texi:294
 #, no-wrap
 msgid "The Menu Bar"
-msgstr ""
+msgstr "A Barra de Menu"
 
 #. type: cindex
 #: texinfo/upstream/screen.texi:295
 #, no-wrap
 msgid "menu bar"
-msgstr ""
+msgstr "barra de manu"
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:300
@@ -723,6 +795,10 @@ msgid ""
 "to perform common operations.  There's no need to list them here, as you can "
 "more easily see them yourself."
 msgstr ""
+"Cada quadro do Emacs normalmente tem uma @dfn{barra de menu} na parte "
+"superior que você pode usar para realizar operações comuns. Não existe "
+"necessidade de listá-los aqui, pois você mesmo(a) poderá vê-los mais "
+"facilmente."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:306
@@ -733,6 +809,11 @@ msgid ""
 "a menu item means that the command will prompt you for further input before "
 "it actually does anything."
 msgstr ""
+"Em uma exibição que suporte um mouse, você consegue usar o mouse para "
+"escolher um comando na barra de menu. Uma seta na borda direita de um item "
+"de menu significa que ele leva para um menu subsidiário, ou @dfn{submenu}. "
+"Um @samp{...} no final de um item de menu significa que o comando "
+"solicitará a você mais entrada antes de realmente fazer qualquer coisa."
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:312
@@ -742,24 +823,29 @@ msgid ""
 "name and documentation for a menu item, type @kbd{C-h k}, and then select "
 "the menu bar with the mouse in the usual way (@pxref{Key Help})."
 msgstr ""
+"Alguns dos comandos na barra de menu também têm vinculações comuns de "
+"teclas; nesse caso, uma vinculação de tecla será mostrada depois do item "
+"em si. Para visualizar o nome completo do comando e a documentação para um "
+"item de menu, digite @kbd{C-h k} e então selecione a barra de menu com o "
+"mouse da maneira usual (@pxref{Ajuda de Tecla})."
 
 #. type: kindex
 #: texinfo/upstream/screen.texi:313
 #, no-wrap
 msgid "F10"
-msgstr ""
+msgstr "F10"
 
 #. type: findex
 #: texinfo/upstream/screen.texi:314
 #, no-wrap
 msgid "menu-bar-open"
-msgstr ""
+msgstr "menu-bar-open"
 
 #. type: cindex
 #: texinfo/upstream/screen.texi:315
 #, no-wrap
 msgid "menu bar access using keyboard"
-msgstr ""
+msgstr "acesso à barra de menu usando teclado"
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:325
@@ -774,24 +860,34 @@ msgid ""
 "and the key sequences to cancel menu navigation might be different from the "
 "above description.)"
 msgstr ""
+"Em vez de usar o mouse, você também pode invocar o primeiro item da barra "
+"de menu pressionando @key{F10} (para executar o comando "
+"@code{menu-bar-open}). Você pode então navegar pelos menus com as teclas "
+"de seta ou com @kbd{C-b}, @kbd{C-f} (esquerda/direita), @kbd{C-p} e "
+"@kbd{C-n} (cima/baixo). Para ativar um item de menu selecionado, pressione "
+"@key{RET}; para cancelar a navegação no menu, pressione @kbd{C-g} ou "
+"@kbd{@key{ESC} @key{ESC} @key{ESC}}. (No entanto, observe que quando o Emacs "
+"foi construído com um kit de ferramentas GUI, os menus foram desenhados e "
+"controlados pelo kit de ferramentas, e as sequências de teclas para "
+"cancelar a navegação no menu podem ser diferentes da descrição acima)."
 
 #. type: kindex
 #: texinfo/upstream/screen.texi:326
 #, no-wrap
 msgid "M-`"
-msgstr ""
+msgstr "M-`"
 
 #. type: findex
 #: texinfo/upstream/screen.texi:327
 #, no-wrap
 msgid "tmm-menubar"
-msgstr ""
+msgstr "tmm-menubar"
 
 #. type: vindex
 #: texinfo/upstream/screen.texi:328
 #, no-wrap
 msgid "tty-menu-open-use-tmm"
-msgstr ""
+msgstr "tty-menu-open-use-tmm"
 
 #. type: Plain text
 #: texinfo/upstream/screen.texi:341
@@ -809,3 +905,16 @@ msgid ""
 "from the item name by @samp{==>}.  You can type the item's letter or digit "
 "to select the item."
 msgstr ""
+"Em um terminal de texto, você consegue opcionalmente acessar os menus da "
+"barra de menu na área de eco. Para esse fim, personalize a variável "
+"@code{tty-menu-open-use-tmm} para um valor diferente de @code{nil}. Em "
+"seguida, digitar @key{F10} executará o comando @code{tmm-menubar} em vez de "
+"abrir o menu. (Você também pode digitar @kbd{M-`}, que sempre invoca "
+"@code{tmm-menubar}). @code{tmm-menubar} permite que você selecione um item "
+"de menu com o teclado. Uma escolha provisória aparecerá na área de eco. "
+"Você consegue usar as teclas de seta para cima e para baixo para mover pelo "
+"menu para diferentes itens e, em seguida, digitar @key{RET} para selecionar "
+"o item. Cada item de menu também é designado por uma letra ou dígito "
+"(geralmente a inicial de alguma palavra no nome do item). Essa letra ou "
+"dígito é separado do nome do item por @samp{==>}. Você consegue digitar a "
+"letra ou o dígito do item para selecionar o item."
