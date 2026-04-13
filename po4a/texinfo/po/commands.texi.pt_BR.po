@@ -2,15 +2,16 @@
 # Traduções em português brasileiro para o pacote GNU Emacs
 # Copyright (C) 2026 Jamenson Ferreira Espindula de Almeida Melo
 # This file is distributed under the same license as the GNU Emacs package.
-# Automatically generated, 2026.
+# Jamenson Ferreira Espindula de Almeida Melo <jafesp@gmail.com>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU Emacs 30.2\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
 "POT-Creation-Date: 2026-04-12 23:10-0300\n"
-"PO-Revision-Date: 2026-04-12 23:10-0300\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2026-04-13 01:58-0300\n"
+"Last-Translator: Jamenson Ferreira Espindula de Almeida Melo "
+"<jafesp@gmail.com>\n"
 "Language-Team: none\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +23,7 @@ msgstr ""
 #: texinfo/upstream/commands.texi:6
 #, no-wrap
 msgid "Characters, Keys and Commands"
-msgstr ""
+msgstr "Caracteres, Teclas e Comandos"
 
 #. type: iftex
 #: texinfo/upstream/commands.texi:12
@@ -31,47 +32,51 @@ msgid ""
 "and the fundamental concepts of @dfn{keys} and @dfn{commands}, whereby Emacs "
 "interprets your keyboard and mouse input."
 msgstr ""
+"Este capítulo explica os conjuntos de caracteres usados pelo Emacs para "
+"comandos de entrada e os conceitos fundamentais de @dfn{teclas} e de "
+"@dfn{comandos}, por meio dos quais o Emacs interpreta tua entrada de teclado "
+"e de mouse."
 
 #. type: ifnottex
 #: texinfo/upstream/commands.texi:16
 msgid "@raisesections"
-msgstr ""
+msgstr "@raisesections"
 
 #. type: node
 #: texinfo/upstream/commands.texi:18
 #, no-wrap
 msgid "User Input"
-msgstr ""
+msgstr "Entrada de Usuário(a)"
 
 #. type: section
 #: texinfo/upstream/commands.texi:19
 #, no-wrap
 msgid "Kinds of User Input"
-msgstr ""
+msgstr "Tipos de Estrada de Usuário(a)"
 
 #. type: cindex
 #: texinfo/upstream/commands.texi:20
 #, no-wrap
 msgid "input with the keyboard"
-msgstr ""
+msgstr "entrada com o teclado"
 
 #. type: cindex
 #: texinfo/upstream/commands.texi:21
 #, no-wrap
 msgid "keyboard input"
-msgstr ""
+msgstr "entrada de teclado"
 
 #. type: cindex
 #: texinfo/upstream/commands.texi:22
 #, no-wrap
 msgid "character set (keyboard)"
-msgstr ""
+msgstr "conjunto de caracteres (teclado)"
 
 #. type: acronym{#1}
 #: texinfo/upstream/commands.texi:23
 #, no-wrap
 msgid "ASCII"
-msgstr ""
+msgstr "ASCII"
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:29
@@ -80,12 +85,16 @@ msgid ""
 "possible to use the mouse to issue editing commands through the menu bar and "
 "tool bar, that is usually not as efficient as using the keyboard."
 msgstr ""
+"GNU Emacs foi projetado primariamente para uso com teclado. Embora seja "
+"possível usar o mouse para emitir comandos de edição por intermédio da "
+"barra de menu e da barra de ferramentas, isso geralmente não é tão "
+"eficiente quanto usar o teclado."
 
 #. type: cindex
 #: texinfo/upstream/commands.texi:30
 #, no-wrap
 msgid "control character"
-msgstr ""
+msgstr "caractere de controle"
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:39
@@ -98,42 +107,49 @@ msgid ""
 "also entered this way, as are certain characters found on non-English "
 "keyboards (@pxref{International})."
 msgstr ""
+"A entrada de teclado no Emacs é baseada em uma versão bastante estendida "
+"do @acronym{ASCII}. Caracteres simples, como @samp{a}, @samp{B}, @samp{3}, "
+"@samp{=} e o caractere de espaço (denotado como @key{SPC}), são inseridos "
+"digitando-se a tecla correspondente. @dfn{Caracteres de controle}, como "
+"@key{RET}, @key{TAB}, @key{DEL}, @key{ESC}, @key{F1}, @key{Home} e "
+"@key{LEFT}, também são inseridos dessa maneira, assim como certos "
+"caracteres encontrados em teclados não ingleses (@pxref{Internacional})."
 
 #. type: cindex
 #: texinfo/upstream/commands.texi:40
 #, no-wrap
 msgid "modifier keys"
-msgstr ""
+msgstr "teclas modificadoras"
 
 #. type: cindex
 #: texinfo/upstream/commands.texi:41
 #, no-wrap
 msgid "Control"
-msgstr ""
+msgstr "Control"
 
 #. type: cindex
 #: texinfo/upstream/commands.texi:42
 #, no-wrap
 msgid "C-"
-msgstr ""
+msgstr "C-"
 
 #. type: cindex
 #: texinfo/upstream/commands.texi:43
 #, no-wrap
 msgid "META"
-msgstr ""
+msgstr "META"
 
 #. type: cindex
 #: texinfo/upstream/commands.texi:44
 #, no-wrap
 msgid "M-"
-msgstr ""
+msgstr "M-"
 
 #. type: cindex
 #: texinfo/upstream/commands.texi:45
 #, no-wrap
 msgid "Alt key, serving as Meta"
-msgstr ""
+msgstr "tecla Alt, servindo como Meta"
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:56
@@ -146,15 +162,27 @@ msgid ""
 "@key{Ctrl} key while pressing @kbd{a}; we will refer to this as @kbd{C-a} "
 "for short.  Similarly, @kbd{@key{Meta}-a}, or @kbd{M-a} for short, is "
 "entered by holding down the @key{Alt} key and pressing @kbd{a}.  Modifier "
-"keys can also be applied to non-alphanumerical characters, e.g., @kbd{C-"
-"@key{F1}} or @kbd{M-@key{LEFT}}."
+"keys can also be applied to non-alphanumerical characters, e.g., "
+"@kbd{C-@key{F1}} or @kbd{M-@key{LEFT}}."
 msgstr ""
+"O Emacs também reconhece caracteres de controle que sejam inseridos "
+"usando-se @dfn{teclas modificadoras}. Duas teclas modificadoras comumente "
+"usadas são @key{Control} (geralmente rotuladas como @key{Ctrl}) e "
+"@key{Meta} (geralmente rotuladas como @key{Alt})@footnote{Nós nos referimos "
+"a @key{Alt} como @key{Meta} por motivos históricos.}. Por exemplo, "
+"@kbd{Control-a} é inserido mantendo-se pressionada a tecla @key{Ctrl} "
+"enquanto se pressiona @kbd{a}; nós nos referiremos a isso como @kbd{C-a} "
+"para abreviar. Similarmente, @kbd{@key{Meta}-a}, ou @kbd{M-a} "
+"abreviadamente, é inserido mantendo-se pressionada a tecla @key{Alt} e "
+"pressionando-se @kbd{a}. As teclas modificadoras também podem ser aplicadas "
+"a caracteres não alfanuméricos, por exemplo, @kbd{C-@key{F1}} ou "
+"@kbd{M-@key{LEFT}}."
 
 #. type: cindex
 #: texinfo/upstream/commands.texi:57
 #, no-wrap
 msgid "@key{ESC} replacing @key{Meta} key"
-msgstr ""
+msgstr "@key{ESC} substituindo tecla @key{Meta}"
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:67
@@ -168,11 +196,23 @@ msgid ""
 "then enter the next character.  This feature is useful on certain text "
 "terminals where the @key{Meta} key does not function reliably."
 msgstr ""
+"Você também pode digitar caracteres Meta usando sequências de dois "
+"caracteres começando com @key{ESC}. Assim, você pode inserir @kbd{M-a} "
+"digitando @kbd{@key{ESC} a}. Você pode inserir @kbd{C-M-a} (mantendo "
+"pressionadas ambas, @key{Ctrl} e @key{Alt}, então pressionando @kbd{a}) "
+"digitando @kbd{@key{ESC} C-a}. Ao contrário de @key{Meta}, @key{ESC} é "
+"inserida como um caractere separado. Você não mantém pressionada "
+"@key{ESC} enquanto digita o próximo caractere; em vez disso, pressione "
+"@key{ESC} e libere-a, depois insira o próximo caractere. Esse recurso é "
+"útil em certos terminais de texto onde a tecla @key{Meta} não funciona "
+"confiavelmente."
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:69
 msgid "Emacs supports 3 additional modifier keys, see @ref{Modifier Keys}."
 msgstr ""
+"O Emacs suporta 3 teclas modificadoras adicionais; vejam-se @ref{Teclas "
+"Modificadoras}."
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:73
@@ -181,34 +221,42 @@ msgid ""
 "pointing devices like touchpads and touch screens.  @xref{Mouse Input}, for "
 "details."
 msgstr ""
+"O Emacs tem amplo suporte para o uso de botões do mouse, rodas do mouse e "
+"outros dispositivos apontadores, como touchpads e telas de toque. "
+"@xref{Entrada de Mouse}, para detalhes."
 
 #. type: cindex
 #: texinfo/upstream/commands.texi:74
 #, no-wrap
 msgid "keys stolen by window manager"
-msgstr ""
+msgstr "teclas roubadas pelo gerenciador de janela"
 
 #. type: cindex
 #: texinfo/upstream/commands.texi:75
 #, no-wrap
 msgid "window manager, keys stolen by"
-msgstr ""
+msgstr "gerenciador de janela, teclas roubadas pelo"
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:81
 msgid ""
 "On graphical displays, the window manager might block some keyboard inputs, "
-"including @kbd{M-@key{TAB}}, @kbd{M-@key{SPC}}, @kbd{C-M-d} and @kbd{C-M-"
-"l}.  If you have this problem, you can either customize your window manager "
-"to not block those keys, or rebind the affected Emacs commands "
+"including @kbd{M-@key{TAB}}, @kbd{M-@key{SPC}}, @kbd{C-M-d} and "
+"@kbd{C-M-l}.  If you have this problem, you can either customize your window "
+"manager to not block those keys, or rebind the affected Emacs commands "
 "(@pxref{Customization})."
 msgstr ""
+"Em exibições gráficas, o gerenciador de janelas pode bloquear algumas "
+"entradas de teclado, incluindo @kbd{M-@key{TAB}}, @kbd{M-@key{SPC}}, "
+"@kbd{C-M-d} e @kbd{C-M-l}. Se tiver esse problema, você pode ou "
+"personalizar teu gerenciador de janelas para não bloquear essas chaves ou "
+"religar os comandos Emacs afetados (@pxref{Personalização})."
 
 #. type: cindex
 #: texinfo/upstream/commands.texi:82
 #, no-wrap
 msgid "input event"
-msgstr ""
+msgstr "evento de entrada"
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:88
@@ -218,56 +266,75 @@ msgid ""
 "events}.  For details about how Emacs internally handles input events, see "
 "@ref{Input Events,,, elisp, The Emacs Lisp Reference Manual}."
 msgstr ""
+"Caracteres simples e caracteres de controle, bem como certas entradas que "
+"não são do teclado, como cliques do mouse, são chamados coletivamente de "
+"@dfn{eventos de entrada}. Para detalhes acerca de como o Emacs lida "
+"internamente com eventos de entrada, veja-se @ref{Eventos de Entrada,,, "
+"elisp, O Manual de Referência da Emacs Lisp}."
 
 #. type: section
 #: texinfo/upstream/commands.texi:89 texinfo/upstream/commands.texi:90
 #, no-wrap
 msgid "Keys"
-msgstr ""
+msgstr "Teclas"
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:96
 msgid ""
-"Some Emacs commands are invoked by just one input event; for example, @kbd{C-"
-"f} moves forward one character in the buffer.  Other commands take two or "
-"more input events to invoke, such as @kbd{C-x C-f} and @kbd{C-x 4 C-f}."
+"Some Emacs commands are invoked by just one input event; for example, "
+"@kbd{C-f} moves forward one character in the buffer.  Other commands take "
+"two or more input events to invoke, such as @kbd{C-x C-f} and @kbd{C-x 4 "
+"C-f}."
 msgstr ""
+"Alguns comandos do Emacs são invocados por apenas um evento de entrada; por "
+"exemplo, @kbd{C-f} avança um caractere no buffer. Outros comandos pegam "
+"dois ou mais eventos de entrada para invocar, como @kbd{C-x C-f} e @kbd{C-x "
+"4 C-f}."
 
 #. type: cindex
 #: texinfo/upstream/commands.texi:97
 #, no-wrap
 msgid "key"
-msgstr ""
+msgstr "tecla"
 
 #. type: cindex
 #: texinfo/upstream/commands.texi:98
 #, no-wrap
 msgid "key sequence"
-msgstr ""
+msgstr "sequência de tecla"
 
 #. type: cindex
 #: texinfo/upstream/commands.texi:99
 #, no-wrap
 msgid "complete key"
-msgstr ""
+msgstr "tecla completa"
 
 #. type: cindex
 #: texinfo/upstream/commands.texi:100
 #, no-wrap
 msgid "prefix key"
-msgstr ""
+msgstr "tecla de prefixo"
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:109
 msgid ""
 "A @dfn{key sequence}, or @dfn{key} for short, is a sequence of one or more "
 "input events that is meaningful as a unit.  If a key sequence invokes a "
-"command, we call it a @dfn{complete key}; for example, @kbd{C-f}, @kbd{C-x C-"
-"f} and @kbd{C-x 4 C-f} are all complete keys.  If a key sequence isn't long "
-"enough to invoke a command, we call it a @dfn{prefix key}; from the "
+"command, we call it a @dfn{complete key}; for example, @kbd{C-f}, @kbd{C-x "
+"C-f} and @kbd{C-x 4 C-f} are all complete keys.  If a key sequence isn't "
+"long enough to invoke a command, we call it a @dfn{prefix key}; from the "
 "preceding example, we see that @kbd{C-x} and @kbd{C-x 4} are prefix keys.  "
 "Every key sequence is either a complete key or a prefix key."
 msgstr ""
+"Uma @dfn{sequência de teclas}, ou @dfn{tecla} abreviadamente, é uma "
+"sequência de um ou mais eventos de entrada que seja significativa como uma "
+"unidade. Se uma sequência de teclas invocar um comando, nós a chamamos de "
+"@dfn{tecla completa}; por exemplo, @kbd{C-f}, @kbd{C-x C-f} e @kbd{C-x 4 "
+"C-f} são todas teclas completas. Se uma sequência de teclas não for longa "
+"o suficiente para invocar um comando, nós a chamamos de @dfn{tecla de "
+"prefixo}; do exemplo anterior, nós vemos que @kbd{C-x} e @kbd{C-x 4} são "
+"teclas de prefixo. Cada sequência de teclas é ou uma tecla completa ou uma "
+"tecla de prefixo."
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:120
@@ -282,14 +349,28 @@ msgid ""
 "no limit to the length of key sequences, but in practice they are seldom "
 "longer than three or four input events."
 msgstr ""
+"Uma tecla de prefixo combina-se com o seguinte evento de entrada para formar "
+"uma sequência de teclas mais longa. Por exemplo, @kbd{C-x} é uma tecla de "
+"prefixo, de modo que digitar-se @kbd{C-x} sozinho não invoca um comando; em "
+"vez disso, o Emacs espera por mais entradas (se você pausar por mais que um "
+"segundo, ele ecoará a tecla @kbd{C-x} para solicitar essa entrada; "
+"@pxref{Área de Eco}). @kbd{C-x} combina com o próximo evento de entrada "
+"para formar uma sequência de teclas de dois eventos, que poderia ser ela "
+"própria uma tecla de prefixo (como @kbd{C-x 4}) ou uma tecla completa (como "
+"@kbd{C-x C-f}). Não existe limite para o comprimento das sequências de "
+"teclas, mas na prática raramente elas são maiores que três ou quatro "
+"eventos de entrada."
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:124
 msgid ""
-"You can't add input events onto a complete key.  For example, because @kbd{C-"
-"f} is a complete key, the two-event sequence @kbd{C-f C-k} is two key "
+"You can't add input events onto a complete key.  For example, because "
+"@kbd{C-f} is a complete key, the two-event sequence @kbd{C-f C-k} is two key "
 "sequences, not one."
 msgstr ""
+"Você não pode adicionar eventos de entrada a uma tecla completa. Por "
+"exemplo, como @kbd{C-f} é uma tecla completa, a sequência de dois eventos "
+"@kbd{C-f C-k} é duas sequências de teclas, não uma."
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:135
@@ -297,13 +378,23 @@ msgid ""
 "By default, the prefix keys in Emacs are @kbd{C-c}, @kbd{C-h}, @kbd{C-x}, "
 "@kbd{C-x @key{RET}}, @kbd{C-x @@}, @kbd{C-x a}, @kbd{C-x n}, @kbd{C-x r}, "
 "@kbd{C-x t}, @kbd{C-x v}, @kbd{C-x 4}, @kbd{C-x 5}, @kbd{C-x 6}, @key{ESC}, "
-"and @kbd{M-g}.  (@key{F1} and @key{F2} are aliases for @kbd{C-h} and @kbd{C-"
-"x 6}.)  This list is not cast in stone; if you customize Emacs, you can make "
-"new prefix keys.  You could even eliminate some of the standard ones, though "
-"this is not recommended for most users; for example, if you remove the "
-"prefix definition of @kbd{C-x 4}, then @kbd{C-x 4 C-f} becomes an invalid "
-"key sequence.  @xref{Key Bindings}."
+"and @kbd{M-g}.  (@key{F1} and @key{F2} are aliases for @kbd{C-h} and "
+"@kbd{C-x 6}.)  This list is not cast in stone; if you customize Emacs, you "
+"can make new prefix keys.  You could even eliminate some of the standard "
+"ones, though this is not recommended for most users; for example, if you "
+"remove the prefix definition of @kbd{C-x 4}, then @kbd{C-x 4 C-f} becomes an "
+"invalid key sequence.  @xref{Key Bindings}."
 msgstr ""
+"Por padrão, as teclas de prefixo no Emacs são @kbd{C-c}, @kbd{C-h}, "
+"@kbd{C-x}, @kbd{C-x @key{RET}}, @kbd{C-x @@}, @kbd{C-x a}, @kbd{C-x n}, "
+"@kbd{C-x r}, @kbd{C-x t}, @kbd{C-x v}, @kbd{C-x 4}, @kbd{C-x 5}, @kbd{C-x "
+"6}, @key{ESC} e @kbd{M-g}. (@key{F1} e @key{F2} são apelidos para @kbd{C-h} "
+"e @kbd{C-x 6}). Essa lista não é imutável; se você personalizar o Emacs, "
+"poderá criar novas teclas de prefixo. Você poderia até eliminar algumas "
+"das padrões, embora isso não seja recomendado para a maioria dos(as) "
+"usuários(as); por exemplo, se você remover a definição de prefixo de "
+"@kbd{C-x 4}, então @kbd{C-x 4 C-f} se tornará uma sequência inválida de "
+"teclas. @xref{Ligações de Teclas}."
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:141
@@ -314,18 +405,23 @@ msgid ""
 "@kbd{C-M-h}, which does something else entirely.  You can, however, use "
 "@key{F1} to display a list of commands starting with @key{ESC}."
 msgstr ""
+"Digitar o caractere de ajuda (@kbd{C-h} ou @key{F1}) depois de uma tecla de "
+"prefixo exibe uma lista de comandos que começam com esse prefixo. A única "
+"exceção a essa regra é @key{ESC}: @kbd{@key{ESC} C-h} é equivalente a "
+"@kbd{C-M-h}, que faz algo totalmente diferente. Você pode, entretanto, usar "
+"@key{F1} para exibir uma lista de comandos começando com @key{ESC}."
 
 #. type: section
 #: texinfo/upstream/commands.texi:142 texinfo/upstream/commands.texi:143
 #, no-wrap
 msgid "Mouse Input"
-msgstr ""
+msgstr "Entrada de Mouse"
 
 #. type: cindex
 #: texinfo/upstream/commands.texi:144
 #, no-wrap
 msgid "mouse input"
-msgstr ""
+msgstr "entrada de mouse"
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:153
@@ -338,6 +434,14 @@ msgid ""
 "@pxref{Mouse Commands}, and the sections that follow it, for more details "
 "about mouse commands in Emacs."
 msgstr ""
+"Por padrão, o Emacs suporta todas as ações normais do mouse, como "
+"configurar o cursor clicando-se com o botão esquerdo do mouse e "
+"selecionar-se uma área arrastando o ponteiro do mouse. Todas as ações do "
+"mouse podem ser usadas para vincular comandos da mesma maneira que você os "
+"vincula a eventos de teclado (@pxref{Teclas}). Esta seção fornece uma "
+"visão geral do uso do mouse no Emacs; @pxref{Comandos de Mouse} e as "
+"seções que a seguem, para mais detalhes acerca de comandos do mouse no "
+"Emacs."
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:162
@@ -350,6 +454,14 @@ msgid ""
 "@code{wheel-down} or @code{wheel-up}, or @code{mouse-4} and @code{mouse-5}, "
 "but that depends on the operating system configuration."
 msgstr ""
+"Quando você clica com o botão esquerdo do mouse, o Emacs recebe um evento "
+"@code{mouse-1}. Para ver qual comando está vinculado a esse evento, você "
+"pode digitar @kbd{C-h c} e então pressionar o botão esquerdo do mouse. "
+"Similarmente, o botão do meio do mouse é @code{mouse-2} e o botão direito "
+"do mouse é @code{mouse-3}. Se você tiver um mouse com uma roda, os eventos "
+"de roda geralmente estão vinculados a ou @code{wheel-down} ou a "
+"@code{wheel-up}, ou @code{mouse-4} e @code{mouse-5}, mas isso depende da "
+"configuração do sistema operacional."
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:166
@@ -358,15 +470,23 @@ msgid ""
 "report @code{mouse-4} and @code{mouse-5}, while all other systems will "
 "report @code{wheel-down} and @code{wheel-up}."
 msgstr ""
+"Em geral, sistemas legados X e terminais (@pxref{Mouse Somente Texto}) "
+"imformarão @code{mouse-4} e @code{mouse-5}, enquanto todos os outros "
+"sistemas informarão @code{wheel-down} e @code{wheel-up}."
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:172
 msgid ""
 "Some mice also have a horizontal scroll wheel, and touchpads usually support "
-"scrolling horizontally as well.  These events are reported as @code{wheel-"
-"left} and @code{wheel-right} on all systems other than terminals and legacy "
-"X systems, where they are @code{mouse-6} and @code{mouse-7}."
+"scrolling horizontally as well.  These events are reported as "
+"@code{wheel-left} and @code{wheel-right} on all systems other than terminals "
+"and legacy X systems, where they are @code{mouse-6} and @code{mouse-7}."
 msgstr ""
+"Alguns mouses também têm uma roda de rolagem horizontal, e touchpads "
+"geralmente também suportam rolagem horizontal. Esses eventos são "
+"informados como @code{wheel-left} e @code{wheel-right} em todos os sistemas, "
+"exceto terminais e sistemas legados X, onde eles são @code{mouse-6} e "
+"@code{mouse-7}."
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:177
@@ -376,12 +496,16 @@ msgid ""
 "key and then uses the middle mouse button.  In that case, the event name "
 "will be @code{M-mouse-2}."
 msgstr ""
+"Você também pode combinar modificadores de teclado com eventos de mouse, "
+"de modo que consiga vincular um comando especial que seja deflagrado quando "
+"você, por exemplo, mantiver pressionada a tecla Meta e, em seguida, usar o "
+"botão do meio do mouse. Nesse caso, o nome do evento será @code{M-mouse-2}."
 
 #. type: cindex
 #: texinfo/upstream/commands.texi:178
 #, no-wrap
 msgid "touchscreen events"
-msgstr ""
+msgstr "eventos de tela de toque"
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:182
@@ -390,30 +514,33 @@ msgid ""
 "events.  In that case, the events are called @code{touchscreen-update} and "
 "@code{touchscreen-end}."
 msgstr ""
+"Em alguns sistemas, você também pode vincular comandos para lidar com "
+"eventos de tela de toque. Nesse caso, os eventos são chamados "
+"@code{touchscreen-update} e @code{touchscreen-end}."
 
 #. type: node
 #: texinfo/upstream/commands.texi:183
 #, no-wrap
 msgid "Commands"
-msgstr ""
+msgstr "Comandos"
 
 #. type: section
 #: texinfo/upstream/commands.texi:184
 #, no-wrap
 msgid "Keys and Commands"
-msgstr ""
+msgstr "Teclas e Comandos"
 
 #. type: cindex
 #: texinfo/upstream/commands.texi:186
 #, no-wrap
 msgid "binding"
-msgstr ""
+msgstr "vinculagem"
 
 #. type: cindex
 #: texinfo/upstream/commands.texi:187
 #, no-wrap
 msgid "command"
-msgstr ""
+msgstr "comando"
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:192
@@ -423,6 +550,11 @@ msgid ""
 "meanings to named @dfn{commands}, and then gives keys their meanings by "
 "@dfn{binding} them to commands."
 msgstr ""
+"Este manual está repleto de passagens que informam a você o que "
+"determinadas teclas fazem. Mas o Emacs não atribui significados para teclas "
+"diretamente. Em vez disso, o Emacs atribui significados para @dfn{comandos} "
+"nominados e, em seguida, fornece para teclas os significados delas por "
+"@dfn{vinculagem} aos comandos."
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:200
@@ -434,6 +566,13 @@ msgid ""
 "running the function.  @xref{What Is a Function,, What Is a Function, elisp, "
 "The Emacs Lisp Reference Manual}."
 msgstr ""
+"Cada comando tem um nome escolhido por um(a) programador(a). O nome "
+"geralmente é composto por algumas palavras inglesas separadas por "
+"travessões; por exemplo, @code{next-line} ou @code{forward-word}. "
+"Internamente, cada comando é um tipo especial de @dfn{função} da Lisp, e "
+"as ações associadas ao comando são realizadas executando-se a função. "
+"@xref{O que é uma Função,, O que é uma Função, elisp, O Manual de "
+"Referência da Emacs Lisp}."
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:203
@@ -441,6 +580,8 @@ msgid ""
 "The bindings between keys and commands are recorded in tables called "
 "@dfn{keymaps}.  @xref{Keymaps}."
 msgstr ""
+"As vinculações entre teclas e comandos são registradas em tabelas "
+"chamadas @dfn{mapas de tecla}. @xref{Mapas de Tecla}."
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:210
@@ -449,9 +590,16 @@ msgid ""
 "glossing over a subtle distinction that is irrelevant in ordinary use, but "
 "vital for Emacs customization.  The command @code{next-line} does a vertical "
 "move downward.  @kbd{C-n} has this effect @emph{because} it is bound to "
-"@code{next-line}.  If you rebind @kbd{C-n} to the command @code{forward-"
-"word}, @kbd{C-n} will move forward one word instead."
+"@code{next-line}.  If you rebind @kbd{C-n} to the command "
+"@code{forward-word}, @kbd{C-n} will move forward one word instead."
 msgstr ""
+"Quando nós dizemos que ``@kbd{C-n} move para baixo verticalmente uma "
+"linha'' nós estamos encobrindo uma distinção sutil que é irrelevante no "
+"uso comum, mas vital para a personalização do Emacs. O comando "
+"@code{next-line} faz um movimento vertical para baixo. @kbd{C-n} tem esse "
+"efeito @emph{porque} ela está vinculada a @code{next-line}. Se, em vez "
+"disso, você revincular @kbd{C-n} ao comando @code{forward-word}, @kbd{C-n} "
+"avançará uma palavra."
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:218
@@ -461,9 +609,17 @@ msgid ""
 "the name of the command which really does the work in parentheses after "
 "mentioning the key that runs it.  For example, we will say that ``The "
 "command @kbd{C-n} (@code{next-line}) moves point vertically down'', meaning "
-"that the command @code{next-line} moves vertically down, and the key @kbd{C-"
-"n} is normally bound to it."
+"that the command @code{next-line} moves vertically down, and the key "
+"@kbd{C-n} is normally bound to it."
 msgstr ""
+"Neste manual, nós falaremos frequentemente de teclas, como @kbd{C-n}, como "
+"comandos, embora estritamente falando a tecla esteja vinculada a um comando. "
+"Normalmente, nós indicamos o nome do comando que realmente faz o trabalho "
+"entre parênteses depois de mencionar a tecla que o executa. Por exemplo, "
+"nós diremos que ``O comando @kbd{C-n} (@code{next-line}) move o ponto "
+"verticalmente para baixo'', significando que o comando @code{next-line} move "
+"verticalmente para baixo, e a tecla @kbd{C-n} normalmente está vinculada a "
+"ele."
 
 #. type: Plain text
 #: texinfo/upstream/commands.texi:229
@@ -478,14 +634,25 @@ msgid ""
 "them.  Then read the basic information on variables (@pxref{Variables}) and "
 "the information about specific variables will make sense."
 msgstr ""
+"Já que nós estamos discutindo personalização, nós deveríamos falar "
+"acerca de @dfn{variáveis}. Frequentemente a descrição de um comando "
+"dirá: ``Para mudar isso, configure a variável @code{mumble-foo}''. Uma "
+"variável é um nome usado para armazenar um valor. A maioria das variáveis "
+"documentadas neste manual é destinada para personalização: algum comando "
+"ou outra parte do Emacs examina a variável e se comporta diferentemente de "
+"acordo com o valor que você configurar. Você pode ignorar as informações "
+"acerca de variáveis até que esteja interessado(a) em personalizá-las. Em "
+"seguida, leia as informações básicas sobre variáveis "
+"(@pxref{Variáveis}) e as informações acerca de variáveis específicas "
+"farão sentido."
 
 #. type: include
 #: texinfo/upstream/commands.texi:230
 #, no-wrap
 msgid "input.texi"
-msgstr ""
+msgstr "input.texi"
 
 #. type: ifnottex
 #: texinfo/upstream/commands.texi:234
 msgid "@lowersections"
-msgstr ""
+msgstr "@lowersections"
